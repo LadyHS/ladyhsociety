@@ -1,336 +1,147 @@
 {
-  "lang": {
-    "value": "fr"
-  },
-  "headline": {
-    "title": "Fréquence 440"
-  },
-  "nav": {
-    "1": "Accueil",
-    "2": "Transition",
-    "3": "A propos",
-    "4": "Les prestations",
-    "5": "Les ressources",
-    "6": "Contact",
-    "rawLinks": {
-      "1": "/",
-      "2": "/transition",
-      "3": "/about",
-      "4": "/prestations",
-      "5": "/ressources",
-      "6": "/contact"
-    }
-  },
-  "home": {
-    "mainTitle": "Fréquence 440, votre tremplin pour la <a href='/transition'>transition</a>",
-    "introText": "Vous voulez agir pour un monde plus durable, juste et résilient, mais ne savez pas par où commencer ?",
-    "welcomeMessage": "Bienvenue !",
-    "welcomeSentence": "Sur ce site vous trouverez : des prestations personnalisées et des ressources ouvertes à tous",
-    "rightTop": {
-      "details": {
-        "1": "Diagnostics",
-        "2": "Formations & conférences",
-        "3": "Ateliers de co-construction"
-      },
-      "mainGoal": "Pour accompagner votre entreprise ou école du supérieur",
-      "link": "PRESTATIONS PERSONNALISÉES",
-      "rawLink": "/prestations"
-    },
-    "rightBottom": {
-      "details": {
-        "1": "Documents de références",
-        "2": "Synthèses",
-        "3": "Essais",
-        "4": "Mise en contact"
-      },
-      "mainGoal": "Pour enrichir votre démarche personnelle",
-      "link": "RESSOURCES OUVERTES À TOUS",
-      "rawLink": "/ressources"
-    },
-    "clients": {
-      "title": "Mes clients",
-      "sentence": "J’ai eu le plaisir de travailler sur la transition avec différentes entités"
-    },
-    "quotes": {
-      "1": {
-        "sentence": "Pour ma part, j’ai trouvé Léa très pédagogique dans les messages à passer. Elle avait conscience que les personnes ne connaissaient pas tout et que c’est compliqué pour les entreprises de bouger. Elle n’était pas dans le jugement mais bien dans la transmission de sa conviction et c’était très appréciable.",
-        "user": "VINCENT BOUETEL — DIRECTEUR IT DE LA SOCIÉTÉ GÉNÉRALE"
-      },
-      "2": {
-        "sentence": "Léa a accompagné CentraleSupélec pour une ambitieuse formation sur le climat. J'ai beaucoup apprécié sa créativité, ses apports pédagogiques, son sens de l'organisation et son recul sur ces questions difficiles. Ses interventions ont été extrêmement appréciées par les étudiants, pour leur contenu synthétique et précis, sa vision et la qualité de la relation humaine qu'elle a engagé avec eux.",
-        "user": "CHRISTOPHE LAUX — PROFESSEUR ET DIRECTEUR DE DÉPARTEMENT À CENTRALESUPELEC"
-      },
-      "3": {
-        "sentence": "Des félicitations toutes particulières pour Léa Ikkache, qui a été notre très sympathique et efficace coordinatrice Fresque du Climat, pour toute l'organisation de ces ateliers au Pôle Léonard de Vinci. Le contexte : 1300 étudiants concernés, 70 animateurs, des contraintes sanitaires rigoureuses à respecter absolument, ... Bref, pas simple, mais nous y sommes arrivés ensemble. Léa a géré tout cela de main de maître, et toujours avec calme et sourire !",
-        "user": "LAURE BERTRAND — DIRECTRICE DES SOFT SKILLS AU POLE UNIVERSITAIRE LEONARD DE VINCI"
-      }
-    }
-  },
-  "footer": {
-    "name": "Fréquence 440",
-    "rawLinks": {
-      "1": "/",
-      "2": "/transition",
-      "3": "/about",
-      "4": "/contact",
-      "5": "/prestations",
-      "6": "/ressources",
-      "7": "/legal"
-    },
-    "mainLinks": {
-      "1": "Accueil",
-      "2": "Transition",
-      "3": "A propos",
-      "4": "Contact",
-      "5": "Prestations",
-      "6": "Ressources",
-      "7": "Mentions légales"
-    },
-    "subLinks": {
-      "1": "Diagnostics",
-      "2": "Formations ludiques",
-      "3": "Conférences interactives",
-      "4": "Ateliers de co-construction"
-    },
-    "design": "Design",
-    "dev": "Développement"
-  },
-  "prestations": {
-    "subtitle": "Les prestations",
-    "mainTitle": "Pour les entreprises et écoles du supérieur, des prestations à la carte personnalisées",
-    "description": "Ancrées dans la rigueur scientifique, une approche collaborative, l’écoute des besoins et la créativité.",
-    "buttons": {
-      "1": "Demander un devis",
-      "2": "Voir le détail des prestations"
-    },
-    "sectionTitle": "Prestations",
-    "sectionDescription": "Depuis la compréhension et l’analyse des sujets, jusqu’à la co-construction de solutions",
-    "links": {
-      "1": "Diagnostics",
-      "2": "Formations ludiques",
-      "3": "Conférences interactives",
-      "4": "Ateliers de co-construction"
-    },
-    "detailedServices": {
-      "1": "diagnostics",
-      "2": "formations",
-      "3": "conférences",
-      "4": "ateliers"
-    },
-    "callToAction": {
-      "title": "Prise en main",
-      "catchphrase": "Vous pouvez sélectionner une ou plusieurs options à la carte. Si vous avez des questions avant de choisir, je suis à votre disposition",
-      "button": "Prendre rendez-vous",
-      "additional": {
-        "title": "Nous pouvons aussi déterminer ensemble un packaging complet.",
-        "catchphrase": "Voici un exemple pour une démarche climat :",
-        "content": {
-          "1": "Fresque du climat pour vos managers",
-          "2": "Cadrage du projet",
-          "3": "Diagnostic Bilan carbone ®",
-          "4": "Demi-journée climat pour tous vos collaborateurs :",
-          "5": "Ateliers de co-construction de votre stratégie carbone : ½ journée récurrente par équipe concernée",
-          "a": "Fresque du climat",
-          "b": "Restitution du bilan carbone",
-          "c": "Conférence-repas « les trois courbes »"
-        }
-      }
-    }
-  },
-  "ongoing": {
-    "message": "En construction, merci de votre patience",
-    "button" : "Accueil"
-  },
-  "resources": {
-    "subtitle": "Les ressources",
-    "mainTitle": "Vous êtes en transition personnelle ?",
-    "description": "Trouver sa place dans la transition peut être laborieux. Voici quelques ressources pour creuser le sujet",
-    "spheres":{
-      "title": "Pour les individus",
-      "subtitle":"Il existe au moins 3 sphères d'action. Il ne faut pas forcément tout faire, tout de suite, plutôt prendre son temps et trouver ce qui vous convient le mieux",
-      "graph":"graph_indiv_fr"
-    },
-    "callToAction": {
-      "title":"Discussion",
-      "catchphrase": "Pour parler votre projet personnel, ou pour des mises en contact",
-      "button": "prenez RDV",
-      "manifeste": {
-        "title": "Manifeste",
-        "catchphrase": "Une vision pédagogique, multi-format et sourcée de la transition"
-      }
-    },
-    "comic": {
-      "title":"La génèse du projet",
-      "subtitle": "Dessins d'Elodie Schnitzler",
-      "1":"BD_vignette1_100",
-      "2":"BD_vignette2_100",
-      "3":"BD_vignette3_100",
-      "4":"BD_vignette4_100",
-      "5":"BD_vignette5_200"
-    },
-    "themes" : {
-      "title":"Les thèmes du manifeste",
-      "subtitle":"Ce schéma est en cours de construction, il sera complété avec les liens des vidéos, épisodes de podcast, et bibliographies",
-      "flourish":"visualisation/9101374"
-    }
-  },
-  "about": {
-    "subtitle": "À propos",
-    "mainTitle": "Fréquence 440",
-    "content440": {
-      "1": "440 Hertz est la fréquence principale de la note «La», souvent utilisée pour accorder les instruments de musique d'un orchestre.",
-      "2": "Pour la transition, il faut un mélange de technique, d’esprit scientifique – pour analyser la situation et pour évaluer nos solutions –, et de dialogue, de créativité – pour collaborer, réfléchir ensemble, et innover. La musique, à la fois très mathématique et physique, et en même temps une forme puissante d’expression et de créativité, est donc un symbole intéressant.",
-      "3": "Il y a aussi l’idée de créer ensemble en étant différent.e. La diversité des timbres des instruments qui s’accordent grâce à une simple note, c’est beau non?"
-    },
-    "contentLéa": {
-      "1": {
-        "title": "Une exigence de rigueur scientifique",
-        "paragraph": "— Avec une formation d’ingénieur généraliste"
-      },
-      "2": {
-        "title": "Une expérience dans l’accompagnement",
-        "paragraph": "— Avec des expériences dans l’entreprenariat et le conseil en France et aux Etats-Unis"
-      },
-      "3": {
-        "title": "Une maîtrise de la gestion de projets de transition",
-        "paragraph": "— Avec la création d’associations et la participation active dans de nombreux projets (<a href='https://enjeuxcommuns.fr/be-you/' target='blank'>BE YOU</a>, <a href='http://fresqueduclimat.org/' target='blank'>Fresque du Climat</a>, <a href='https://www.thewhalesharkproject.com/' target='blank'>Whale Shark Project</a>…)"
-      },
-      "4": {
-        "title": "Une expertise pédagogique",
-        "paragraph": "— Avec la création et l’animation de formations pour différents publics sur les thèmes de nouvelles organisations du travail, environnement, inclusion et diversité …"
-      },
-      "5": {
-        "title": "Un goût pour le mélange des genres",
-        "paragraph": "— Aujourd’hui je travaille sur des projets variés : éducation, développement durable, écriture, musique… Combiner plusieurs domaines et rencontrer des personnes d’horizons différents permettent une richesse des idées et une prise de recul extraordinaires"
-      }
-    }
-  },
-  "transition": {
-    "subtitle": "La transition",
-    "mainTitle": "Pourquoi une transition ? <br>Vers quoi ?",
-    "description": "La transition émane des enjeux majeurs du XXIème siècle, douloureusement exacerbés par la crise de la COVID-19",
-    "catchphrase": "Les enjeux majeurs du XXIe siècle",
-    "content": {
-      "1": {
-        "title": "Minimiser le <a href='https://www.ipcc.ch/languages-2/francais/' target='blank'>changement climatique</a> et l’effondrement de la <a href='https://ipbes.net/global-assessment' target='blank'>biodiversité</a> pour garder notre capacité à nous alimenter en eau et nourriture et maintenir nos infrastructures en place "
-      },
-      "2": {
-        "title": "Prévoir et atténuer l’instabilité amenée par la <a href='https://www.seuil.com/ouvrage/l-age-des-low-tech-philippe-bihouix/9782021160727' target='blank'>raréfaction des ressources</a>, par notre système financier et par les crises démocratiques"
-      },
-      "3": {
-        "title": "Lutter contre l’avancement des <a href='https://www.oxfamfrance.org/communiques-de-presse/davos-2020-nouveau-rapport-doxfam-sur-les-inegalites-mondiales/' target='blank'>inégalités</a>"
-      },
-      "4": {
-        "title": "Promouvoir la diversité, l’inclusivité et les nouvelles méthodes de travail"
-      }
-    },
-    "additional": {
-      "1": "Ces sujets sont très liés, une approche systémique est nécessaire",
-      "2": "Voir le Manifeste",
-      "3": "En tant qu’individu ou entreprise, la tâche peut paraître immense. Mais des démarches à l’échelle locale sont très pertinentes, pour :",
-      "4": "Transformer des impacts négatifs en impacts positifs",
-      "5": "Améliorer notre résilience, notre capacité à nous remettre de chocs"
-    },
-    "callToAction": {
-      "1": "Les individus peuvent agir.",
-      "2": "Faire une transition personnelle",
-      "3": "Les entreprises et écoles du supérieur aussi.",
-      "4": "Agir dans mon entreprise"
-    },
-    "imbricated": {
-      "first": {
-        "1": "Comprendre et répondre aux besoins des utilisateurs",
-        "2": "Sensibiliser et former ses managers & collaborateurs",
-        "3": "Co-construire et fédérer autour de ses valeurs",
-        "4": "Stratégie"
-      },
-      "second": {
-        "1": "Favoriser l’innovation et la prise d’initiative",
-        "2": "Implémenter de nouvelles méthodes de travail",
-        "3": "S’intégrer dans la communauté locale",
-        "4": "Organisation"
-      },
-      "third": {
-        "1": "Réaliser le bilan carbone de la chaîne de valeur et le minimiser",
-        "2": "Optimiser les ressources de façon durable",
-        "3": "Passer en économie circulaire",
-        "4": "Conception des produits & services"
-      },
-      "fourth": {
-        "1": "Atteindre la sobriété énergétique",
-        "2": "Fournir une alimentation saine et durable aux équipes",
-        "3": "Établir une charte de déplacement",
-        "4": "Aller vers un numérique durable",
-        "5": "Campus / Locaux"
-      }
-    },
-    "graph": "graph_fr"
-  },
-  "linkedin": {
-    "link": "https://www.linkedin.com/in/l%C3%A9a-ikkache-4b448683/"
-  },
-  "legal": {
-    "subtitle": "Mentions légales",
-    "mainTitle": "Traitement de données",
-    "contentList": {
-      "1": {
-        "title": "Données récoltées sur ce site",
-        "paragraph": "Les données récoltées par le formulaire de contact et le formulaire de demande de devis sont celles que vous remplissez avec le formulaire uniquement. Elles ne sont partagées avec aucun tiers. Elles sont conservées dans un dossier chiffré pour une durée maximale de 2 ans. Elles permettent le suivi commercial des demandes faites à Fréquence 440. Conformément au RGPD, vous pouvez à tout moment demander une copie, modification ou suppression de vos données, en envoyant un message par le formulaire de contact."
-      },
-      "2": {
-        "title": "Données récupérées au cours d’une mission",
-        "paragraph": "Chaque contrat de mission ou devis comporte une mention sur l’utilisation, la durée de conservation et la possibilité de voir, modifier ou supprimer les données récoltées au cours de la mission. "
-      }
-    }
-  },
-  "contact": {
-    "subtitle": "Contact",
-    "mainTitle": "Je suis à votre écoute",
-    "description": "Pour discuter de votre projet personnel ou professionnel, collaborer, vous mettre en contact avec des initiatives intéressantes ...",
-    "buttons": {
-      "1": "Prendre contact",
-      "2": "Demander un devis",
-      "3": "Prendre RDV"
-    },
-    "contactForm": {
-      "title": "Prise de contact",
-      "name": "Nom",
-      "email": "Email de contact",
-      "message": "Message",
-      "button": "Envoyer"
-    },
-    "invoiceForm": {
-      "title": "Formulaire de devis",
-      "name": "Nom",
-      "email": "Email de contact",
-      "number": "Numéro de téléphone",
-      "type": "Nom de l'Entreprise ou Ecole du supérieur",
-      "address": "Adresse de l'Entreprise ou Ecole du supérieur",
-      "services": "Prestations",
-      "serviceType": "Type (diagnostic, atelier, conférence, formation)",
-      "combinations": {
-        "1": {
-          "value": "diagnostics",
-          "title": "Diagnostics"
-        },
-        "2": {
-          "value": "ateliers",
-          "title": "Ateliers"
-        },
-        "3": {
-          "value": "conférences",
-          "title": "Conférences"
-        },
-        "4": {
-          "value": "formations",
-          "title": "Formations"
-        }
-      },
-      "serviceName": "Nom de la prestation",
-      "quantity": "Nombre de personnes",
-      "message": "Message (merci de préciser les équipes qui seront concernées, les contraintes de temps / espace / matériel, etc.)",
-      "button": "Envoyer",
-      "add": "Ajouter une prestation"
-    }
-  }
+	"lang": {
+		"value": "fr"
+	},
+	"headline": {
+		"title": "Lady H Society"
+	},
+	"nav": {
+		"1": "Accueil",
+		"2": "Manifeste",
+		"3": "Mission",
+		"4": "Equipe",
+		"5": "Contact",
+		"rawLinks": {
+			"1": "/",
+			"2": "/manifeste",
+			"3": "/mission",
+			"4": "/team",
+			"5":"/contact"
+		}
+	},
+	"home": {
+		"mainTitle": "Lady H Society, une porte vers un nouveau monde",
+		"welcome": "Un manifeste pour une société plus durable, juste et résiliente",
+		"intro": {
+			"1": "Nous sommes <mark>en l'an 3000</mark>. Une historienne, <mark>Lady H Society</mark>, s'intéresse à un trou dans les archives : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500. ",
+			"2": "Aujourd'hui, les humains vivent en paix et ont assez évolué pour rejoindre <mark>l'Organisation des Mondes Galactiques</mark>",
+			"3": "Avec ce manifeste, partez à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent, et sur les <mark>années manquantes dans les archives</mark> !"
+		},
+		"callToAction": {
+			"1": {
+				"call": "Entrez dans l'aventure",
+				"name": "Voir le manifeste",
+				"rawLink": "../manifeste"
+			},
+			"2": {
+				"call": "D'où vient ce projet?",
+				"name": "En savoir plus",
+				"rawLink": "../mission"
+			},
+			"3": {
+				"call": "Rejoignez l'aventure",
+				"subtitle": {
+					"1":"Vous voulez participer au cercle de relecture ?", 
+					"2":"Être un.e invité.e du podcast ?",
+					"3": "Nous faire un retour ?"
+				},
+				"name": "Contact",
+				"rawLink": "../contact"
+			}
+		}
+	},
+	"mission": {
+		"mainTitle": "Génèse du projet et mission",
+		"comic": {
+			"1": "BD_vignette1_100_nc",
+			"2": "BD_vignette2_100_nc",
+			"3": "BD_vignette3_100_nc",
+			"4": "BD_vignette4_100_nc",
+			"5": "BD_vignette5_200_nc",
+			"title": "L'origine du manifeste",
+			"subtitle": "Dessins d'Elodie Schnitzler"
+		},
+		"obj": {
+			"title": {
+				"1":"Vision",
+				"2":"Mission"
+			},
+			"intro": "Ce manifeste est <mark>une vision personnelle</mark>, basée sur mon histoire et les témoignages de mes proches et collègues. Elle est donc forcément imparfaite, et <mark>vouée à évoluer dans le temps</mark>, notamment avec vos retours. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <mark>d'accueillir vos contributions</mark>.",
+			"content": {
+				"1": "Faire des liens entre les sujets sociétaux",
+				"2": "Aller jusqu'aux racines des problèmes",
+				"3": "Inspirer, donner confiance en soi à tou.te.s",
+				"4": "Créer une communauté de discussions et de collaborations"
+			}
+		}
+	},
+	"manifeste": {
+		"mainTitle":"Manifeste Lady H Society",
+		"subtitle":"Les thèmes du manifeste",
+		"intro":{
+			"1":"Jouez avec les thèmes interconnectés, vous pouvez les déplacer. <mark>En cliquant sur une sphère</mark>, vous verrez les liens qui la relient aux autres thèmes, et un encadré s'affichera en bas avec",
+			"2":"1. Une vidéo Lady H", 
+			"3":"2. Un épisode de podcast sur le parcours d'un.e militant.e",
+			"4":"3. Une bibliographie."
+		},
+		"flourish":"visualisation/9101374"
+	},
+	"team":{
+		"svg":"équipe.svg",
+		"rôles": {
+			"1": "Autrice",
+			"2": "Audiovisuel, association art&fact",
+			"3": "Costumes",
+			"4": "Illustrations",
+			"5": "Cercle de relecture"
+		},
+		"noms": {
+			"1": "Léa Ikkache",
+			"2": "Maxime & Chris",
+			"3": "Julie & Nicolas Ikkache Chanussot, Maxime",
+			"4": "Illustrations",
+			"5": "Laurent Le Moulec..."
+		}	
+	},
+	"footer": {
+		"name": "Lady H Society",
+		"rawLinks": {
+			"1": "/",
+			"2": "/manifeste",
+			"3": "/mission",
+			"4": "/team",
+			"5": "/contact"
+		},
+		"mainLinks": {
+			"1": "Accueil",
+			"2": "Manifeste",
+			"3": "Mission",
+			"4": "Equipe",
+			"5": "Contact"
+		},
+		"design": "Design",
+		"dev": "Development",
+		"drawings": "Illustrations"
+	},
+	"ongoing": {
+		"message": "EN construction, merci de votre patience",
+		"button": "Accueil"
+	},
+	
+	"contact": {
+		"contactForm": {
+			"title": "N'hésitez pas à nous joindre !",
+			"legal":"Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire",
+			"name": "Nom",
+			"email": "Adresse mail",
+			"message": "Message (précisez si vous souhaitez être informé.e des nouveaux épisodes)",
+			"button": "Envoi"
+		}
+	},
+	"sources":{
+		"1":{
+			"title": "Besoins pour une vie décente",
+			"content":""
+		}
+	}
 }

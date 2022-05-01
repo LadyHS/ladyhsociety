@@ -1,336 +1,143 @@
 {
-  "lang": {
-    "value": "en"
-  },
-  "headline": {
-    "title": "Fréquence 440"
-  },
-  "nav": {
-    "1": "Home",
-    "2": "Sustainability",
-    "3": "About",
-    "4": "Services",
-    "5": "Resources",
-    "6": "Contact",
-    "rawLinks": {
-      "1": "/",
-      "2": "/sustainability",
-      "3": "/about",
-      "4": "/services",
-      "5": "/resources",
-      "6": "/contact"
-    }
-  },
-  "home": {
-    "mainTitle": "Frequence 440, your stepping stone to <a href='/sustainability'>sustainability</a>",
-    "introText": "For people and companies who want more sustainability and resilience, and who ask themselves: where can I start?",
-    "welcomeMessage": "Welcome!",
-    "welcomeSentence": "I offer customized services and resources for all",
-    "rightTop": {
-      "details": {
-        "1": "Analysis",
-        "2": "Training & conferences",
-        "3": "Innovation workshops"
-      },
-      "mainGoal": "For companies and Higher Ed Institutions",
-      "link": "customized services",
-      "rawLink": "/services"
-    },
-    "rightBottom": {
-      "details": {
-        "1": "Literature",
-        "2": "Summaries",
-        "3": "Essays",
-        "4": "Networking"
-      },
-      "mainGoal": "For your personal journey",
-      "link": "resources for all",
-      "rawLink": "/resources"
-    },
-    "clients": {
-      "title": "My customers",
-      "sentence": "I have had the pleasure to work with various organizations"
-    },
-    "quotes": {
-      "1": {
-        "sentence": "As for me, I found Léa to be very instructive about the messages she conveys. She realized that participants didn’t have comprehensive prior knowledge, and that it’s hard for companies to evolve. She was not judging the group, she was focused on conveying her convictions, and we all appreciated that a lot.",
-        "user": "VINCENT BOUETEL — IT director for Société Générale (French Bank)"
-      },
-      "2": {
-        "sentence": "Lea helped CentraleSupelec set up an ambitious climate training for students. I appreciated her creativity, educational approach, project management skills, and hindsight on difficult questions. Students were grateful for her clear and precise inputs, her vision, and the quality of the interaction.",
-        "user": "CHRISTOPHE LAUX —  former Stanford Professor, and Professor at CentraleSupelec"
-      },
-      "3": {
-        "sentence": "Congratulations to Léa Ikkache, our nice and efficient climate coordinator, for organizing climate workshops at the Pôle Léonard de Vinci. The context: 1300 students, 70 teachers, strict sanitary rules ... A real challenge, but we succeeded together. Léa masterfully lead the project, always calmly and with a smile!",
-        "user": "LAURE BERTRAND — Soft Skills director at the Pole Universitaire Leonard de Vinci"
-      }
-    }
-  },
-  "footer": {
-    "name": "Fréquence 440",
-    "rawLinks": {
-      "1": "/",
-      "2": "/sustainability",
-      "3": "/about",
-      "4": "/contact",
-      "5": "/services",
-      "6": "/resources",
-      "7": "/legal"
-    },
-    "mainLinks": {
-      "1": "Home",
-      "2": "Sustainability",
-      "3": "About",
-      "4": "Contact",
-      "5": "Services",
-      "6": "Resources",
-      "7": "Terms and Conditions"
-    },
-    "subLinks": {
-      "1": "Analysis",
-      "2": "Interactive trainings",
-      "3": "Interactive conferences",
-      "4": "Innovation workshops"
-    },
-    "design": "Design",
-    "dev": "Development"
-  },
-  "prestations": {
-    "subtitle": "Services",
-    "mainTitle": "Customized services for companies and Higher Education",
-    "description": "Our services are based on your needs and collaboration, creativity and rigor.",
-    "buttons": {
-      "1": "let's meet",
-      "2": "See details"
-    },
-    "sectionTitle": "Services",
-    "sectionDescription": "From analysis and training, to the creation of solutions through innovation workshops",
-    "links": {
-      "1": "Analysis",
-      "2": "Interactive trainings",
-      "3": "Interactive conferences",
-      "4": "Innovation workshops"
-    },
-    "detailedServices": {
-      "1": "analysis",
-      "2": "trainings",
-      "3": "conferences",
-      "4": "workshops"
-    },
-    "callToAction": {
-      "title": "Get started",
-      "catchphrase": "Choose one or several options. If you have questions before making your decision, feel free to contact me",
-      "button": "Let’s meet",
-      "additional": {
-        "title": "We can work on a service package on the subject of your choosing.",
-        "catchphrase": "Here is an example for a climate strategy:",
-        "content": {
-          "1": "Climate Collage for your managing teams",
-          "2": "Setting up the project monitoring",
-          "3": "Carbon Footprint ® analysis",
-          "4": "Half a day of climate seminar for your employees:",
-          "a": "Climate Collage",
-          "b": "Carbon Footprint presentation",
-          "c": "Sustainability conference",
-          "5": "Building your climate strategy: collaborative workshops: recurring ½ days with the concerned teams"
-        }
-      }
-    }
-  },
-  "ongoing": {
-    "message": "Under construction, thank you for your patience",
-    "button" : "Home"
-  },
-  "resources": {
-    "subtitle": "Resources",
-    "mainTitle" : "Are you participating in sustainability?",
-    "description" : "Finding your calling in sustainability can be tricky. Below are resources to dive deeper",
-    "spheres":{
-      "title": "Individuals can act",
-      "subtitle":"There are at least 3 spheres of action. It doesn't mean you need to do everything right now. You can take your time, and see what is the right fit for you",
-      "graph":"graph_indiv_en"
-    },
-    "callToAction": {
-      "title":"Let's chat!",
-      "catchphrase": "To discuss your projects, or if you need connections in France",
-      "button": "schedule a call",
-      "manifeste": {
-        "title": "Manifesto",
-        "catchphrase": "My pedagogical and researched vision of sustainability"
-      }
-    },
-    "comic": {
-      "title":"The starting point of the manifesto",
-      "subtitle": "Drawings by Elodie Schnitzler",
-      "1":"BD_vignette1_100_en",
-      "2":"BD_vignette2_100_en",
-      "3":"BD_vignette3_100_en",
-      "4":"BD_vignette4_100_en",
-      "5":"BD_vignette5_200_en"
-    },
-    "themes" : {
-      "title":"Manifesto themes",
-      "subtitle":"This is a work in progress, links to videos, podcast episodes and literature will be added",
-      "flourish":"visualisation/9268745"
-    } 
-  },
-  "about": {
-    "subtitle": "About",
-    "mainTitle": "Frequence 440",
-    "content440": {
-      "1": "440Hz is the frequency of the G3 note. It’s often used as a reference to tune instruments in a music group or orchestra.",
-      "2": "For a more sustainable world, we’ll need a combination of science, technology to analyze the situation and assess potential solutions; and creativity, dialogue for collaborative innovation. Music is an interesting symbol, as it involves both mathematics and creative expression.",
-      "3": "One can also appreciate the idea of the diversity of the instruments’ timbres that complete each other thanks to a simple note."
-    },
-    "contentLéa": {
-      "1": {
-        "title": "Engineering background",
-        "paragraph": "— MS from Ecole Centrale Paris and Georgia Tech"
-      },
-      "2": {
-        "title": "Consulting Experience",
-        "paragraph": "— Experiences in entrepreneurship and consulting in France and in the US"
-      },
-      "3": {
-        "title": "Mastering of sustainability projects",
-        "paragraph": "— Creation of non-profits and active participation in numerous projects (<a href='http://climatecollage.org/' target='blank'>Climate Collage</a>, <a href='https://www.thewhalesharkproject.com/' target='blank'>the Whale Shark Project</a>…)"
-      },
-      "4": {
-        "title": "Pedagogical expertise",
-        "paragraph": "– Creation of training for diverse audiences on subjects including: new methods of work, sustainability, diversity &amp; inclusion…"
-      },
-      "5": {
-        "title": "Multidisciplinary projects",
-        "paragraph": "– I currently work on various projects in education, sustainability, writing, music… Combining several fields and meeting people from different backgrounds allow for a wealth of ideas and hindsight"
-      }
-    }
-  },
-  "transition": {
-    "subtitle": "Sustainability",
-    "mainTitle": "What is sustainability? <br>Why does it matter?",
-    "description": "Sustainability means facing major issues that are impacting us in the 21st century, and that were exacerbated by the COVID19 crisis",
-    "catchphrase": "The major challenges of the 21st century",
-    "content": {
-      "1": {
-        "title": "How do we curtail <a href='https://www.ipcc.ch/' target='blank'>climate change</a> and the collapse of <a href='https://ipbes.net/global-assessment' target='blank'>biodiversity</a>, so that we can sustain our infrastructures and food and water resources?"
-      },
-      "2": {
-        "title": "How do we foresee and tackle the instability stemming from dwindling resources, from our financial system, and from threats to democracy? "
-      },
-      "3": {
-        "title": "How do we fight for <a href='https://www.oxfam.org/en/press-releases/worlds-billionaires-have-more-wealth-46-billion-people' target='blank'>equality</a>?"
-      },
-      "4": {
-        "title": "How do we promote diversity, inclusivity and innovation?"
-      }
-    },
-    "additional": {
-      "1": "These subjects are intertwined, a systemic approach is key to succeed",
-      "2": "See the manifesto",
-      "3": "For a person, or a company, the task might seem daunting. But some initiatives at a local scale can prove extremely relevant in order to:",
-      "4": "Convert negative impacts into solutions",
-      "5": "Improve our resilience, our ability to survive shocks"
-    },
-    "callToAction": {
-      "1": "You can act.",
-      "2": "make a personal transition",
-      "3": "Companies and Higher education Institutions can act too.",
-      "4": "act within my company"
-    },
-    "imbricated": {
-      "first": {
-        "1": "Understanding and meeting custommers’ needs",
-        "2": "Training your managers and teams",
-        "3": "Build together and bring together around your core values",
-        "4": "Strategy"
-      },
-      "second": {
-        "1": "Conduct a carbon footprint analysis and reduce your emissions",
-        "2": "Otimize resources sustainably",
-        "3": "Implement a circular economy",
-        "4": "Products & services design"
-      },
-      "third": {
-        "1": "Encourage innovation and empower your teams",
-        "2": "Implement new ways of working",
-        "3": "Collaborate with your local community",
-        "4": "Organization"
-      },
-      "fourth": {
-        "1": "Strive for energy sobriety",
-        "2": "Provide healthy, local and sustainable food for your teams",
-        "3": "Implement a transportation plan",
-        "4": "Opt for sustainable digital systems",
-        "5": "Campus / Offices"
-      }
-    },
-    "graph": "graph_en"
-  },
-  "linkedin": {
-    "link": "https://www.linkedin.com/in/l%C3%A9a-ikkache-4b448683/?locale=en_US"
-  },
-  "legal": {
-    "subtitle": "Legal notice",
-    "mainTitle": "Data policy",
-    "contentList": {
-      "1": {
-        "title": "Data collected on this website",
-        "paragraph": "The data collected on this website include and are limited to the data you provide through the contact form and quote request form. This data will never be shared outside Frequence 440. The data is stored in a secured computer for up to 2 years, for the purpose of business development of Frequence 440. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form."
-      },
-      "2": {
-        "title": "Data collected during a consulting job",
-        "paragraph": "Each consulting contract or quote includes information about the use, duration of storage, and possibility to access, modify or delete the data collected during the mission."
-      }
-    }
-  },
-  "contact": {
-    "subtitle": "Contact",
-    "mainTitle": "Let’s chat",
-    "description": "To discuss your personal or professional projects, see possible synergies ...",
-    "buttons": {
-      "1": "Let's chat",
-      "2": "Ask for a quote",
-      "3": "Let's meet"
-    },
-    "contactForm": {
-      "title": "Reach out",
-      "name": "Name",
-      "email": "Email address",
-      "message": "Message",
-      "button": "Send"
-    },
-    "invoiceForm": {
-      "title": "Quote request form",
-      "name": "Name",
-      "email": "Email address",
-      "number": "Phone number",
-      "type": "Name of the Company or Higher Education Organization",
-      "address": "Address",
-      "services": "Services",
-      "serviceType": "Type (analysis, training, conference, solutions workshop)",
-      "combinations": {
-        "1": {
-          "value": "analysis",
-          "title": "Analysis"
-        },
-        "2": {
-          "value": "workshops",
-          "title": "Workshops"
-        },
-        "3": {
-          "value": "conferences",
-          "title": "Conferences"
-        },
-        "4": {
-          "value": "trainings",
-          "title": "Trainings"
-        }
-      },
-      "serviceName": "Service",
-      "quantity": "Number of participants",
-      "message": "Message (please mention your needs, field of interest, which teams will be involved, your time or space constraints, schedule, budget, etc.)",
-      "button": "Send",
-      "add": "Add a service"
-    }
-  }
+	"lang": {
+		"value": "en"
+	},
+	"headline": {
+		"title": "Lady H Society"
+	},
+	"nav": {
+		"1": "Home",
+		"2": "Manifesto",
+		"3": "Mission",
+		"4": "Team",
+		"5": "Contact",
+		"rawLinks": {
+			"1": "/",
+			"2": "/manifeste",
+			"3": "/mission",
+			"4": "/team",
+			"5": "/contact"
+		}
+	},
+	"home": {
+		"mainTitle": "Lady H Society, a gateway to a new world...",
+		"welcome": "A manifesto for a fairer, more resilient and sustainable society",
+		"intro": {
+			"1": "<mark>The year is 3000</mark>. Lady H Society, a historian, is investigating some <mark>missing archives</mark>: there are no traces of what happened from years 2022 to 2500.",
+			"2": "In 3000, humans live in peace, and have evolved enough to join the <mark>Galactic Worlds Organization</mark>.",
+			"3": "With this manifesto, discover <mark>Lady H's world</mark>, her investigations into our present day and into the missing archives!"
+		},
+		"callToAction": {
+			"1": {
+				"call": "Enter Lady H Society's world",
+				"name": "See the manifesto",
+				"rawLink": "../manifeste"
+			},
+			"2": {
+				"call": "Where does all this come from?",
+				"name": "Learn more...",
+				"rawLink": "../mission"
+			},
+			"3": {
+				"call": "Join the adventure with us!",
+				"subtitle": {
+					"1":"You want to be a part of the discussion?", 
+					"2":"to participate in the podcast?",
+					"3":"to provide feedback?"
+				},
+				"name": "Reach out!",
+				"rawLink": "../contact"
+			}
+		}
+	},
+	"mission": {
+		"mainTitle": "Mission and how it started",
+		"comic": {
+			"1": "BD_vignette1_100_en_nc",
+			"2": "BD_vignette2_100_en_nc",
+			"3": "BD_vignette3_100_en_nc",
+			"4": "BD_vignette4_100_en_nc",
+			"5": "BD_vignette5_200_en_nc",
+			"title": "The starting point of the manifesto",
+			"subtitle": "Drawings by Elodie Schnitzler"
+		},
+		"obj": {
+			"title": {
+				"1":"Vision",
+				"2":"Mission"
+			},
+			"intro": "This manifesto is a <mark>personal world view</mark> based on my experiences and these of my closed ones. It is therefore biased and bound to <mark>evolve over time and include your feedback</mark>. My objective is to remain as scientifically correct as possible, to separate facts from personnal opinions, and to welcome your contributions.",
+			"content": {
+				"1": "Show links between societal issues",
+				"2": "Dive into the roots of the problems",
+				"3": "Empower, inspire and promote self-confidence",
+				"4": "Create a community of discussions and collaborations"
+			}
+		}
+	},
+	"manifeste": {
+		"mainTitle":"Manifeste Lady H Society",
+		"subtitle":"The manifesto's themes",
+		"intro":{
+			"1":"Play with and move the themes around. <mark>If you click on a sphere</mark>, you'll see its link with other themes, and:",
+			"2":"1. A Lady H video",
+			"3":"2. A podcast episode about an activist's life",
+			"4":"3. Sources."
+		},
+		"flourish":"visualisation/9268745"
+	},
+	"team":{
+		"svg":"team.svg",
+		"rôles": {
+			"1": "Author",
+			"2": "Audio& visual, art&fact non profit",
+			"3": "Costumes",
+			"4": "Illustrations",
+			"5": "Discussion circle"
+		},
+		"noms": {
+			"1": "Léa Ikkache",
+			"2": "Maxime & Chris",
+			"3": "Julie & Nicolas Ikkache Chanussot, Maxime",
+			"4": "Illustrations",
+			"5": "Laurent Le Moulec..."
+		}	
+	},
+
+	"footer": {
+		"name": "Lady H Society",
+		"rawLinks": {
+			"1": "/",
+			"2": "/manifeste",
+			"3": "/mission",
+			"4": "/team",
+			"5": "/contact"
+		},
+		"mainLinks": {
+			"1": "Home",
+			"2": "Manifesto",
+			"3": "Mission",
+			"4": "Team",
+			"5": "Contact"
+		},
+		"design": "Design",
+		"dev": "Development",
+		"drawings": "Drawings"
+	},
+	"contact": {
+		"contactForm": {
+			"title": "Don't hesitate to reach out",
+			"legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form.",
+			"name": "Name",
+			"email": "Email address",
+			"message": "Message (please mention if you'd like to recieve monthly updates)",
+			"button": "Send"
+		}
+	},
+	"sources":{
+		"1":{
+			"title": "Human rights and needs",
+			"content":""
+		}
+	}
 }

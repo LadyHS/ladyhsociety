@@ -41,6 +41,8 @@
 .black-button {
   background: #131e1e;
   color: #ffffff;
+  margin: 20px;
+  text-align: center;
 }
 
 .mixed-button {

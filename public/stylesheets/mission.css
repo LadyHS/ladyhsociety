@@ -1,0 +1,151 @@
+/*Comic*/
+.comic {
+    display:  flex;
+    flex-directon: row;
+    flex-wrap: wrap;
+    justify-content:  center;
+    align-items: center;
+    row-gap: 60px;
+    margin-top: 60px;
+  }
+  
+  .comic-item-left {
+    flex: 50%;
+  }
+  
+  .comic-item-right {
+    flex: 50%;
+  }
+  
+  .comic-item-center {
+    flex: 100%;
+  }
+  
+  .comic-item {
+    width: auto;
+    height: 70%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .comic-item-right, .comic-item-left {
+      flex: 100%;
+    }
+    .comic-item {
+      width: 100%;
+    }
+  }
+
+
+
+/* Objectives*/
+/* left and right sections */
+
+.objectives {
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100); 
+  /*height: 100vh;*/
+  padding: 0;
+}
+
+.left,
+.right {
+  width: 50%;
+  padding: 64px 100px;
+}
+
+.left {
+  background: #f5f5f5; 
+}
+
+.right {
+  background: #C7F5DE;
+}
+
+@media screen and (max-width: 500px) {
+  .left, .right {
+    padding: 30px 12px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+
+
+/* list of objectives*/
+.obj-list {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  color: #000000;
+  padding: 50px 100px;
+  font-size: 1.3rem;
+}
+
+.obj-list ol {
+  grid-column: 8/15;
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+.obj-list li {
+  padding: 20px 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+}
+
+.obj-list li::before {
+  content: "0" counter(my-awesome-counter);
+  position: absolute;
+  font-variant-numeric: tabular-nums;
+  left: -70px;
+  color: #FFBE1C;
+}
+
+.obj-list li p {
+  display: inline-block;
+}
+
+.obj-list li p:last-child {
+  color: #adadad;
+}
+
+.obj-list li a {
+  color: #adadad;
+}
+
+@media screen and (max-width: 1025px) {
+  .obj-list h1,
+  .full-page-list address {
+    grid-column: 1/14;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .obj-list h1 {
+    font-size: 1.75rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .obj-list {
+    padding: 30px 12px;
+  }
+
+  .obj-list ol {
+    grid-column: 1/15;
+  }
+
+  .obj-list li::before {
+    position: initial;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1025px) {
+  .full-page-list ol {
+    grid-column: 1/14;
+  }
+}

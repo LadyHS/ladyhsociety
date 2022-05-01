@@ -246,7 +246,7 @@ html {
 /* -------------------------- MAIN SECTIONS / COMMUN CODE -------------------------- */
 
 .main-section {
-  padding: 64px 100px;
+  padding: 30px 30px;
 }
 
 @media screen and (max-width: 500px) {

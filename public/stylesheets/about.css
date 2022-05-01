@@ -52,6 +52,11 @@
   margin-bottom: 30px;
 }
 
+#side-img {
+  left: 30px;
+  width: 30%;
+}
+
 .full-page-list h1 {
   font-size: 3rem;
   line-height: 3.75rem;

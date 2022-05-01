@@ -3,8 +3,7 @@
   margin-top: 10vh; /* dimensions of the nav */
   min-height: 90vh;
   min-height: calc(var(--vh, 1vh) * 90);
-  padding: 100px;
-  background: #131e1e;
+  padding: 50px;
   color: #ffffff;
   font-size: 3rem;
   line-height: 3.75rem;
@@ -40,6 +39,12 @@
 
 .white {
   background: #ffffff;
+}
+
+/*illustration for the banner*/
+#hd-img {
+  width: 100%;
+  height: hidden;
 }
 
 /* ALL MEDIA QUERIES */

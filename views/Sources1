@@ -1,0 +1,9 @@
+<section id=sources1>
+
+    <header class="header-intro main-section">
+    <div class="main-title">
+      <h1><span>{{{__ "sources.1.title"}}}</span></h1>
+      <div class="flourish-embed flourish-network" data-src="{{{__ "manifeste.flourish"}}}"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </header>
+    
+</section>
