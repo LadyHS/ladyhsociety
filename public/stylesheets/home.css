@@ -155,10 +155,10 @@ mark {
 
 
 .actions {
-  display:  flex;
-  flex-directon: row;
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content:  center;
+  justify-content: center;
   align-items: center;
   row-gap: 60px;
   margin-top: 60px;
@@ -166,9 +166,13 @@ mark {
 
 .action {
   width: auto;
-  height: 70%;
+  height: 250px;
   padding: 50px 50px;
   flex: 25%;
+}
+
+.action-3 {
+  text-align: right;
 }
 
 @media screen and (max-width: 800px) {

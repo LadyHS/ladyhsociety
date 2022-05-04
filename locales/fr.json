@@ -23,9 +23,9 @@
 		"mainTitle": "Lady H Society, une porte vers un nouveau monde",
 		"welcome": "Un manifeste pour une société plus durable, juste et résiliente",
 		"intro": {
-			"1": "Nous sommes <mark>en l'an 3000</mark>. Une historienne, <mark>Lady H Society</mark>, s'intéresse à un trou dans les archives : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500. ",
-			"2": "Aujourd'hui, les humains vivent en paix et ont assez évolué pour rejoindre <mark>l'Organisation des Mondes Galactiques</mark>",
-			"3": "Avec ce manifeste, partez à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent, et sur les <mark>années manquantes dans les archives</mark> !"
+			"1": "Nous sommes <mark>en l'an 3000</mark>. Une historienne, <mark>Lady H Society</mark>, s'intéresse à un trou dans les archives de l'histoire humaine : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500. ",
+			"2": "Aujourd'hui, les humains vivent en paix, ont évolué et rejoint <mark>l'Organisation des Mondes Galactiques</mark>",
+			"3": "Avec ce manifeste, partez à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent et sur les <mark>années manquantes dans les archives</mark> !"
 		},
 		"callToAction": {
 			"1": {
@@ -40,11 +40,7 @@
 			},
 			"3": {
 				"call": "Rejoignez l'aventure",
-				"subtitle": {
-					"1":"Vous voulez participer au cercle de relecture ?", 
-					"2":"Être un.e invité.e du podcast ?",
-					"3": "Nous faire un retour ?"
-				},
+				"subtitle": "Vous voulez participer au cercle de relecture ? Être un.e invité.e du podcast ? Nous faire un retour ?",
 				"name": "Contact",
 				"rawLink": "../contact"
 			}
@@ -68,12 +64,13 @@
 			},
 			"intro": "Ce manifeste est <mark>une vision personnelle</mark>, basée sur mon histoire et les témoignages de mes proches et collègues. Elle est donc forcément imparfaite, et <mark>vouée à évoluer dans le temps</mark>, notamment avec vos retours. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <mark>d'accueillir vos contributions</mark>.",
 			"content": {
-				"1": "Faire des liens entre les sujets sociétaux",
-				"2": "Aller jusqu'aux racines des problèmes",
+				"1": "Faire des liens entre plusieurs sujets sociétaux",
+				"2": "Tenter d'aller jusqu'aux racines des problèmes",
 				"3": "Inspirer, donner confiance en soi à tou.te.s",
 				"4": "Créer une communauté de discussions et de collaborations"
 			}
-		}
+		},
+		"continue": "Voir le manifeste"
 	},
 	"manifeste": {
 		"mainTitle":"Manifeste Lady H Society",
@@ -81,7 +78,7 @@
 		"intro":{
 			"1":"Jouez avec les thèmes interconnectés, vous pouvez les déplacer. <mark>En cliquant sur une sphère</mark>, vous verrez les liens qui la relient aux autres thèmes, et un encadré s'affichera en bas avec",
 			"2":"1. Une vidéo Lady H", 
-			"3":"2. Un épisode de podcast sur le parcours d'un.e militant.e",
+			"3":"2. Un épisode de podcast sur le parcours d'un.e personne intéressante",
 			"4":"3. Une bibliographie."
 		},
 		"flourish":"visualisation/9101374"

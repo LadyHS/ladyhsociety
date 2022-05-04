@@ -1,7 +1,7 @@
 /*Comic*/
 .comic {
     display:  flex;
-    flex-directon: row;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content:  center;
     align-items: center;
@@ -9,16 +9,12 @@
     margin-top: 60px;
   }
   
-  .comic-item-left {
-    flex: 50%;
+  .comic-item-small {
+    flex: 30%;
   }
   
-  .comic-item-right {
-    flex: 50%;
-  }
-  
-  .comic-item-center {
-    flex: 100%;
+  .comic-item-big {
+    flex: 70%;
   }
   
   .comic-item {
@@ -35,7 +31,21 @@
     }
   }
 
+/* buton */
+.orange-button {
+  background-color: #FFBE1C;
+  color: white;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
 
+.final-button {
+  margin-top:100px;
+  margin: auto;
+  display: center;
+  justify-content: center;
+}
 
 /* Objectives*/
 /* left and right sections */
