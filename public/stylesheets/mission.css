@@ -1,9 +1,9 @@
 /*Comic*/
 .comic {
-    display:  flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:  center;
+    justify-content: center;
     align-items: center;
     row-gap: 60px;
     margin-top: 60px;
@@ -22,11 +22,9 @@
     height: 70%;
   }
   
-  @media screen and (max-width: 800px) {
-    .comic-item-right, .comic-item-left {
+  @media screen and (max-width: 500px) {
+    .comic-item-right, .comic-item-left, .comic-item {
       flex: 100%;
-    }
-    .comic-item {
       width: 100%;
     }
   }

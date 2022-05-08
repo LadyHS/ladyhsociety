@@ -46,6 +46,10 @@ select {
     flex-direction: column;
   }
 
+  .main-section {
+    margin-top: 85px;
+  }
+
   .buttons-panel .button {
     width: max-content;
   }

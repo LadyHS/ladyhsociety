@@ -41,7 +41,7 @@
 }
 
 @media screen and (max-width: 1025px) {
-  .main-title {
+  .main-title span {
     padding: 10px 12px;
   }
   .main-title span {
@@ -70,10 +70,24 @@
   }
 }
 
-@media screen and (max-width: 350px) and (max-height: 600px) {
-  #home .catchphrase {
-    font-size: 1.4rem;
-    line-height: 2rem;
+@media screen and (max-width: 500px) {
+  #home .container {
+    margin-top: auto;
+    font-size: 2rem;
+    margin-top: 85px;
+  }
+  #manifeste .container {
+    margin-top: auto;
+    font-size: 2rem;
+    margin-top: 85px;
+  }
+  #mission .container {
+    margin-top: auto;
+    font-size: 2rem;
+    margin-top: 85px;
+  }
+  #team .container {
+    margin-top: 85px
   }
 }
 
@@ -83,6 +97,12 @@
 
 @media screen and (max-width: 500px) {
   #home .icon-container {
+    display: none;
+  }
+  #manifeste .icon-container {
+    display: none;
+  }  
+  #mission .icon-container {
     display: none;
   }
 }
@@ -299,3 +319,11 @@ mark {
 .right-bottom:hover .right-footer h3:before {
   border-top: 3px solid white;
 }
+
+
+@media screen and (max-width: 500px) {
+  .icon-container {
+    display: none;
+  }
+}
+
