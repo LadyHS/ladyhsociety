@@ -89,6 +89,18 @@
   #team .container {
     margin-top: 85px
   }
+  #home .container img {
+    display:none;
+  }
+  #mission .container img {
+    display:none;
+  }
+  #mission .objectives {
+    margin-top:85px;
+  } 
+  #manifeste .container img {
+    display:none;
+  }
 }
 
 .icon-container {
