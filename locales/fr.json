@@ -74,14 +74,21 @@
 	},
 	"manifeste": {
 		"mainTitle":"Manifeste Lady H Society",
-		"subtitle":"Les thèmes du manifeste",
-		"intro":{
-			"1":"Jouez avec les thèmes interconnectés, vous pouvez les déplacer. <mark>En cliquant sur une sphère</mark>, vous verrez les liens qui la relient aux autres thèmes, et un encadré s'affichera en bas avec",
-			"2":"1. Une vidéo Lady H", 
-			"3":"2. Un épisode de podcast sur le parcours d'un.e personne intéressante",
-			"4":"3. Une bibliographie."
+		"1":{
+			"subtitle":"Les thèmes du manifeste",
+			"intro":{
+				"1":"Les épisodes seront publiés au fur et à mesure. Pour une <mark>vision totale des thèmes</mark>, voir plus bas. Jouez avec les thèmes interconnectés, vous pouvez les déplacer. <mark>En cliquant sur une sphère</mark>, vous verrez les liens qui la relient aux autres thèmes, et un encadré s'affichera en bas avec",
+				"2":"1. Une vidéo Lady H", 
+				"3":"2. Un épisode de podcast sur le parcours d'un.e personne intéressante",
+				"4":"3. Une bibliographie."
+			},
+			"flourish":"visualisation/9892143"
 		},
-		"flourish":"visualisation/9101374"
+		"2":{
+			"subtitle":"La vision globale",
+			"intro":"Voici un premier jet de l'ensemble des thèmes",
+			"flourish":"visualisation/9101374"
+		}	
 	},
 	"team":{
 		"svg":"équipe.svg",

@@ -74,14 +74,21 @@
 	},
 	"manifeste": {
 		"mainTitle":"Lady H Society Manifesto",
-		"subtitle":"The manifesto's themes",
-		"intro":{
-			"1":"Play with and move the themes around. <mark>If you click on a sphere</mark>, you'll see its link with other themes, and:",
-			"2":"1. A Lady H video",
-			"3":"2. A podcast episode about an interesting person's life",
-			"4":"3. Sources."
+		"1":{
+			"subtitle":"The manifesto's themes",
+			"intro":{
+				"1":"Episodes will be published one by one. To see <mark>a full view</mark> of episodes, go below the first graph. Play with and move the themes around. <mark>If you click on a sphere</mark>, you'll see its link with other themes, and:",
+				"2":"1. A Lady H video",
+				"3":"2. A podcast episode about an interesting person's life",
+				"4":"3. Sources."
+			},
+			"flourish":"visualisation/9892212"
 		},
-		"flourish":"visualisation/9268745"
+		"2":{
+			"subtitle":"The global vision",
+			"intro":"This is a first attempt at seeing all the themes that we'll look at",
+			"flourish":"visualisation/9268745"
+		}
 	},
 	"team":{
 		"svg":"team.svg",
