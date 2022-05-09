@@ -5,21 +5,34 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('frequence440:server');
+var debug = require('debug')('ladyhsociety:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '4000');
 app.set('port', port);
 
 /**
  * Create HTTP server.
  */
 
-var server = http.createServer(app);
+/*var server = http.createServer(app);*/
+var port = process.env['PORT'] = process.env.PORT || 4000; 
+
+/*code copié */
+
+http.createServer(app).listen(port, function() {
+    console.log("Express server listening with http on port %d in %s mode", this.address().port, app.settings.env);
+});
+app.all('*', function(req, res, next) {
+  if (req.headers['x-forwarded-proto'] != 'https')
+      res.redirect('https://' + req.headers.host + req.url)
+  else
+      next() /* Continue to other routes if we're not redirecting */
+});
 
 /**
  * Listen on provided port, on all network interfaces.
