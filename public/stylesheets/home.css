@@ -41,10 +41,17 @@
   padding: 10px 24px;
   background: rgba(255,255,255,0.5);
 }
-@media screen and(min-height:1189px){
+@media screen and (min-height:1080px){
   .container {
     width:initial;}
 }
+@media screen and (max-width:2400px) and (max-height:1080px){
+  .container {
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 1025px) {
   .main-title span {
     padding: 10px 12px;
