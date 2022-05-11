@@ -41,7 +41,10 @@
   padding: 10px 24px;
   background: rgba(255,255,255,0.5);
 }
-
+@media screen and(min-height:1189px){
+  .container {
+    width:initial;}
+}
 @media screen and (max-width: 1025px) {
   .main-title span {
     padding: 10px 12px;
