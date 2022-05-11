@@ -7,6 +7,8 @@
 .container {
   position: relative;
   color: white;
+  height: 100vh;
+  width:auto;
 }
 
 .banner-image {
