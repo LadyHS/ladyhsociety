@@ -1,4 +1,9 @@
 /*Comic*/
+#origin {
+  background:white;
+}
+
+
 .comic {
     display: flex;
     flex-direction: row;
@@ -63,10 +68,6 @@
 
 .left {
   background: #f5f5f5; 
-}
-
-.right {
-  background: #C7F5DE;
 }
 
 @media screen and (max-width: 500px) {

@@ -5,7 +5,7 @@ let header = document.querySelector(".header-intro");
 
 window.onscroll = function () {
   let bottomOfNavbarScroll = window.scrollY + navbar.clientHeight;
-  let begginingOfInvisibility = header.clientHeight + navbar.clientHeight;
+  let begginingOfInvisibility = navbar.clientHeight;
   if (
     bottomOfNavbarScroll > begginingOfInvisibility &&
     !menuIcon.classList.contains("is-active")
