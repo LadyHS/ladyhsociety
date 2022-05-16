@@ -92,23 +92,15 @@
 		}
 	},
 	"team":{
-		"svg":"team.svg",
-		"rôles": {
-			"1": "Author",
-			"2": "Audio& visual, art&fact non profit",
-			"3": "Costumes",
-			"4": "Illustrations",
-			"5": "Discussion circle"
-		},
-		"noms": {
-			"1": "Léa Ikkache",
-			"2": "Maxime & Chris",
-			"3": "Julie & Nicolas Ikkache Chanussot, Maxime",
-			"4": "Illustrations",
-			"5": "Laurent Le Moulec..."
-		}	
+		"mainTitle": "Discover our team!",
+		"1": "Author",
+		"2": "Audiovisual: Art&Fact",
+		"3": "Illustration (background)",
+		"4": "Illustration (comic)",
+		"5": "Costume",
+		"6": "Place for the podcast",
+		"7": "Reading circle"	
 	},
-
 	"footer": {
 		"name": "Lady H Society",
 		"rawLinks": {

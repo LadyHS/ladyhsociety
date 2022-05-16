@@ -35,8 +35,8 @@
   }
 
 /* buton */
-.orange-button {
-  background-color: #FFBE1C;
+.black-button {
+  background-color: black;
   color: white;
   align-items: center;
   width: 100%;
@@ -110,7 +110,7 @@
   position: absolute;
   font-variant-numeric: tabular-nums;
   left: -70px;
-  color: #FFBE1C;
+  color: #adadad;
 }
 
 .obj-list li p {

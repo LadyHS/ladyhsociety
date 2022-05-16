@@ -64,7 +64,7 @@
 }
 
 .icon-container {
-  background: #ffffff;
+  background: #C7F5DE;
   color: #131e1e;
   width: 50px;
   height: 50px;
@@ -76,7 +76,7 @@
 
 .icon-container-black {
   background: #131e1e;
-  color: #ffffff;
+  color: #C7F5DE;
   width: 50px;
   height: 50px;
   display: flex;

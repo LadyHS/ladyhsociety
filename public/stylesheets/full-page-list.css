@@ -1,7 +1,6 @@
 .full-page-list {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
-  background: #131e1e;
   color: #ffffff;
   padding: 50px 100px;
 }

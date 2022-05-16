@@ -16,7 +16,7 @@
 			"2": "/manifeste",
 			"3": "/mission",
 			"4": "/team",
-			"5":"/contact"
+			"5": "/contact"
 		}
 	},
 	"home": {
@@ -29,7 +29,7 @@
 		},
 		"callToAction": {
 			"1": {
-				"call": "Entrez dans l'aventure",
+				"call": "Entres dans l'aventure",
 				"name": "Voir le manifeste",
 				"rawLink": "../manifeste"
 			},
@@ -39,7 +39,7 @@
 				"rawLink": "../mission"
 			},
 			"3": {
-				"call": "Rejoignez l'aventure",
+				"call": "Rejoins l'aventure",
 				"subtitle": "Vous voulez participer au cercle de relecture ? Être un.e invité.e du podcast ? Nous faire un retour ?",
 				"name": "Contact",
 				"rawLink": "../contact"
@@ -59,8 +59,8 @@
 		},
 		"obj": {
 			"title": {
-				"1":"Vision",
-				"2":"Mission"
+				"1": "Vision",
+				"2": "Mission"
 			},
 			"intro": "Ce manifeste est <mark>une vision personnelle</mark>, basée sur mon histoire et les témoignages de mes proches et collègues. Elle est donc forcément imparfaite, et <mark>vouée à évoluer dans le temps</mark>, notamment avec vos retours. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <mark>d'accueillir vos contributions</mark>.",
 			"content": {
@@ -73,40 +73,33 @@
 		"continue": "Voir le manifeste"
 	},
 	"manifeste": {
-		"mainTitle":"Manifeste Lady H Society",
-		"1":{
-			"subtitle":"Les thèmes du manifeste",
-			"intro":{
-				"1":"Découvrez les thèmes à travers ce graphe. Jouez avec les thèmes interconnectés, vous pouvez les déplacer. <mark>En cliquant sur une sphère</mark>, vous verrez les liens qui la relient aux autres thèmes, et un encadré s'affichera avec :",
-				"2":"1. Une vidéo Lady H", 
-				"3":"2. Un épisode de podcast sur le parcours d'un.e personne intéressante",
-				"4":"3. Une bibliographie",
-				"5":"Les épisodes seront rajoutés au fur et mesure de leur publication. Pour une <mark>vision globale des thèmes</mark>, voir plus bas."
+		"1": {
+			"subtitle": "Les thèmes du manifeste",
+			"intro": {
+				"1": "Découvrez les thèmes à travers ce graphe. Jouez avec les thèmes interconnectés, vous pouvez les déplacer. <mark>En cliquant sur une sphère</mark>, vous verrez les liens qui la relient aux autres thèmes, et un encadré s'affichera avec :",
+				"2": "1. Une vidéo Lady H",
+				"3": "2. Un épisode de podcast sur le parcours d'un.e personne intéressante",
+				"4": "3. Une bibliographie",
+				"5": "Les épisodes seront rajoutés au fur et mesure de leur publication. Pour une <mark>vision globale des thèmes</mark>, voir plus bas."
 			},
-			"flourish":"visualisation/9892143"
+			"flourish": "visualisation/9892143"
 		},
-		"2":{
-			"subtitle":"La vision globale",
-			"intro":"Voici un premier jet de l'ensemble des thèmes",
-			"flourish":"visualisation/9101374"
-		}	
+		"2": {
+			"subtitle": "La vision globale",
+			"intro": "Voici un premier jet de l'ensemble des thèmes",
+			"flourish": "visualisation/9101374"
+		},
+		"mainTitle": "Manifeste Lady H Society"
 	},
-	"team":{
-		"svg":"équipe.svg",
-		"rôles": {
-			"1": "Autrice",
-			"2": "Audiovisuel, association art&fact",
-			"3": "Costumes",
-			"4": "Illustrations",
-			"5": "Cercle de relecture"
-		},
-		"noms": {
-			"1": "Léa Ikkache",
-			"2": "Maxime & Chris",
-			"3": "Julie & Nicolas Ikkache Chanussot, Maxime",
-			"4": "Illustrations",
-			"5": "Laurent Le Moulec..."
-		}	
+	"team": {
+		"mainTitle": "Découvres l'équipe derrière le projet !",
+		"1": "Autrice",
+		"2": "Audiovisuel : association Art&Fact",
+		"3": "Illustratrice (fond)",
+		"4": "Illustratrice (BD)",
+		"5": "Costume",
+		"6": "Lieu podcast",
+		"7": "Cercle de relecture"		
 	},
 	"footer": {
 		"name": "Lady H Society",
@@ -132,21 +125,20 @@
 		"message": "En construction, merci de votre patience",
 		"button": "Accueil"
 	},
-	
 	"contact": {
 		"contactForm": {
 			"title": "N'hésitez pas à nous joindre !",
-			"legal":"Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire",
+			"legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire",
 			"name": "Nom",
 			"email": "Adresse mail",
 			"message": "Message (précisez si vous souhaitez être informé.e des nouveaux épisodes)",
 			"button": "Envoi"
 		}
 	},
-	"sources":{
-		"1":{
+	"sources": {
+		"1": {
 			"title": "Besoins pour une vie décente",
-			"content":""
+			"content": ""
 		}
 	}
 }

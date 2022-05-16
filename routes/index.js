@@ -37,10 +37,9 @@ router.get("/contact", function (req, res, next) {
   });
 });
 
-
 router.get(["/team"], function (req, res, next) {
   res.render("team", {
-    styles: ["header", "home","full-page-list"],
+    styles: ["header", "home","team", "buttons"],
     currentPage: "team",
   });
 });
