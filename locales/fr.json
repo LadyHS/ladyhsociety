@@ -40,7 +40,7 @@
 			},
 			"3": {
 				"call": "Rejoins l'aventure",
-				"subtitle": "Vous voulez participer au cercle de relecture ? Être un.e invité.e du podcast ? Nous faire un retour ?",
+				"subtitle": "Tu veux participer au cercle de relecture ? Être un.e invité.e du podcast ? Nous faire un retour ?",
 				"name": "Contact",
 				"rawLink": "../contact"
 			}
