@@ -40,7 +40,6 @@
   line-height: 3.5rem;
   padding: 10px 24px;
   background: #C7F5DE;
-  padding-top:20vh;
 }
 @media screen and (min-height:1080px){
   .container {
@@ -56,11 +55,10 @@
 @media screen and (max-width: 1025px) {
   .main-title span {
     padding: 10px 12px;
-  }
-  .main-title span {
-    padding: 5px 0;
+    padding-top:20vh;
   }
 }
+
 
 .main-title h1 {
   align-self: center;
