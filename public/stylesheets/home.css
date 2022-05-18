@@ -55,7 +55,9 @@
 @media screen and (max-width: 1025px) {
   .main-title span {
     padding: 10px 12px;
-    padding-top:20vh;
+  }
+  .main-title span {
+    padding: 5px 0;
   }
 }
 
@@ -63,6 +65,12 @@
 .main-title h1 {
   align-self: center;
   color: #131e1e;
+}
+
+@media screen and (max-width: 800px) {
+  .main-title h1 {
+    padding-top: 15vh;
+  }
 }
 
 .main-title a {
