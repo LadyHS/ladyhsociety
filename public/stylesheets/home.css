@@ -40,7 +40,7 @@
   line-height: 3.5rem;
   padding: 10px 24px;
   background: #C7F5DE;
-  margin-top:20vh;
+  padding-top:20vh;
 }
 @media screen and (min-height:1080px){
   .container {
