@@ -82,7 +82,7 @@
 			"2":"Les liens vers les épisodes"
 		},
 		"intro": {	
-			"1": "Découvre les thèmes à travers le graphe ci-dessous. Joue avec les thèmes interconnectés, tu peux les déplacer, les étendres. <strong>En cliquant sur une sphère</strong>, tu verras les liens qui la relient aux autres thèmes. Pour mieux visualiser, tu peux cacher des thèmes en cliquant dessus dans la légende. Tu verras plus bas les liens vers les épisodes.",
+			"1": "Découvre les thèmes à travers le graphe ci-dessous. Joue avec les thèmes interconnectés, tu peux les déplacer, les étendres. <strong>En cliquant sur une sphère</strong>, tu verras les liens qui la relient aux autres thèmes. Pour mieux visualiser, tu peux cacher des thèmes en cliquant dessus dans la légende.cd $LA Tu verras plus bas les liens vers les épisodes.",
 			"5": "Pour chaque thème, tu trouveras :",
 			"2": "Une vidéo Lady H",
 			"3": "Un épisode de podcast sur le parcours d'un.e personne intéressante",
