@@ -14,17 +14,16 @@ router.get("/", function (req, res, next) {
 
 router.get(["/manifeste"], function (req, res, next) {
   res.render("manifeste", {
-    styles: ["header","home", "buttons", "forms"],
+    styles: ["header", "buttons", "forms","mission"],
     scripts: ["manifeste"],
     currentPage: "manifeste",
   });
 });
 
 
-
 router.get("/mission", function (req, res, next) {
   res.render("mission", {
-    styles: ["home","mission","header","about","buttons"],
+    styles: ["mission","header","buttons"],
     currentPage: "mission",
   });
 });
@@ -39,14 +38,14 @@ router.get("/contact", function (req, res, next) {
 
 router.get(["/team"], function (req, res, next) {
   res.render("team", {
-    styles: ["header", "home","team", "buttons"],
+    styles: ["header", "team","buttons"],
     currentPage: "team",
   });
 });
 
 router.get(["/sources1"], function (req, res, next) {
   res.render("sources1", {
-    styles: ["header", "home","full-page-list"],
+    styles: ["header", "home"],
     currentPage: "sources1",
   });
 }); 

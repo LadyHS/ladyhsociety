@@ -129,17 +129,7 @@ ol,
 ul {
   list-style: none;
 }
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -246,7 +236,7 @@ html {
 /* -------------------------- MAIN SECTIONS / COMMUN CODE -------------------------- */
 
 .main-section {
-  padding: 30px 30px;
+  padding: 50px 100px;
 }
 
 @media screen and (max-width: 500px) {
@@ -270,12 +260,13 @@ html {
 
 .hero-subtitle {
   font-family: Traulha;
-  font-style: italic;
   font-weight: normal;
   font-size: 1.75rem;
   line-height: 2.5rem;
   color: #000000;
-  max-width: 40vw;
+}
+.hero-subtitle p {
+  margin: 0 0 12px 0;
 }
 
 @media screen and (max-width: 1025px) {
@@ -372,4 +363,75 @@ label {
   justify-content: flex-end;
 }
 
-/* --------------------------- */
+strong {
+  color: #FC7753;
+}
+
+/* --------------------- HEADER ------------------- */
+
+.container {
+  position: relative;
+  color: #C7F5DE;
+  height: 100vh;
+  width:auto;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-height:1080px){
+  .container {
+    width:initial;
+  }
+}
+@media screen and (max-width:2400px) and (max-height:1080px){
+  .container {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .main-title span {
+    padding: 10px 12px;
+  }
+  .main-title span {
+    padding: 5px 0;
+  }
+}
+
+.main-title h1 {
+  align-self: center;
+  color: #131e1e;
+}
+
+/*@media screen and (max-width: 800px) {
+  .main-title h1 {
+    padding-top: 10vh;
+  }
+  .main-title span {
+    line-height: 2rem;
+  }
+}*/
+
+
+@media screen and (max-width: 710px) {
+  .container{
+    margin-top: 0;
+    margin-bottom:50vh;
+  } 
+  .container img {
+    display:none;
+  }
+  header .catchphrase{
+    color:#FC7753;
+  }
+}
+
+.icon-container {
+  margin-top: 80px;
+}
+
+

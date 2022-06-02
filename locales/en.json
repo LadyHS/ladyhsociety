@@ -3,7 +3,7 @@
 		"value": "en"
 	},
 	"headline": {
-		"title": "Lady H Society"
+		"title": " Lady H Society "
 	},
 	"nav": {
 		"1": "Home",
@@ -20,12 +20,13 @@
 		}
 	},
 	"home": {
-		"mainTitle": "Lady H Society, a gateway to a new world...",
-		"welcome": "A manifesto for a fairer, more resilient and sustainable society",
+		"mainTitle": " Lady H Society ",
+		"subtitle": "Discover a youtube channel about a manifesto for a fairer, more resilient and sustainable society",
+		"welcome": "A gateway to a new world...",
 		"intro": {
-			"1": "<mark>The year is 3000</mark>. Lady H Society, a historian, is investigating some <mark>missing archives</mark>: there are no traces of what happened from years 2022 to 2500.",
-			"2": "In 3000, humans live in peace, and have evolved enough to join the <mark>Galactic Worlds Organization</mark>.",
-			"3": "With this manifesto, discover <mark>Lady H's world</mark>, her investigations into our present day and into the missing archives!"
+			"1": "<strong>The year is 3000</strong>. Lady H Society, a historian, is investigating some <strong>missing archives</strong>: there are no traces of what happened from years 2022 to 2500.",
+			"2": "In 3000, humans live in peace, and have evolved enough to join the <strong>Galactic Worlds Organization</strong>.",
+			"3": "With this manifesto, discover <strong>Lady H's world</strong>, her investigations into our present day and into the missing archives!"
 		},
 		"callToAction": {
 			"1": {
@@ -40,14 +41,15 @@
 			},
 			"3": {
 				"call": "Join the adventure with us!",
-				"subtitle":"You want to be a part of the discussion? to participate in the podcast? to provide feedback?", 
+				"subtitle": "You want to be a part of the discussion? to participate in the podcast? to provide feedback?",
 				"name": "Reach out!",
 				"rawLink": "../contact"
 			}
 		}
 	},
 	"mission": {
-		"mainTitle": "Mission and how it started",
+		"mainTitle": " Mission and how it started ",
+		"subtitle": "Learn more about my objectives and how this youtube channel started",
 		"comic": {
 			"1": "BD_vignette1_100_en_nc",
 			"2": "BD_vignette2_100_en_nc",
@@ -59,10 +61,10 @@
 		},
 		"obj": {
 			"title": {
-				"1":"Vision",
-				"2":"Mission"
+				"1": "Vision",
+				"2": "Mission"
 			},
-			"intro": "This manifesto is a <mark>personal world view</mark> based on my experiences and these of my closed ones. It is therefore biased and bound to <mark>evolve over time and include your feedback</mark>. My objective is to remain as scientifically correct as possible, to separate facts from personnal opinions, and to welcome your contributions.",
+			"intro": "This manifesto is a <strong>personal world view</strong> based on my experiences and these of my closed ones. It is therefore biased and bound to <strong>evolve over time and include your feedback</strong>. My objective is to remain as scientifically correct as possible, to separate facts from personnal opinions, and to <strong>welcome your contributions</strong>.",
 			"content": {
 				"1": "Show links between societal issues",
 				"2": "Dive into the roots of the problems",
@@ -70,36 +72,37 @@
 				"4": "Create a community of discussions and collaborations"
 			}
 		},
-		"continue": "See the manifesto"
-	},
-	"manifeste": {
-		"mainTitle":"Lady H Society Manifesto",
-		"1":{
-			"subtitle":"The manifesto's themes",
-			"intro":{
-				"1":"DIscover the manifesto through this graph. Play with the themes and move them around. <mark>If you click on a sphere</mark>, you'll see its link with other themes, and:",
-				"2":"1. A Lady H video",
-				"3":"2. A podcast episode about an interesting person's life",
-				"4":"3. Sources",
-				"5":"Themes will be added as episodes are published. To see <mark>a full view</mark> of episodes, go below the first graph."
-			},
-			"flourish":"visualisation/9892212"
-		},
-		"2":{
-			"subtitle":"The global vision",
-			"intro":"This is a first attempt at seeing all the themes that we'll look at",
-			"flourish":"visualisation/9268745"
+		"continue": "See the manifesto",
+		"title": {
+			"1": "mission.title.1"
 		}
 	},
-	"team":{
-		"mainTitle": "Discover our team!",
+	"manifeste": {
+		"mainTitle": " Lady H Society Manifesto ",
+		"subtitle": "Find here the links to episodes and explainations about the themes",
+		"title": {
+			"1":"The manifesto's themes",
+			"2":"Links to episodes"
+		},
+		"intro": {
+			"1": "Discover the manifesto through the graph below. Play with the themes, move them around and expend them. <strong>If you click on a sphere</strong>, you'll see its relationship with other themes. Below you can find the links to episodes.",
+			"2": "A Lady H video",
+			"3": "A podcast episode about an interesting person's life",
+			"4": "Sources",
+			"5": "For each theme, you'll find links to:"
+		},
+		"flourish": "visualisation/9268745",
+		"links":"The pilote episode will be online soon"
+	},
+	"team": {
 		"1": "Author",
 		"2": "Audiovisual: Art&Fact",
 		"3": "Illustration (background)",
 		"4": "Illustration (comic)",
 		"5": "Costume",
 		"6": "Place for the podcast",
-		"7": "Reading circle"	
+		"7": "Reading circle",
+		"mainTitle": " Discover our team! "
 	},
 	"footer": {
 		"name": "Lady H Society",
@@ -122,8 +125,9 @@
 		"drawings": "Drawings"
 	},
 	"contact": {
+		"title": " Don't hesitate to reach out ",
+		"subtitle": "To be a part of the discussion, to participate in the podcast, to provide feedback...",
 		"contactForm": {
-			"title": "Don't hesitate to reach out",
 			"legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form.",
 			"name": "Name",
 			"email": "Email address",
@@ -131,10 +135,10 @@
 			"button": "Send"
 		}
 	},
-	"sources":{
-		"1":{
+	"sources": {
+		"1": {
 			"title": "Human rights and needs",
-			"content":""
+			"content": ""
 		}
 	}
 }

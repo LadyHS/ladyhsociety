@@ -12,12 +12,11 @@
 }
 
 #footer .contact {
-  grid-column: 1/6;
+  grid-column: 1/5;
 }
 
 #footer .contact > p {
   padding-bottom: 20px;
-  border-bottom: 1px solid #adadad;
   font-size: 1.75rem;
 }
 
@@ -52,18 +51,18 @@
 }
 
 #footer .first-links {
-  grid-column: 7/9;
+  grid-column: 5/7;
 }
 
 #footer .second-links {
-  grid-column: 9/11;
-}
-
-#footer .second-links a:last-child {
-  padding-bottom: 50px;
+  grid-column: 7/9;
 }
 
 #footer .third-links {
+  grid-column: 9/11;
+}
+
+#footer .fourth-links {
   grid-column: 11/13;
 }
 
@@ -101,17 +100,11 @@
 
   #footer .first-links,
   #footer .second-links,
-  #footer .third-links {
+  #footer .third-links, 
+  #footer .fourth-links {
     grid-column: 1/12;
   }
 
-  #footer .contact > p {
-    font-size: 1.125rem;
-  }
-
-  #footer .contact p {
-    line-height: 1.25rem;
-  }
 
   #footer .links a,
   #footer .second-links a:last-child {

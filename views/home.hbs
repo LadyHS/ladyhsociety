@@ -1,53 +1,54 @@
-<section id="home" style="background:#C7F5DE;">
+<section id="home" style="background-color: #C7F5DE;">
     
-    <section class="container flex wrap ">
-      <img src="images/ladyhworld.jpeg" alt="Lady H Society's world" class="banner-image">
-      <div class="center-text main-title"><h1><span>{{{__ "home.mainTitle"}}}</span></h1></div>
-      <a href="#story" class="low-arrow icon-container">
-        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-      </a>
+    <section class="container flex wrap">
+      <img src="images/ladyhworld_dark.jpeg" alt="Lady H Society's world" class="banner-image">
+      <header class="header-intro">
+        <div class="main-title">
+          <h1><span>{{{__ "home.mainTitle"}}}</span></h1>
+        </div>
+        <p class="catchphrase">{{{__ "home.subtitle"}}}</p>
+        <a href="#story" class="icon-container">
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </a>
+      </header>
     </section>
 
-  <section id="story" class="header-intro main-section green">
+  <section id="story" class="main-section">
     <div>
-      <p class="catchphrase">{{{__ "home.welcome"}}}</p>  
+      <h2 class="hero-title">{{{__ "home.welcome"}}}</h2>  
     </div>
     <div>
-      <p>{{{__ "home.intro.1"}}}</p>
-      <p>{{{__ "home.intro.2"}}}</p>
-      <p>{{{__ "home.intro.3"}}}</p>
+      <p class="hero-subtitle">{{{__ "home.intro.1"}}}</p>
+      <p class="hero-subtitle">{{{__ "home.intro.2"}}}</p>
+      <p class="hero-subtitle">{{{__ "home.intro.3"}}}</p>
     </div>
+    <div>
     <a id="blackarrowfar" href="#home-call-to-actions" class="icon-container">
-          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
     </a>
-    <div>
+    </div>
   </section>
 
-
-
-  <section id="home-call-to-actions" class="main-section">
-    <div id="actions" class="actions">
-      <div class="action action-1">
-        <h2 class="hero-title">{{{__ "home.callToAction.2.call"}}}</h2>
-        <a href="/mission" class="button black-button"
-          target="blank">{{{__ "home.callToAction.2.name"}}}
-        </a>
-      </div>
-      <div class="action action-2">
-        <h2 class="hero-title">{{{__ "home.callToAction.1.call"}}}</h2>
-        <a href="/manifeste" class="button black-button"
-            target="blank">{{{__ "home.callToAction.1.name"}}}
-        </a>
-      </div>
-      <div class="action action-3">
-        <p class="hero-subtitle">{{{__ "home.callToAction.3.subtitle"}}}</p>
-      </div>
-      <div class="action action-4">
-        <h2 class="hero-title">{{{__ "home.callToAction.3.call"}}}</h2>  
-        <a href="/contact" class="button black-button"
-           target="blank">{{{__ "home.callToAction.3.name"}}}
-        </a>
-      </div>
+  <section id="home-call-to-actions" class="main-section three-choices">
+    <div class="action">
+      <h2 class="hero-title">{{{__ "home.callToAction.2.call"}}}</h2>
+      <a href="/mission" class="button black-button"
+        target="blank">{{{__ "home.callToAction.2.name"}}}
+      </a>
+    </div>
+    <div class="action">
+      <h2 class="hero-title">{{{__ "home.callToAction.3.call"}}}</h2> 
+      <p class="hero-subtitle">{{{__ "home.callToAction.3.subtitle"}}}</p>
+      <a href="/contact" class="button black-button"
+          target="blank">{{{__ "home.callToAction.3.name"}}}
+      </a>
+    </div>
+    <div class="action">
+      <h2 class="hero-title">{{{__ "home.callToAction.1.call"}}}</h2>
+      <a href="/manifeste" class="button black-button"
+          target="blank">{{{__ "home.callToAction.1.name"}}}
+      </a>
+    </div>
   </section>
     
     

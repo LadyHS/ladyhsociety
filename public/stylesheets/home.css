@@ -1,280 +1,93 @@
-#home {
-  color: #131e1e;
-}
-
-/* --------------------- HEADER ------------------- */
-
-.container {
-  position: relative;
-  color: #C7F5DE;
-  height: 100vh;
-  width:auto;
-}
-
-.banner-image {
-  width: 100%;
-  height: auto;
-}
-
-.center-text {
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  font-size: 2rem;
-}
-
-.center-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
-
-.low-arrow{
-  position: absolute;
-  top: 80%;
-  left: 20%;
-}
-
-.main-title span {
-  line-height: 3.5rem;
-  padding: 10px 24px;
-  background: #C7F5DE;
-}
-@media screen and (min-height:1080px){
-  .container {
-    width:initial;}
-}
-@media screen and (max-width:2400px) and (max-height:1080px){
-  .container {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 1025px) {
-  .main-title span {
-    padding: 10px 12px;
-  }
-  .main-title span {
-    padding: 5px 0;
-  }
-}
-
-
-.main-title h1 {
-  align-self: center;
-  color: #131e1e;
-}
-
-@media screen and (max-width: 800px) {
-  .main-title h1 {
-    padding-top: 15vh;
-  }
-}
-
-.main-title a {
-  color: #131e1e;
-}
-
-
-#home .catchphrase {
-  padding-top: 10vh;
-}
-
-@media (min-width: 780px) {
-  #home .catchphrase {
-    width: 85%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  #home .container {
-    font-size: 2rem;
-    margin-top: 0;
-    margin-bottom:50vh;
-  }
-  #manifeste .container {
-    margin-top: 0;
-    font-size: 2rem;
-    margin-bottom: 50vh;
-  }
-  #mission .container {
-    margin-top: 0;
-    font-size: 2rem;
-    margin-bottom: 50vh;
-  }
-  #team .container {
-    margin-top:0;
-    margin-bottom: 50vh;
-  }
-  #home .container img {
-    display:none;
-  }
-  #mission .container img {
-    display:none;
-  }
-  #mission .objectives {
-    margin-top:50vh;
-  } 
-  #manifeste .container img {
-    display:none;
-  }
-}
-
-.icon-container {
-  margin-top: 10px;
-}
-
-@media screen and (max-width: 500px) {
-  #home .icon-container {
-    display: none;
-  }
-  #manifeste .icon-container {
-    display: none;
-  }  
-  #mission .icon-container {
-    display: none;
-  }
-}
-
-#blackarrow {
-  background: #131e1e;
-  color: #C7F5DE;
-}
-
-#blackarrowfar {
-  background: #131e1e;
-  color: #C7F5DE;
-  margin-top: 30vh;
-}
-
 /* -------------------------- STORY -------------------------- */
-.header-intro {
-  background: #C7F5DE;
-  color: #131e1e;
+#story {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: max-content 1fr;
+  padding: 50px 100px;
+  color: #131e1e;
+}
+#story p {
+  margin: 0px 0px 20px 0px;
+}
+#story div:first-child {
+  grid-column: 1/7;
+  grid-row: 1/2;
 }
 
-.green {
-  background: #C7F5DE;
-}
-
-.header-intro div:first-child {
-  grid-column: 1/11;
-}
-
-.header-intro div:nth-child(2) {
+#story div:nth-child(2) {
   grid-column: 6/11;
   grid-row: 2/3;
   font-family: Traulha;
-  font-style: italic;
   font-weight: normal;
   font-size: 1.25rem;
   line-height: 2rem;
 }
 
-.header-intro div:last-child {
+#story div:last-child {
   grid-column: 1/11;
-  grid-row: 3/3;
+  grid-row: 2/3;
 }
 
 @media screen and (max-width: 1025px) {
-  .header-intro div:nth-child(2) {
+  #story div:nth-child(2) {
     grid-column: 1/11;
     padding-top: 30px;
   }
 }
 
-.header-intro div:nth-child(2) p {
+#sotry div:nth-child(2) p {
   margin: 0 0 30px 0;
   line-height: 2rem;
 }
 
-mark {
-  display: inline-block;
-  line-height: 0em;
-  padding-bottom: 0.5em;
-  background: #FECC82;
-}
 
 
 /* -------------------------- CALL TO ACTION -------------------------- */
 
-
-.actions {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.three-choices {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: max-content 1fr;
+  padding: 50px 100px;
   justify-content: center;
   align-items: center;
-  row-gap: 60px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  background: #f5f5f5;
+  background-color: #C7F5DE;
 }
 
-.action {
-  width: auto;
-  height: 250px;
-  padding: 50px 50px;
-  flex: 25%;
+.three-choices div:first-child {
+  grid-column: 1/5;
+  grid-row:1/2;
+}
+.three-choices div:nth-child(2) {
+  grid-column: 4/11;
+  grid-row:2/3;
+}
+.three-choices div:last-child {
+  grid-column: 8/12;
+  grid-row:3/4;
 }
 
-.action-3 {
-  text-align: right;
-}
-
-@media screen and (max-width: 800px) {
-  .action {
-    flex: 100%;
+@media screen and (max-width: 700px) {
+  .three-choices div:first-child, .three-choices div:nth-child(2), .three-choices div:last-child{
+    margin-bottom: 70px;
+    grid-column: 1/12;
   }
-  .action {
-    width: 100%;
+  #story div:nth-child(2){
+    grid-column: 1/12;
+  }
+  #story div:first-child {
+    grid-column: 1/12;
   }
 }
 
-
-
-.call-to-action a.button {
-  margin-top: 80px;
+.action a.button {
+  margin-top: 30px;
+  margin-left:0px;
   width: max-content;
   text-align: center;
 }
 
-.call-to-action a.icon-container {
-  margin-top: 80px;
-}
 
-
-@media screen and (max-width: 500px) {
-  .left, .right {
-    padding: 30px 12px;
-  }
-}
-
-@media screen and (max-width: 1025px) {
-  .left,
-  .right {
-    width: 100%;
-  }
-}
-
-/* details of right-top and right-bottom sections */
-
-@media screen and (max-width: 500px) {
-  .right-main {
-    margin-top: 100px;
-  }
-}
-
-@media screen and (max-width: 500px) and (max-height: 600px) {
-  .right-main {
-    margin-top: 50px;
-  }
-}
 
 .inline-list {
   width: 100%;
@@ -293,22 +106,6 @@ mark {
   }
 }
 
-.right-main h2 {
-  padding-bottom: 100px;
-}
-
-.right-main h2 {
-  width: 100%;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-@media screen and (max-width: 1025px) {
-  .right-main h2 {
-    font-size: 1.75rem;
-    line-height: 2rem;
-  }
-}
 
 .right-footer {
   align-self: flex-end;
@@ -336,6 +133,9 @@ mark {
     color: #ffffff;
     font-size: 0.875rem;
   }
+  #home-call-to-actions, #story {
+    padding: 30px 12px;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 1025px) {
@@ -353,9 +153,6 @@ mark {
 }
 
 
-@media screen and (max-width: 500px) {
-  .icon-container {
-    display: none;
-  }
-}
+
+
 

@@ -3,7 +3,7 @@
 		"value": "fr"
 	},
 	"headline": {
-		"title": "Lady H Society"
+		"title": " Lady H Society "
 	},
 	"nav": {
 		"1": "Accueil",
@@ -20,16 +20,17 @@
 		}
 	},
 	"home": {
-		"mainTitle": "Lady H Society, une porte vers un nouveau monde",
-		"welcome": "Un manifeste pour une société plus durable, juste et résiliente",
+		"mainTitle": " Lady H Society ",
+		"subtitle": "Découvre une chaîne youtube de vidéos et épisodes de podcast. Le tout forme un manifeste pour une société plus durable, juste et résiliente",
+		"welcome": "Une porte vers un nouveau monde",
 		"intro": {
-			"1": "Nous sommes <mark>en l'an 3000</mark>. Une historienne, <mark>Lady H Society</mark>, s'intéresse à un trou dans les archives de l'histoire humaine : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500. ",
-			"2": "Aujourd'hui, les humains vivent en paix, ont évolué et rejoint <mark>l'Organisation des Mondes Galactiques</mark>",
-			"3": "Avec ce manifeste, partez à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent et sur les <mark>années manquantes dans les archives</mark> !"
+			"1": "Nous sommes <strong>en l'an 3000</strong>. Une historienne, <strong>Lady H Society</strong>, s'intéresse à un trou dans les archives de l'histoire humaine : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500 ",
+			"2": "Aujourd'hui, les humains vivent en paix, ont évolué et rejoint <strong>l'Organisation des Mondes Galactiques</strong>",
+			"3": "Avec ce manifeste, pars à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent et sur les <strong>années manquantes dans les archives</strong> !"
 		},
 		"callToAction": {
 			"1": {
-				"call": "Entres dans l'aventure",
+				"call": "Entre dans l'aventure",
 				"name": "Voir le manifeste",
 				"rawLink": "../manifeste"
 			},
@@ -47,7 +48,8 @@
 		}
 	},
 	"mission": {
-		"mainTitle": "Génèse du projet et mission",
+		"mainTitle": " Mission ",
+		"subtitle": "Voici les objectifs et l'histoire de cette chaîne youtube",
 		"comic": {
 			"1": "BD_vignette1_100_nc",
 			"2": "BD_vignette2_100_nc",
@@ -62,7 +64,7 @@
 				"1": "Vision",
 				"2": "Mission"
 			},
-			"intro": "Ce manifeste est <mark>une vision personnelle</mark>, basée sur mon histoire et les témoignages de mes proches et collègues. Elle est donc forcément imparfaite, et <mark>vouée à évoluer dans le temps</mark>, notamment avec vos retours. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <mark>d'accueillir vos contributions</mark>.",
+			"intro": "Ce manifeste est <strong>une vision personnelle</strong>, basée sur mon histoire et les témoignages de mes proches et collègues. Elle est donc forcément imparfaite, et <strong>vouée à évoluer dans le temps</strong>, notamment avec vos retours. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <strong>d'accueillir vos contributions</strong>.",
 			"content": {
 				"1": "Faire des liens entre plusieurs sujets sociétaux",
 				"2": "Tenter d'aller jusqu'aux racines des problèmes",
@@ -73,33 +75,32 @@
 		"continue": "Voir le manifeste"
 	},
 	"manifeste": {
-		"1": {
-			"subtitle": "Les thèmes du manifeste",
-			"intro": {
-				"1": "Découvrez les thèmes à travers ce graphe. Jouez avec les thèmes interconnectés, vous pouvez les déplacer. <mark>En cliquant sur une sphère</mark>, vous verrez les liens qui la relient aux autres thèmes, et un encadré s'affichera avec :",
-				"2": "1. Une vidéo Lady H",
-				"3": "2. Un épisode de podcast sur le parcours d'un.e personne intéressante",
-				"4": "3. Une bibliographie",
-				"5": "Les épisodes seront rajoutés au fur et mesure de leur publication. Pour une <mark>vision globale des thèmes</mark>, voir plus bas."
-			},
-			"flourish": "visualisation/9892143"
+		"mainTitle": " Manifeste Lady H Society ",
+		"subtitle": "Retrouve les liens vers les épisodes et l'enchaînement des thèmes du manifeste",
+		"title": {
+			"1":"Les thèmes du manifeste",
+			"2":"Les liens vers les épisodes"
 		},
-		"2": {
-			"subtitle": "La vision globale",
-			"intro": "Voici un premier jet de l'ensemble des thèmes",
-			"flourish": "visualisation/9101374"
+		"intro": {	
+			"1": "Découvre les thèmes à travers le graphe ci-dessous. Joue avec les thèmes interconnectés, tu peux les déplacer, les étendres. <strong>En cliquant sur une sphère</strong>, tu verras les liens qui la relient aux autres thèmes. Pour mieux visualiser, tu peux cacher des thèmes en cliquant dessus dans la légende. Tu verras plus bas les liens vers les épisodes.",
+			"5": "Pour chaque thème, tu trouveras :",
+			"2": "Une vidéo Lady H",
+			"3": "Un épisode de podcast sur le parcours d'un.e personne intéressante",
+			"4": "Une bibliographie"
 		},
-		"mainTitle": "Manifeste Lady H Society"
+		"flourish": "visualisation/9101374",
+		"links":"Le pilote sera bientôt en ligne !"
+
 	},
 	"team": {
-		"mainTitle": "Découvres l'équipe derrière le projet !",
 		"1": "Autrice",
 		"2": "Audiovisuel : association Art&Fact",
 		"3": "Illustratrice (fond)",
 		"4": "Illustratrice (BD)",
 		"5": "Costume",
 		"6": "Lieu podcast",
-		"7": "Cercle de relecture"		
+		"7": "Cercle de relecture",
+		"mainTitle": " Découvre l'équipe derrière le projet ! "
 	},
 	"footer": {
 		"name": "Lady H Society",
@@ -126,12 +127,13 @@
 		"button": "Accueil"
 	},
 	"contact": {
+		"title": "N'hésite pas à nous joindre !",
+		"subtitle": "Pour faire des retours, proposer une personne pour le podcast, poser tes questions...",
 		"contactForm": {
-			"title": "N'hésitez pas à nous joindre !",
 			"legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire",
 			"name": "Nom",
 			"email": "Adresse mail",
-			"message": "Message (précisez si vous souhaitez être informé.e des nouveaux épisodes)",
+			"message": "Message (précise si tu souhaites être informé.e des nouveaux épisodes)",
 			"button": "Envoi"
 		}
 	},

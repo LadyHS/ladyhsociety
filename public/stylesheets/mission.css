@@ -33,122 +33,115 @@
       width: 100%;
     }
   }
+  @media screen and (min-width: 500px) and (max-width: 900px) {
+    .comic-item-right, .comic-item-left, .comic-item {
+      flex: 50%;
+      width: 50%;
+    }
+  }
 
 /* buton */
 .black-button {
-  background-color: black;
+  background-color: #131e1e;
   color: white;
-  align-items: center;
-  width: 100%;
+  display: center;
   justify-content: center;
+  width: max-content;
 }
 
 .final-button {
   margin-top:100px;
   margin: auto;
-  display: center;
+  align-items: center;
   justify-content: center;
 }
 
 /* Objectives*/
-/* left and right sections */
 
-.objectives {
-  min-height: 100vh;
-  min-height: calc(var(--vh, 1vh) * 100); 
-  /*height: 100vh;*/
-  padding: 0;
-}
-
-.left,
-.right {
-  width: 50%;
-  padding: 64px 100px;
-}
-
-.left {
-  background: #f5f5f5; 
-}
-
-@media screen and (max-width: 500px) {
-  .left, .right {
-    padding: 30px 12px;
-  }
-}
-
-@media screen and (max-width: 1025px) {
-  .left,
-  .right {
-    width: 100%;
-  }
-}
-
-
-/* list of objectives*/
-.obj-list {
+.content-list { 
+  background: #C7F5DE;
+  color: #131e1e; 
+  padding: 50px 100px;
   display: grid;
   grid-template-columns: repeat(14, 1fr);
-  color: #000000;
-  padding: 50px 100px;
-  font-size: 1.3rem;
 }
 
-.obj-list ol {
-  grid-column: 8/15;
+.content-list .hero-title {
+  grid-column: 1/14; 
+  padding-top: 50px;
+}
+
+
+.content-list .hero-subtitle {
+  grid-column: 5/15;
+  grid-row: 2/3;
+}
+
+.content-list ol {
+  grid-column: 5/15;
   list-style: none;
+  font-size: 1.3rem;
   counter-reset: my-awesome-counter;
 }
 
-.obj-list li {
-  padding: 20px 0;
+#objectives ol {
+  grid-row: 4/5;
+}
+
+.content-list li {
+  padding: 20px 20px 0 70px;
   counter-increment: my-awesome-counter;
   position: relative;
 }
 
-.obj-list li::before {
+.content-list li::before {
   content: "0" counter(my-awesome-counter);
   position: absolute;
   font-variant-numeric: tabular-nums;
-  left: -70px;
-  color: #adadad;
+  left: 0px;
+  color: #FC7753;
 }
 
-.obj-list li p {
+.content-list li p {
   display: inline-block;
 }
 
-.obj-list li p:last-child {
-  color: #adadad;
+.content-list li p:last-child {
+  color: #FC7753;
 }
 
-.obj-list li a {
-  color: #adadad;
+.content-list li a {
+  color: #FC7753;
 }
 
 @media screen and (max-width: 1025px) {
-  .obj-list h1,
+  #objectives h1,
   .full-page-list address {
     grid-column: 1/14;
     padding-top: 0;
     padding-bottom: 30px;
   }
 
-  .obj-list h1 {
+  #objectives h1 {
     font-size: 1.75rem;
     line-height: 3rem;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .obj-list {
+  #objectives, #graph_intro, #graph, #links {
     padding: 30px 12px;
   }
 
-  .obj-list ol {
+  .content-list ol {
     grid-column: 1/15;
   }
 
-  .obj-list li::before {
+  .content-list .hero-subtitle {
+    grid-column: 1/15;
+  }
+
+  .content-list li::before {
     position: initial;
   }
 }
