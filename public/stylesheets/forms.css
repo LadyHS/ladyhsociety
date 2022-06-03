@@ -1,5 +1,7 @@
 .form {
   padding: 30px;
+  background-color: rgb(207, 255, 239);
+  margin-bottom: 30px;
 }
 
 .form-group input,
@@ -27,5 +29,5 @@
 }
 
 select {
-  padding: 10px
+  padding: 10px;
 }

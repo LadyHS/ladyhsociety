@@ -1,146 +1,151 @@
 {
-	"lang": {
-		"value": "fr"
-	},
-	"headline": {
-		"title": " Lady H Society "
-	},
-	"nav": {
-		"1": "Accueil",
-		"2": "Manifeste",
-		"3": "Mission",
-		"4": "Equipe",
-		"5": "Contact",
-		"rawLinks": {
-			"1": "/",
-			"2": "/manifeste",
-			"3": "/mission",
-			"4": "/team",
-			"5": "/contact"
-		}
-	},
-	"home": {
-		"mainTitle": " Lady H Society ",
-		"subtitle": "Découvre une chaîne youtube de vidéos et épisodes de podcast. Le tout forme un manifeste pour une société plus durable, juste et résiliente",
-		"welcome": "Une porte vers un nouveau monde",
-		"intro": {
-			"1": "Nous sommes <strong>en l'an 3000</strong>. Une historienne, <strong>Lady H Society</strong>, s'intéresse à un trou dans les archives de l'histoire humaine : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500 ",
-			"2": "Aujourd'hui, les humains vivent en paix, ont évolué et rejoint <strong>l'Organisation des Mondes Galactiques</strong>",
-			"3": "Avec ce manifeste, pars à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent et sur les <strong>années manquantes dans les archives</strong> !"
-		},
-		"callToAction": {
-			"1": {
-				"call": "Entre dans l'aventure",
-				"name": "Voir le manifeste",
-				"rawLink": "../manifeste"
-			},
-			"2": {
-				"call": "D'où vient ce projet?",
-				"name": "En savoir plus",
-				"rawLink": "../mission"
-			},
-			"3": {
-				"call": "Rejoins l'aventure",
-				"subtitle": "Tu veux participer au cercle de relecture ? Être un.e invité.e du podcast ? Nous faire un retour ?",
-				"name": "Contact",
-				"rawLink": "../contact"
-			}
-		}
-	},
-	"mission": {
-		"mainTitle": " Mission ",
-		"subtitle": "Voici les objectifs et l'histoire de cette chaîne youtube",
-		"comic": {
-			"1": "BD_vignette1_100_nc",
-			"2": "BD_vignette2_100_nc",
-			"3": "BD_vignette3_100_nc",
-			"4": "BD_vignette4_100_nc",
-			"5": "BD_vignette5_200_nc",
-			"title": "L'origine du manifeste",
-			"subtitle": "Dessins d'Elodie Schnitzler"
-		},
-		"obj": {
-			"title": {
-				"1": "Vision",
-				"2": "Mission"
-			},
-			"intro": "Ce manifeste est <strong>une vision personnelle</strong>, basée sur mon histoire et les témoignages de mes proches et collègues. Elle est donc forcément imparfaite, et <strong>vouée à évoluer dans le temps</strong>, notamment avec vos retours. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <strong>d'accueillir vos contributions</strong>.",
-			"content": {
-				"1": "Faire des liens entre plusieurs sujets sociétaux",
-				"2": "Tenter d'aller jusqu'aux racines des problèmes",
-				"3": "Inspirer, donner confiance en soi à tou.te.s",
-				"4": "Créer une communauté de discussions et de collaborations"
-			}
-		},
-		"continue": "Voir le manifeste"
-	},
-	"manifeste": {
-		"mainTitle": " Manifeste Lady H Society ",
-		"subtitle": "Retrouve les liens vers les épisodes et l'enchaînement des thèmes du manifeste",
-		"title": {
-			"1":"Les thèmes du manifeste",
-			"2":"Les liens vers les épisodes"
-		},
-		"intro": {	
-			"1": "Découvre les thèmes à travers le graphe ci-dessous. Joue avec les thèmes interconnectés, tu peux les déplacer, les étendres. <strong>En cliquant sur une sphère</strong>, tu verras les liens qui la relient aux autres thèmes. Pour mieux visualiser, tu peux cacher des thèmes en cliquant dessus dans la légende.cd $LA Tu verras plus bas les liens vers les épisodes.",
-			"5": "Pour chaque thème, tu trouveras :",
-			"2": "Une vidéo Lady H",
-			"3": "Un épisode de podcast sur le parcours d'un.e personne intéressante",
-			"4": "Une bibliographie"
-		},
-		"flourish": "visualisation/9101374",
-		"links":"Le pilote sera bientôt en ligne !"
-
-	},
-	"team": {
-		"1": "Autrice",
-		"2": "Audiovisuel : association Art&Fact",
-		"3": "Illustratrice (fond)",
-		"4": "Illustratrice (BD)",
-		"5": "Costume",
-		"6": "Lieu podcast",
-		"7": "Cercle de relecture",
-		"mainTitle": " Découvre l'équipe derrière le projet ! "
-	},
-	"footer": {
-		"name": "Lady H Society",
-		"rawLinks": {
-			"1": "/",
-			"2": "/manifeste",
-			"3": "/mission",
-			"4": "/team",
-			"5": "/contact"
-		},
-		"mainLinks": {
-			"1": "Accueil",
-			"2": "Manifeste",
-			"3": "Mission",
-			"4": "Equipe",
-			"5": "Contact"
-		},
-		"design": "Design",
-		"dev": "Development",
-		"drawings": "Illustrations"
-	},
-	"ongoing": {
-		"message": "En construction, merci de votre patience",
-		"button": "Accueil"
-	},
-	"contact": {
-		"title": "N'hésite pas à nous joindre !",
-		"subtitle": "Pour faire des retours, proposer une personne pour le podcast, poser tes questions...",
-		"contactForm": {
-			"legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire",
-			"name": "Nom",
-			"email": "Adresse mail",
-			"message": "Message (précise si tu souhaites être informé.e des nouveaux épisodes)",
-			"button": "Envoi"
-		}
-	},
-	"sources": {
-		"1": {
-			"title": "Besoins pour une vie décente",
-			"content": ""
-		}
-	}
+  "lang": {
+    "value": "fr"
+  },
+  "headline": {
+    "title": " Lady H Society "
+  },
+  "nav": {
+    "1": "Accueil",
+    "2": "Manifeste",
+    "3": "Mission",
+    "4": "Equipe",
+    "5": "Contact",
+    "rawLinks": {
+      "1": "/",
+      "2": "/manifeste",
+      "3": "/mission",
+      "4": "/team",
+      "5": "/contact"
+    }
+  },
+  "home": {
+    "mainTitle": " Lady H Society ",
+    "subtitle": "Découvre une chaîne youtube de vidéos et épisodes de podcast. Le tout forme un manifeste pour une société plus durable, juste et résiliente",
+    "welcome": "Une porte vers un nouveau monde",
+    "intro": {
+      "1": "Nous sommes <strong>en l'an 3000</strong>. Une historienne, <strong>Lady H Society</strong>, s'intéresse à un trou dans les archives de l'histoire humaine : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500 ",
+      "2": "Aujourd'hui, les humains vivent en paix, ont évolué et rejoint <strong>l'Organisation des Mondes Galactiques</strong>",
+      "3": "Avec ce manifeste, pars à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent et sur les <strong>années manquantes dans les archives</strong> !"
+    },
+    "callToAction": {
+      "1": {
+        "call": "Entre dans l'aventure",
+        "name": "Voir le manifeste",
+        "rawLink": "../manifeste"
+      },
+      "2": {
+        "call": "D'où vient ce projet?",
+        "name": "En savoir plus",
+        "rawLink": "../mission"
+      },
+      "3": {
+        "call": "Rejoins l'aventure",
+        "subtitle": "Tu veux participer au cercle de relecture ? Être un.e invité.e du podcast ? Nous faire un retour ?",
+        "name": "Contact",
+        "rawLink": "../contact"
+      }
+    }
+  },
+  "mission": {
+    "mainTitle": " Mission ",
+    "subtitle": "Voici les objectifs et l'histoire de cette chaîne youtube",
+    "comic": {
+      "1": "BD_vignette1_100_nc",
+      "2": "BD_vignette2_100_nc",
+      "3": "BD_vignette3_100_nc",
+      "4": "BD_vignette4_100_nc",
+      "5": "BD_vignette5_200_nc",
+      "title": "L'origine du manifeste",
+      "subtitle": "Dessins d'Elodie Schnitzler"
+    },
+    "obj": {
+      "title": {
+        "1": "Vision",
+        "2": "Mission"
+      },
+      "intro": "Ce manifeste est <strong>une vision personnelle</strong>, basée sur mon histoire et les témoignages de mes proches et collègues. Elle est donc forcément imparfaite, et <strong>vouée à évoluer dans le temps</strong>, notamment avec vos retours. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <strong>d'accueillir vos contributions</strong>.",
+      "content": {
+        "1": "Faire des liens entre plusieurs sujets sociétaux",
+        "2": "Tenter d'aller jusqu'aux racines des problèmes",
+        "3": "Inspirer, donner confiance en soi à tou.te.s",
+        "4": "Créer une communauté de discussions et de collaborations"
+      }
+    },
+    "continue": "Voir le manifeste"
+  },
+  "manifeste": {
+    "mainTitle": " Manifeste Lady H Society ",
+    "subtitle": "Retrouve les liens vers les épisodes et l'enchaînement des thèmes du manifeste",
+    "title": {
+      "1": "Les thèmes du manifeste",
+      "2": "Les liens vers les épisodes"
+    },
+    "intro": {
+      "1": "Découvre les thèmes à travers le graphe ci-dessous.",
+      "2": "Joue avec les thèmes interconnectés, tu peux les déplacer, les étendres.",
+      "3": "<strong>En cliquant sur une sphère</strong>, tu verras les liens qui la relient aux autres thèmes.",
+      "4": "Pour mieux visualiser, tu peux cacher des thèmes en cliquant dessus dans la légende.",
+      "5": "Tu verras plus bas les liens vers les épisodes."
+    },
+    "description": {
+      "1": "Pour chaque thème, tu trouveras :",
+      "2": "Une vidéo Lady H",
+      "3": "Un épisode de podcast sur le parcours d'un.e personne intéressante",
+      "4": "Une bibliographie"
+    },
+    "flourish": "visualisation/9101374",
+    "links": "Le pilote sera bientôt en ligne !"
+  },
+  "team": {
+    "1": "Autrice",
+    "2": "Audiovisuel : association Art&Fact",
+    "3": "Illustratrice (fond)",
+    "4": "Illustratrice (BD)",
+    "5": "Costume",
+    "6": "Lieu podcast",
+    "7": "Cercle de relecture",
+    "mainTitle": "Découvre l'équipe derrière le projet ! "
+  },
+  "footer": {
+    "name": "Lady H Society",
+    "rawLinks": {
+      "1": "/",
+      "2": "/manifeste",
+      "3": "/mission",
+      "4": "/team",
+      "5": "/contact"
+    },
+    "mainLinks": {
+      "1": "Accueil",
+      "2": "Manifeste",
+      "3": "Mission",
+      "4": "Equipe",
+      "5": "Contact"
+    },
+    "design": "Design",
+    "dev": "Development",
+    "drawings": "Illustrations"
+  },
+  "ongoing": {
+    "message": "En construction, merci de votre patience",
+    "button": "Accueil"
+  },
+  "contact": {
+    "title": "N'hésite pas à nous joindre !",
+    "subtitle": "Pour faire des retours, proposer une personne pour le podcast, poser tes questions...",
+    "contactForm": {
+      "legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire",
+      "name": "Nom",
+      "email": "Adresse mail",
+      "message": "Message (précise si tu souhaites être informé.e des nouveaux épisodes)",
+      "button": "Envoi"
+    }
+  },
+  "sources": {
+    "1": {
+      "title": "Besoins pour une vie décente",
+      "content": ""
+    }
+  }
 }

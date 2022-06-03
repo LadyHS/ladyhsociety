@@ -1,104 +1,134 @@
-<!DOCTYPE html>
 <html lang={{{__ "lang.value"}}}>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:image" content="/images/bandeau.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:height" content="660px">
-  <meta property="og:image:width" content="1636px">
-  <meta property="og:description" content="Vous voulez agir pour un monde plus durable, juste et résilient, mais ne savez pas par où commencer ?">
-  {{!-- COMMUN STYLESHEETS --}}
-  <title>Lady H Society</title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
-  <link rel="stylesheet" href="/stylesheets/nav.css">
-  <link rel="stylesheet" href="/stylesheets/footer.css">
-  <link rel="stylesheet" href="/stylesheets/hamburgers.css">
-  <link rel="icon" href="/images/favicon.ico" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="/images/bandeau.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:height" content="660px" />
+    <meta property="og:image:width" content="1636px" />
+    <meta
+      property="og:description"
+      content="Vous voulez agir pour un monde plus durable, juste et résilient, mais ne savez pas par où commencer ?"
+    />
+    {{! COMMUN STYLESHEETS }}
+    <title>Lady H Society</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/nav.css" />
+    <link rel="stylesheet" href="/stylesheets/footer.css" />
+    <link rel="stylesheet" href="/stylesheets/hamburgers.css" />
+    <link rel="icon" href="/images/favicon.ico" />
 
-  {{!-- SPECIFIC STYLESHEETS --}}
-  {{#each styles}}
-  <link rel="stylesheet" href="/stylesheets/{{this}}.css">
-  {{/each}}
-  {{!-- JS SCRIPTS --}}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
-    integrity="sha512-VZ6m0F78+yo3sbu48gElK4irv2dzPoep8oo9LEjxviigcnnnNvnTOJRSrIhuFk68FMLOpiNz+T77nNY89rnWDg=="
-    crossorigin="anonymous"></script>
-  <script async src="https://kit.fontawesome.com/3c3287be3c.js" crossorigin="anonymous"></script>
-  <script type="module" src="/javascripts/nav.js"></script>
-  <script type="module" src="/javascripts/footer.js"></script>
-  <script type="module" src="/javascripts/sizing.js"></script>
-  <script type="module" src="/javascripts/language.js"></script>
-  {{#each scripts}}
-  <script type="module" src="/javascripts/{{this}}.js"></script>
-  {{/each}}
-</head>
+    {{! SPECIFIC STYLESHEETS }}
+    {{#each styles}}
+      <link rel="stylesheet" href="/stylesheets/{{this}}.css" />
+    {{/each}}
+    {{! JS SCRIPTS }}
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
+      integrity="sha512-VZ6m0F78+yo3sbu48gElK4irv2dzPoep8oo9LEjxviigcnnnNvnTOJRSrIhuFk68FMLOpiNz+T77nNY89rnWDg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      src="https://kit.fontawesome.com/3c3287be3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/javascripts/nav.js"></script>
+    <script type="module" src="/javascripts/footer.js"></script>
+    <script type="module" src="/javascripts/sizing.js"></script>
+    <script type="module" src="/javascripts/language.js"></script>
+    {{#each scripts}}
+      <script type="module" src="/javascripts/{{this}}.js"></script>
+    {{/each}}
+  </head>
 
-<body id="body">
-  <nav id="navbar-sticky" class="flex space-b">
-    <div>
-      <button class="hamburger hamburger--collapse js-hamburger" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-      <h1><a href="/">{{{__ "headline.title"}}}</a></h1>
-    </div>
-    <div class="languages">
-      <a href="/fr">FR</a> |
-      <a href="/en">EN</a>
-    </div>
-  </nav>
-  <nav id="navbar-fullscreen" class="flex-col" data-page="{{currentPage}}">
-    <ul class="flex-col space-e">
-      <li data-link="home"><a href="{{{__ "nav.rawLinks.1"}}}">{{{__ "nav.1"}}}</a></li>
-      <li data-link="manifeste"><a href="{{{__ "nav.rawLinks.2"}}}">{{{__ "nav.2"}}}</a></li>
-      <li data-link="mission"><a href="{{{__ "nav.rawLinks.3"}}}">{{{__ "nav.3"}}}</a></li>
-      <li data-link="contact"><a href="{{{__ "nav.rawLinks.4"}}}">{{{__ "nav.4"}}}</a></li>
-      <li data-link="team"><a href="{{{__ "nav.rawLinks.5"}}}">{{{__ "nav.5"}}}</a></li>
-    </ul>
-    <footer class="flex space-b">
-      <p>© Copyright 2022 Lady H Society. All Rights Reserved.</p>
-    </footer>
-  </nav>
-  {{{body}}}
-  <footer id="footer">
-    <div class="contact">
-      <p><a href="{{{__ "footer.rawLinks.1"}}}" style="text-decoration: none; color: white;">{{{__ "footer.name"}}}</a></p>
-    </div>
-    <div class="links flex-col first-links">
-      <a href="{{{__ "footer.rawLinks.2"}}}">{{{__ "footer.mainLinks.2"}}}</a>
-    </div>
-    <div class="links flex-col second-links">
-      <a href="{{{__ "footer.rawLinks.3"}}}">{{{__ "footer.mainLinks.3"}}}</a>
-    </div>
-    <div class="links flex-col third-links">
-      <a href="{{{__ "footer.rawLinks.4"}}}">{{{__ "footer.mainLinks.4"}}}</a>
-    </div>
-    <div class="links flex-col fourth-links">
-      <a href="{{{__ "footer.rawLinks.5"}}}">{{{__ "footer.mainLinks.5"}}}</a>
-    </div>
+  <body id="body">
+    <nav id="navbar-sticky" class="flex space-b">
+      <div>
+        <button
+          class="hamburger hamburger--collapse js-hamburger"
+          type="button"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <h1><a href="/">{{{__ "headline.title"}}}</a></h1>
+      </div>
+      <div class="languages">
+        <a href="/fr">FR</a>
+        |
+        <a href="/en">EN</a>
+      </div>
+    </nav>
+    <nav id="navbar-fullscreen" class="flex-col" data-page="{{currentPage}}">
+      <ul class="flex-col space-e">
+        <li data-link="home"><a href="{{{__ 'nav.rawLinks.1'}}}">{{{__
+              "nav.1"
+            }}}</a></li>
+        <li data-link="manifeste"><a href="{{{__ 'nav.rawLinks.2'}}}">{{{__
+              "nav.2"
+            }}}</a></li>
+        <li data-link="mission"><a href="{{{__ 'nav.rawLinks.3'}}}">{{{__
+              "nav.3"
+            }}}</a></li>
+        <li data-link="team"><a href="{{{__ 'nav.rawLinks.4'}}}">{{{__
+              "nav.4"
+            }}}</a></li>
+        <li data-link="contact"><a href="{{{__ 'nav.rawLinks.5'}}}">{{{__
+              "nav.5"
+            }}}</a></li>
+      </ul>
+      <footer class="flex space-b">
+        <p>© Copyright 2022 Lady H Society. All Rights Reserved.</p>
+      </footer>
+    </nav>
+    {{{body}}}
+    <footer id="footer">
+      <div class="contact">
+        <p><a
+            href="{{{__ 'footer.rawLinks.1'}}}"
+            style="text-decoration: none; color: white;"
+          >{{{__ "footer.name"}}}</a></p>
+      </div>
+      <div class="links flex-col first-links">
+        <a href="{{{__ 'footer.rawLinks.2'}}}">{{{__ "footer.mainLinks.2"}}}</a>
+      </div>
+      <div class="links flex-col second-links">
+        <a href="{{{__ 'footer.rawLinks.3'}}}">{{{__ "footer.mainLinks.3"}}}</a>
+      </div>
+      <div class="links flex-col third-links">
+        <a href="{{{__ 'footer.rawLinks.4'}}}">{{{__ "footer.mainLinks.4"}}}</a>
+      </div>
+      <div class="links flex-col fourth-links">
+        <a href="{{{__ 'footer.rawLinks.5'}}}">{{{__ "footer.mainLinks.5"}}}</a>
+      </div>
       <div class="copyright flex wrap space-b">
-      <div class="flex">
-        <div>{{{__ "footer.dev"}}} : <a href="https://www.linkedin.com/in/tatijana-rajcic-692389139/"
-            target="_blank">Tatijana
-            Rajcic</a> |&nbsp;
+        <div class="flex">
+          <div>{{{__ "footer.dev"}}}
+            :
+            <a
+              href="https://www.linkedin.com/in/tatijana-rajcic-692389139/"
+              target="_blank"
+            >Tatijana Rajcic</a>
+            |&nbsp;
+          </div>
+          <div>{{{__ "footer.drawings"}}}
+            :
+            <a href="http://www.latchi.fr/" target="_blank">LaTchi</a>
+          </div>
         </div>
-        <div>{{{__ "footer.drawings"}}} : <a href="http://www.latchi.fr/"
-            target="_blank">LaTchi</a> 
+        <div class="flex">
+          <div>
+            © Copyright 2022 Lady H Society. &nbsp;
+          </div>
+          <div>
+            All Rights Reserved.
+          </div>
         </div>
       </div>
-      <div class="flex">
-        <div>
-          © Copyright 2022 Lady H Society. &nbsp;
-        </div>
-        <div>
-          All Rights Reserved.
-        </div>
-      </div>
-    </div>
     </footer>
-</body>
+  </body>
 
 </html>

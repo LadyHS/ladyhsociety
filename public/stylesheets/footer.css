@@ -36,7 +36,6 @@
 }
 
 #footer .links {
-  padding: 0 30px 0 0;
   font-size: 1.25rem;
 }
 
@@ -51,19 +50,19 @@
 }
 
 #footer .first-links {
-  grid-column: 5/7;
+  grid-column: 6/7;
 }
 
 #footer .second-links {
-  grid-column: 7/9;
+  grid-column: 8/9;
 }
 
 #footer .third-links {
-  grid-column: 9/11;
+  grid-column: 10/11;
 }
 
 #footer .fourth-links {
-  grid-column: 11/13;
+  grid-column: 12/13;
 }
 
 #footer .copyright {
@@ -100,11 +99,10 @@
 
   #footer .first-links,
   #footer .second-links,
-  #footer .third-links, 
+  #footer .third-links,
   #footer .fourth-links {
     grid-column: 1/12;
   }
-
 
   #footer .links a,
   #footer .second-links a:last-child {

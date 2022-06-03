@@ -1,67 +1,88 @@
 .header-intro {
-  position: absolute;
   width: 100%;
   margin-top: 10vh; /* dimensions of the nav */
   min-height: 90vh;
-  max-height: 100vh;
-  padding: 50px 100px;
+  min-height: calc(var(--vh, 1vh) * 90);
+  padding: 100px;
+  /* background: #131e1e; */
   color: #ffffff;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  position: relative;
+  /* background-image: url("../images/ladyhworld_dark.jpeg"); */
+}
+
+.header-intro > * {
+  position: relative;
+}
+
+.header-intro::before {
+  content: "";
+  background-image: url("../images/ladyhworld_dark.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.header-intro .catchphrase {
+  font-family: Traulha;
+  font-style: italic;
+  font-weight: normal;
+  color: white;
+  width: 70%;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  padding-top: 15vh;
   margin-bottom: 10vh;
 }
 
-.catchphrase {
-  width: 70%;
-}
-
-
-/*illustration for the banner*/
-#hd-img {
-  width: 100%;
-  height: hidden;
+.header-intro .main-title span {
+  line-height: 3.5rem;
+  font-size: 3rem;
+  padding: 10px 24px;
+  background: #c7f5de;
+  align-self: center;
+  color: #131e1e;
 }
 
 /* ALL MEDIA QUERIES */
 
-@media screen and (max-width: 1025px){
-  header .main-title span{
-    font-size: 2rem;
-    line-height: 2.5rem;
+@media screen and (max-width: 1025px) {
+  .header-intro {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: initial;
   }
-  header .catchphrase {
+
+  .header-intro .main-title {
+    padding: 10px 12px;
+  }
+
+  .header-intro .main-title span {
+    padding: 5px 0;
+    font-size: 2rem;
+    line-height: 4rem;
+    box-shadow: 0.5em 0 0 #c7f5de, -0.5em 0 0 #c7f5de;
+  }
+  .header-intro .catchphrase {
     width: 90%;
     font-size: 1.5rem;
     line-height: 2rem;
+    padding-top: 5vh;
   }
 }
 
 @media screen and (max-width: 500px) {
   .header-intro {
     padding: 30px 12px;
-  }
-}
-
-.main-title span {
-    line-height: 3.5rem;
-    font-size: 3rem;
-    background: #C7F5DE;
-    align-self: center;
-    color: #131e1e;
+    font-size: 1.75rem;
+    line-height: 3rem;
   }
 
-.catchphrase {
-  font-family: Traulha;
-  font-style: italic;
-  font-weight: normal;
-  color: white;
-  font-size: 1.75rem;
-  line-height: 2rem;
-  padding-top: 15vh;
-  margin-bottom: 10vh;
-}
-@media (max-width: 850px) {
-  .catchphrase {
-    padding-top: 5vh;
-    width: 85%;
+  .header-intro::before {
+    opacity: 0.8;
   }
 }
-

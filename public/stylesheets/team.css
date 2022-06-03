@@ -1,10 +1,14 @@
+#team .main-title {
+  margin-bottom: 120px;
+}
+
 #people {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: max-content 1fr;
-  padding: 50px 100px;
   justify-content: center;
   align-items: center;
+  grid-gap: 0 50px;
 }
 
 #people div:first-child {
@@ -18,21 +22,21 @@
 }
 
 @media screen and (max-width: 850px) {
-  #people div:first-child, #people div:nth-child(2), #people div:last-child {
+  #people div:first-child,
+  #people div:nth-child(2),
+  #people div:last-child {
     grid-column: 1/4;
   }
 }
-  
+
 .team-list ol {
-    list-style: none;
-  }
-  
-.team-list li {
-    padding: 20px 0;
-  }
-
-#people h2 {
-  color: #FC7753;
+  list-style: none;
 }
-  
 
+.team-list li {
+  padding: 20px 0;
+}
+
+#people ol > li > p:first-child {
+  color: #fc7753;
+}

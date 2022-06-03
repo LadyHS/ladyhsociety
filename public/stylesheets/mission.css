@@ -1,44 +1,128 @@
-/*Comic*/
-#origin {
-  background:white;
+#objectives {
+  background: #c7f5de;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
 }
 
+#objectives .hero-title {
+  grid-column: 1/14;
+  padding-top: 50px;
+}
+
+#objectives .main-paragraph {
+  grid-column: 5/15;
+  grid-row: 2/3;
+  font-size: 1.75rem;
+}
+
+#objectives ol {
+  grid-column: 5/15;
+  grid-row: 4/5;
+  list-style: none;
+  font-size: 1.3rem;
+  counter-reset: my-awesome-counter;
+}
+
+#objectives li {
+  padding: 20px 20px 0 70px;
+  counter-increment: my-awesome-counter;
+  position: relative;
+}
+
+#objectives li::before {
+  content: "0" counter(my-awesome-counter);
+  position: absolute;
+  font-variant-numeric: tabular-nums;
+  left: 0;
+  color: #fc7753;
+}
+
+#objectives li p {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1025px) {
+  #objectives .hero-title {
+    padding-top: 20px;
+  }
+  #objectives .main-paragraph {
+    font-size: 1.25rem;
+  }
+  #objectives ol {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #objectives .hero-title:first-child {
+    padding-top: 0;
+  }
+
+  #objectives .hero-title:last-child {
+    padding-top: 50px;
+  }
+
+  #objectives ol {
+    grid-column: 1/15;
+  }
+
+  #objectives .main-paragraph {
+    grid-column: 1/15;
+  }
+
+  #objectives li::before {
+    position: initial;
+  }
+
+  #objectives li {
+    padding: 0;
+  }
+}
+
+/*Comic*/
+#origin {
+  background: white;
+}
 
 .comic {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    row-gap: 60px;
-    margin-top: 60px;
-  }
-  
-  .comic-item-small {
-    flex: 30%;
-  }
-  
-  .comic-item-big {
-    flex: 70%;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 60px;
+  margin-top: 60px;
+}
+
+.comic-item-small {
+  flex: 30%;
+}
+
+.comic-item-big {
+  flex: 70%;
+}
+
+.comic-item {
+  width: auto;
+  height: 70%;
+}
+
+@media screen and (max-width: 500px) {
+  .comic-item-right,
+  .comic-item-left,
   .comic-item {
-    width: auto;
-    height: 70%;
+    flex: 100%;
+    width: 100%;
   }
-  
-  @media screen and (max-width: 500px) {
-    .comic-item-right, .comic-item-left, .comic-item {
-      flex: 100%;
-      width: 100%;
-    }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .comic-item-right,
+  .comic-item-left,
+  .comic-item {
+    flex: 50%;
+    width: 50%;
   }
-  @media screen and (min-width: 500px) and (max-width: 900px) {
-    .comic-item-right, .comic-item-left, .comic-item {
-      flex: 50%;
-      width: 50%;
-    }
-  }
+}
 
 /* buton */
 .black-button {
@@ -50,104 +134,8 @@
 }
 
 .final-button {
-  margin-top:100px;
+  margin-top: 100px;
   margin: auto;
   align-items: center;
   justify-content: center;
-}
-
-/* Objectives*/
-
-.content-list { 
-  background: #C7F5DE;
-  color: #131e1e; 
-  padding: 50px 100px;
-  display: grid;
-  grid-template-columns: repeat(14, 1fr);
-}
-
-.content-list .hero-title {
-  grid-column: 1/14; 
-  padding-top: 50px;
-}
-
-
-.content-list .hero-subtitle {
-  grid-column: 5/15;
-  grid-row: 2/3;
-}
-
-.content-list ol {
-  grid-column: 5/15;
-  list-style: none;
-  font-size: 1.3rem;
-  counter-reset: my-awesome-counter;
-}
-
-#objectives ol {
-  grid-row: 4/5;
-}
-
-.content-list li {
-  padding: 20px 20px 0 70px;
-  counter-increment: my-awesome-counter;
-  position: relative;
-}
-
-.content-list li::before {
-  content: "0" counter(my-awesome-counter);
-  position: absolute;
-  font-variant-numeric: tabular-nums;
-  left: 0px;
-  color: #FC7753;
-}
-
-.content-list li p {
-  display: inline-block;
-}
-
-.content-list li p:last-child {
-  color: #FC7753;
-}
-
-.content-list li a {
-  color: #FC7753;
-}
-
-@media screen and (max-width: 1025px) {
-  #objectives h1,
-  .full-page-list address {
-    grid-column: 1/14;
-    padding-top: 0;
-    padding-bottom: 30px;
-  }
-
-  #objectives h1 {
-    font-size: 1.75rem;
-    line-height: 3rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  #objectives, #graph_intro, #graph, #links {
-    padding: 30px 12px;
-  }
-
-  .content-list ol {
-    grid-column: 1/15;
-  }
-
-  .content-list .hero-subtitle {
-    grid-column: 1/15;
-  }
-
-  .content-list li::before {
-    position: initial;
-  }
-}
-
-@media screen and (min-width: 500px) and (max-width: 1025px) {
-  .full-page-list ol {
-    grid-column: 1/14;
-  }
 }

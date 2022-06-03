@@ -14,16 +14,15 @@ router.get("/", function (req, res, next) {
 
 router.get(["/manifeste"], function (req, res, next) {
   res.render("manifeste", {
-    styles: ["header", "buttons", "forms","mission"],
+    styles: ["header", "buttons", "forms", "manifeste"],
     scripts: ["manifeste"],
     currentPage: "manifeste",
   });
 });
 
-
 router.get("/mission", function (req, res, next) {
   res.render("mission", {
-    styles: ["mission","header","buttons"],
+    styles: ["mission", "header", "buttons"],
     currentPage: "mission",
   });
 });
@@ -38,7 +37,7 @@ router.get("/contact", function (req, res, next) {
 
 router.get(["/team"], function (req, res, next) {
   res.render("team", {
-    styles: ["header", "team","buttons"],
+    styles: ["header", "team", "buttons"],
     currentPage: "team",
   });
 });
@@ -48,8 +47,7 @@ router.get(["/sources1"], function (req, res, next) {
     styles: ["header", "home"],
     currentPage: "sources1",
   });
-}); 
-
+});
 
 // Contact and full invoice on contact page
 
@@ -88,6 +86,5 @@ router.post("/send-contact", function (req, res, next) {
       })
     );
 });
-
 
 module.exports = router;

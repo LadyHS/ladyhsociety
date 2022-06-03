@@ -1,0 +1,60 @@
+#graph {
+  background-color: white;
+}
+
+#videos {
+  background: #c7f5de;
+}
+
+#videos ol {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(3, min-content);
+  list-style: none;
+  font-size: 1.3rem;
+  counter-reset: my-awesome-counter;
+  padding: 5vh 0;
+}
+
+#videos ol li {
+  padding: 20px 20px 0 70px;
+  counter-increment: my-awesome-counter;
+  position: relative;
+}
+
+#videos ol li::before {
+  content: "0" counter(my-awesome-counter);
+  position: absolute;
+  font-variant-numeric: tabular-nums;
+  left: 0;
+  color: #fc7753;
+}
+
+#videos ol li:first-child {
+  grid-column: 1/6;
+  grid-row: 1/2;
+}
+
+#videos li:nth-child(2) {
+  grid-column: 5/12;
+  grid-row: 2/3;
+}
+
+#videos li:last-child {
+  grid-column: 12/15;
+  grid-row: 3/4;
+}
+
+@media screen and (max-width: 1025px) {
+  #videos ol li:first-child,
+  #videos li:nth-child(2),
+  #videos li:last-child {
+    grid-column: 1/15;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #videos ol {
+    padding: 10px;
+  }
+}

@@ -1,41 +1,54 @@
 <section id="contact">
- 
+
   <section class="container flex wrap">
-      <img src="images/ladyhworld_dark.jpeg" alt="Lady H Society's world" class="banner-image">
-      <header class="header-intro">
-        <div class="main-title">
-          <h1><span>{{{__ "contact.title"}}}</span></h1>
-        </div>
-        <p class="catchphrase">{{{__ "contact.subtitle"}}}</p>
-        <a href="#contact-form" class="icon-container">
-          <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </a>
-      </header>
-    </section>
-    
+    <header class="header-intro">
+      <div class="main-title">
+        <h1><span>{{{__ "contact.title"}}}</span></h1>
+      </div>
+      <p class="catchphrase">{{{__ "contact.subtitle"}}}</p>
+      <a href="#contact-form" class="icon-container">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </header>
+  </section>
+
   <section id="contact-form" class="main-section">
     <div class="form contact-form">
       <div class="form-group flex-col">
-        <label for="client-name">{{{__ "contact.contactForm.name"}}}<span class="mandatory">*</span></label>
+        <label for="client-name">{{{__ "contact.contactForm.name"}}}<span
+            class="mandatory"
+          >*</span></label>
         <input type="text" name="name" id="client-name" required />
       </div>
       <div class="form-group flex-col">
-        <label for="client-email">{{{__ "contact.contactForm.email"}}}<span class="mandatory">*</span></label>
+        <label for="client-email">{{{__ "contact.contactForm.email"}}}<span
+            class="mandatory"
+          >*</span></label>
         <input type="text" name="email" id="client-email" required />
       </div>
       <div class="form-group flex-col">
-        <label for="client-message">{{{__ "contact.contactForm.message"}}}<span class="mandatory">*</span></label>
-        <textarea name="message" id="client-message" cols="30" rows="6"></textarea>
+        <label for="client-message">{{{__ "contact.contactForm.message"}}}<span
+            class="mandatory"
+          >*</span></label>
+        <textarea
+          name="message"
+          id="client-message"
+          cols="30"
+          rows="6"
+        ></textarea>
       </div>
       <div class="flex align-c justify-e">
         <div class="additional"></div>
-        <button id="send-contact" class="button black-button"
-          type="submit">{{{__ "contact.contactForm.button"}}}</button>
+        <button
+          id="send-contact"
+          class="button black-button"
+          type="submit"
+        >{{{__ "contact.contactForm.button"}}}</button>
       </div>
     </div>
     <div>
       <p style="font-style:italic">{{{__ "contact.contactForm.legal"}}}</p>
     </div>
   </section>
-  
+
 </section>
