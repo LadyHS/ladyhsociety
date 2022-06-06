@@ -32,7 +32,7 @@
 /* -------------------------- CALL TO ACTION -------------------------- */
 
 #actions {
-  background-color: rgb(207, 255, 239);
+  background-color: #fff0c9;
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: max-content 1fr;
