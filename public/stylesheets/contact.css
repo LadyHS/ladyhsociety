@@ -2,54 +2,6 @@
   background: #C7F5DE;
 }
 
-.contact-form {
-  padding: 30px;
-  
-}
-
-.additional {
-  margin-right: 30px;
-}
-
-.index-container {
-  padding: 20px 30px;
-  font-variant-numeric: tabular-nums;
-  background: #131e1e;
-  color: #ffffff;
-}
-
-.form-group .form-group {
-  margin: 20px 30px;
-}
-
-#add {
-  margin: 20px 0;
-  cursor: pointer;
-}
-
-#add > div {
-  margin-right: 15px;
-  text-decoration: underline;
-}
-
-#contact .bordered {
-  margin-bottom: 20px;
-}
-
-select {
-  background: url("/images/arrow.png") no-repeat right #ffffff;
-  background-position: 99%;
-}
-
-@media screen and (max-width: 500px) {
-  .buttons-panel {
-    flex-direction: column;
-  }
-
-  .buttons-panel .button {
-    width: max-content;
-  }
-  #contact-form {
-    padding: 30px 12px;
-  }
+#form p {
+  font-style:italic;
 }

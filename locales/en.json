@@ -97,6 +97,20 @@
       "3": "A podcast episode about an interesting person's life",
       "4": "Sources"
     },
+    "episodes" : {
+      "bibliointro" : "Learn more",
+      "0" : {
+        "titre" : "Episode 0 - Systemic thinking",
+        "decouvre" : "The series begins! Discover:",
+        "LHS" : "Lady H Society's world in <a href='' target='blank'>this video</a>",
+        "entretien" : "The story of Florence N'Da Konan, children psychologist, sociologist, who implements social and environmental projects all over the world in <a href='' target='blank'>this interview</a> (in French with English subtitles)",
+        "biblio" : {
+          "a" : "<a href='' target='blank'>Notes</a> on Lady H Society's world",
+          "b" : "Florence's <a href='https://www.linkedin.com/in/florencendakonan/?originalSubdomain=fr' target='blank'>linkedin</a>",
+          "c" : "<a href='' target='blank'>Some content</a> about systemic thinking"
+        }
+      }
+    },
     "flourish": "visualisation/9268745",
     "links": "The pilote episode will be online soon."
   },
@@ -133,13 +147,8 @@
   "contact": {
     "title": " Don't hesitate to reach out ",
     "subtitle": "To be a part of the discussion, to participate in the podcast, to provide feedback...",
-    "contactForm": {
-      "legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form.",
-      "name": "Name",
-      "email": "Email address",
-      "message": "Message (please mention if you'd like to recieve monthly updates)",
-      "button": "Send"
-    }
+    "form":"https://framaforms.org/message-for-lady-h-society-1659538091",
+    "legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form."
   },
   "sources": {
     "1": {

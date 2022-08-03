@@ -6,7 +6,7 @@
   background: #c7f5de;
 }
 
-#videos ol {
+#videos ol, #episodes ol {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(3, min-content);
@@ -16,13 +16,13 @@
   padding: 5vh 0;
 }
 
-#videos ol li {
+#videos ol li, #episodes ol li {
   padding: 20px 20px 0 70px;
   counter-increment: my-awesome-counter;
   position: relative;
 }
 
-#videos ol li::before {
+#videos ol li::before, #episodes ol li::before {
   content: "0" counter(my-awesome-counter);
   position: absolute;
   font-variant-numeric: tabular-nums;
@@ -30,31 +30,53 @@
   color: #fc7753;
 }
 
-#videos ol li:first-child {
+#videos ol li:first-child, #episodes ol li:first-child {
   grid-column: 1/6;
   grid-row: 1/2;
 }
 
-#videos li:nth-child(2) {
+#videos li:nth-child(2),#episodes li:nth-child(2) {
   grid-column: 5/12;
   grid-row: 2/3;
 }
 
-#videos li:last-child {
-  grid-column: 12/15;
+#videos li:last-child,#episodes li:last-child {
+  grid-column: 10/15;
   grid-row: 3/4;
 }
 
 @media screen and (max-width: 1025px) {
-  #videos ol li:first-child,
-  #videos li:nth-child(2),
-  #videos li:last-child {
+  #videos ol li:first-child,#episodes ol li:first-child,
+  #videos li:nth-child(2),#episodes li:nth-child(2),
+  #videos li:last-child,#episodes li:last-child {
     grid-column: 1/15;
   }
 }
 
 @media screen and (max-width: 1025px) {
-  #videos ol {
+  #videos ol,#episodes ol {
     padding: 10px;
   }
+}
+
+/*EPISODES*/
+#episodes {
+  background-color: #fff0c9;
+}
+
+.arrow p {
+  list-style-type: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+.arrow p:before {
+  content: "\25BA \0020";
+  font-size: 0.7rem;
+  position: absolute;
+  left: -10px;
+}
+
+a {
+  color:#fc7753;
 }

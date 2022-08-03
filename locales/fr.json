@@ -94,12 +94,26 @@
       "3": "Un épisode de podcast sur le parcours d'un.e personne intéressante",
       "4": "Une bibliographie"
     },
+    "episodes" : {
+      "bibliointro" : "Pour en savoir plus",
+      "0" : {
+        "titre" : "Episode 0 - Systémie",
+        "decouvre" : "On commence la série ! Découvre :",
+        "LHS" : "Le monde de Lady H Society dans <a href='' target='blank'>cette vidéo</a>",
+        "entretien" : "Et le parcours de Florence N'Da Konan, psychologue pour enfants, sociologue, qui monte des projets sociaux et environnementaux à travers le monde dans <a href='' target='blank'>cet entretien</a>",
+        "biblio" : {
+          "a" : "<a href='' target='blank'>Notes</a> sur l'univers de Lady H Society",
+          "b" : "<a href='https://www.linkedin.com/in/florencendakonan/?originalSubdomain=fr' target='blank'>Site</a> de Florence",
+          "c" : "<a href='' target='blank'>Quelques idées</a> sur la systémie"
+        }
+      }
+    },
     "flourish": "visualisation/9101374",
     "links": "Le pilote sera bientôt en ligne !"
   },
   "team": {
     "1": "Autrice",
-    "2": "Art&Fact: production vidéo / musique / mise en scène",
+    "2": "Art&Fact : production vidéo / musique / mise en scène",
     "3": "Illustratrice (fond)",
     "4": "Illustratrice (BD)",
     "5": "Costume",
@@ -134,13 +148,8 @@
   "contact": {
     "title": "N'hésite pas à nous joindre !",
     "subtitle": "Pour faire des retours, proposer une personne pour le podcast, poser tes questions...",
-    "contactForm": {
-      "legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire",
-      "name": "Nom",
-      "email": "Adresse mail",
-      "message": "Message (précise si tu souhaites être informé.e des nouveaux épisodes)",
-      "button": "Envoi"
-    }
+    "form": "https://framaforms.org/message-pour-lady-h-society-1659533683",
+    "legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire"
   },
   "sources": {
     "1": {
