@@ -17,15 +17,19 @@
 
 .buttons-panel {
   display: flex;
-}
-
-.buttons-panel .button:not(:last-child) {
-  margin-right: 10px;
+  align-items: center;
 }
 
 .white-button {
   background: #ffffff;
   color: #131e1e;
+}
+
+.black-button {
+  background: #131e1e;
+  color: #ffffff;
+  margin: 20px;
+  text-align: center;
 }
 
 .black-button:hover {
@@ -38,13 +42,6 @@
   background: #ff4c1c;
 }
 
-.black-button {
-  background: #131e1e;
-  color: #ffffff;
-  margin: 20px;
-  text-align: center;
-}
-
 .icon-container {
   background: #c7f5de;
   color: #131e1e;
@@ -54,6 +51,14 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+.icon-container:hover {
+  background: #fc7753;
+}
+
+.icon-container:active {
+  background: #ff4c1c;
 }
 
 .icon-container i {
@@ -68,5 +73,36 @@
 
 #blackarrowfar {
   background: #131e1e;
-  color: #ffffff;
+  color: #c7f5de;
 }
+
+#blackarrowfar:hover, .black-text-button:hover {
+  color: #fc7753;
+}
+
+#blackarrowfar:active, .black-text-button:active {
+  color: #ff4c1c;
+}
+
+.text-button {
+  height: 50px;
+  background: #c7f5de;
+  color: #131e1e;
+  margin-left: 20px;
+}
+
+.text-button:hover {
+  background: #fc7753;
+}
+
+.text-button:active {
+  background: #ff4c1c;
+}
+
+.black-text-button {
+  height: 50px;
+  background: #131e1e;
+  color: #c7f5de;
+  margin-left: 20px;
+}
+

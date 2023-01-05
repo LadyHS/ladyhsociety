@@ -22,6 +22,7 @@
   "home": {
     "mainTitle": " Lady H Society ",
     "subtitle": "Discover a youtube channel about a manifesto for a fairer, more resilient and sustainable society",
+    "YT":"YouTube Channel",
     "welcome": "A gateway to a new world...",
     "intro": {
       "1": "<strong>The year is 3000</strong>. Lady H Society, a historian, is investigating some <strong>missing archives</strong>: there are no traces of what happened from years 2022 to 2500.",
@@ -35,21 +36,22 @@
         "rawLink": "../manifeste"
       },
       "2": {
-        "call": "Where does all this come from?",
-        "name": "Learn more...",
-        "rawLink": "../mission"
-      },
-      "3": {
         "call": "Join the adventure with us!",
         "subtitle": "You want to be a part of the discussion? to participate in the podcast? to provide feedback?",
         "name": "Reach out!",
         "rawLink": "../contact"
-      }
+      },
+      "3": {
+        "call": "Where does all this come from?",
+        "name": "Learn more...",
+        "rawLink": "../mission"
+      }      
     }
   },
   "mission": {
     "mainTitle": " Mission and how it started ",
     "subtitle": "Learn more about my objectives and how this youtube channel started",
+    "team":"Our dream team",
     "comic": {
       "1": "BD_vignette1_100_en_nc",
       "2": "BD_vignette2_100_en_nc",
@@ -102,27 +104,26 @@
       "0" : {
         "titre" : "Episode 0 - Systemic thinking",
         "decouvre" : "The series begins! Discover:",
-        "LHS" : "Lady H Society's world in <a href='https://youtu.be/Ur3GT0q2vFU' target='blank'>this video</a>",
-        "entretien" : "The story of Florence N'Da Konan, children psychologist, sociologist, who implements social and environmental projects all over the world in <a href='https://youtu.be/4aad7ho9bDo' target='blank'>this interview</a> (in French with English subtitles)",
+        "LHS" : "Lady H Society's world in <a href='https://youtu.be/Ur3GT0q2vFU' target='_blank'>this video</a>",
+        "entretien" : "The story of Florence N'Da Konan, children psychologist, sociologist, who implements social and environmental projects all over the world in <a href='https://youtu.be/4aad7ho9bDo' target='_blank'>this interview</a> (in French with English subtitles)",
         "biblio" : {
-          "a" : "<a href='/images/LHS world.pdf' target='blank'>Notes</a> on Lady H Society's world",
-          "b" : "Florence's <a href='https://www.linkedin.com/in/florencendakonan/?originalSubdomain=fr' target='blank'>linkedin</a>",
-          "c" : "<a href='https://climatefresk.org' target='blank'>The climate fresk</a> mentioned in the interview",
-          "d" : "<a href='/images/systemic thinking.pdf' target='blank'>Some notes</a> about systemic thinking"
+          "a" : "<a href='/images/LHS world.pdf' target='_blank'>Notes</a> on Lady H Society's world",
+          "b" : "Florence's <a href='https://www.linkedin.com/in/florencendakonan/?originalSubdomain=fr' target='_blank'>linkedin</a>",
+          "c" : "<a href='https://climatefresk.org' target='_blank'>The climate fresk</a> mentioned in the interview",
+          "d" : "<a href='/images/systemic thinking.pdf' target='_blank'>Some notes</a> about systemic thinking"
         }
       }
     },
-    "flourish": "visualisation/9268745",
-    "links": "The pilote episode will be online soon."
+    "flourish": "visualisation/9268745"
   },
   "team": {
     "1": "Author",
     "2": "Art&Fact: video production / music / mise en scene",
     "3": "Illustration (background)",
-    "4": "Illustration (comic)",
+    "4": "Reading circle",
     "5": "Costume",
-    "6": "Place for the podcast",
-    "7": "Reading circle",
+    "6": "Illustration (comic)",
+    "7": "Place for the podcast",
     "mainTitle": " Discover our team! "
   },
   "footer": {
@@ -148,6 +149,7 @@
   "contact": {
     "title": " Don't hesitate to reach out ",
     "subtitle": "To be a part of the discussion, to participate in the podcast, to provide feedback...",
+    "discord": "Join our discord",
     "form":"https://framaforms.org/message-for-lady-h-society-1659538091",
     "legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form."
   },

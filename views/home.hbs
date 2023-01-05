@@ -4,9 +4,12 @@
       <h1><span>{{{__ "home.mainTitle"}}}</span></h1>
     </div>
     <p class="catchphrase">{{{__ "home.subtitle"}}}</p>
-    <a href="#story" class="icon-container">
-      <i class="fa fa-chevron-down" aria-hidden="true"></i>
-    </a>
+    <div class="buttons-panel">
+      <a href="#story" class="icon-container">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+      <a class="button text-button" href="https://www.youtube.com/channel/UCWDyHc9uG9jf1SdK_JvXZyw" target = "_blank">{{{__ "home.YT"}}}</a>
+    </div>
   </header>
 
   <section id="story" class="main-section">
@@ -18,33 +21,34 @@
       <p class="main-paragraph">{{{__ "home.intro.2"}}}</p>
       <p class="main-paragraph">{{{__ "home.intro.3"}}}</p>
     </div>
-    <div>
+    <div class = "buttons-panel">
       <a id="blackarrowfar" href="#actions" class="icon-container">
         <i class="fa fa-chevron-down" aria-hidden="true"></i>
       </a>
+      <a class="button black-text-button" href="https://www.youtube.com/channel/UCWDyHc9uG9jf1SdK_JvXZyw" target = "_blank">{{{__ "home.YT"}}}</a>
     </div>
   </section>
 
   <section id="actions" class="main-section">
     <div class="action">
+      <h2 class="hero-title">{{{__ "home.callToAction.1.call"}}}</h2>
+      <a href="/manifeste" class="button black-button" target="_blank">{{{__
+          "home.callToAction.1.name"
+        }}}
+      </a>
+    </div>
+    <div class="action">
       <h2 class="hero-title">{{{__ "home.callToAction.2.call"}}}</h2>
-      <a href="/mission" class="button black-button" target="blank">{{{__
+      <p class="hero-subtitle">{{{__ "home.callToAction.2.subtitle"}}}</p>
+      <a href="/contact" class="button black-button" target="_blank">{{{__
           "home.callToAction.2.name"
         }}}
       </a>
     </div>
     <div class="action">
       <h2 class="hero-title">{{{__ "home.callToAction.3.call"}}}</h2>
-      <p class="hero-subtitle">{{{__ "home.callToAction.3.subtitle"}}}</p>
-      <a href="/contact" class="button black-button" target="blank">{{{__
+      <a href="/mission" class="button black-button" target="_blank">{{{__
           "home.callToAction.3.name"
-        }}}
-      </a>
-    </div>
-    <div class="action">
-      <h2 class="hero-title">{{{__ "home.callToAction.1.call"}}}</h2>
-      <a href="/manifeste" class="button black-button" target="blank">{{{__
-          "home.callToAction.1.name"
         }}}
       </a>
     </div>
