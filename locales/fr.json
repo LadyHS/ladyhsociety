@@ -7,22 +7,22 @@
 	},
 	"nav": {
 		"1": "Accueil",
-		"2": "Manifeste",
-		"3": "Mission",
-		"4": "Equipe",
+		"2": "Vidéos",
+		"3": "Ateliers",
+		"4": "A propos",
 		"5": "Contact",
 		"rawLinks": {
 			"1": "/",
 			"2": "/manifeste",
-			"3": "/mission",
-			"4": "/team",
+			"3": "/workshops",
+			"4": "/mission",
 			"5": "/contact"
 		}
 	},
 	"home": {
 		"mainTitle": " Lady H Society ",
-		"subtitle": "Découvre une chaîne youtube de vidéos et épisodes de podcast. Le tout forme un manifeste pour une société plus durable, juste et résiliente",
-    "YT":"Chaîne YouTube",
+		"subtitle": "Découvre une chaîne youtube de vidéos et épisodes de podcast. Le tout forme un manifeste pour une société plus durable, juste et résiliente. Nous proposons aussi des ateliers d'éducation populaire",
+		"YT": "Chaîne YouTube",
 		"welcome": "Une porte vers un nouveau monde",
 		"intro": {
 			"1": "Nous sommes <strong>en l'an 3000</strong>. Une historienne, <strong>Lady H Society</strong>, s'intéresse à un trou dans les archives de l'histoire humaine : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500 ",
@@ -38,7 +38,7 @@
 			"2": {
 				"call": "Rejoins l'aventure",
 				"name": "Contact",
-        "subtitle": "Tu veux participer au cercle de relecture ? Être un.e invité.e du podcast ? Nous faire un retour ?",
+				"subtitle": "Tu veux participer au cercle de relecture ? aux ateliers ? Nous faire un retour ?",
 				"rawLink": "../contact"
 			},
 			"3": {
@@ -50,9 +50,8 @@
 	},
 	"mission": {
 		"mainTitle": " Mission ",
-		"subtitle": "Voici les objectifs et l'histoire de cette chaîne youtube",
-		"team":"Notre dream team",
-    "comic": {
+		"subtitle": "Voici les objectifs, l'histoire de cette chaîne youtube et l'équipe",
+		"comic": {
 			"1": "BD_vignette1_100_nc",
 			"2": "BD_vignette2_100_nc",
 			"3": "BD_vignette3_100_nc",
@@ -74,7 +73,9 @@
 				"4": "Créer une communauté de discussions et de collaborations"
 			}
 		},
-		"continue": "Voir le manifeste"
+		"continue": "Voir le manifeste",
+		"team": "Notre équipe",
+		"workshops": "Nos ateliers"
 	},
 	"manifeste": {
 		"mainTitle": " Manifeste Lady H Society ",
@@ -84,11 +85,10 @@
 			"2": "Les liens vers les épisodes"
 		},
 		"intro": {
-			"1": "Découvre les thèmes à travers le graphe ci-dessous.",
-			"2": "Joue avec les thèmes interconnectés, tu peux les déplacer, les étendres.",
-			"3": "<strong>En cliquant sur une sphère</strong>, tu verras les liens qui la relient aux autres thèmes.",
-			"4": "Pour mieux visualiser, tu peux cacher des thèmes en cliquant dessus dans la légende.",
-			"5": "Tu verras plus bas les liens vers les épisodes."
+			"1": "Découvre les thèmes à travers le graphe ci-dessous, tu peux jouer avec, les déplacer.",
+			"2": "<strong>En cliquant sur une sphère</strong>, tu verras les liens qui la relient aux autres thèmes.",
+			"3": "Pour mieux visualiser, tu peux cacher des thèmes en cliquant dessus dans la légende.",
+			"4": "Tu verras plus bas les liens vers les épisodes."
 		},
 		"description": {
 			"1": "Pour chaque thème, tu trouveras :",
@@ -117,31 +117,32 @@
 		"1": "Autrice",
 		"2": "Art&Fact : production vidéo / musique / mise en scène",
 		"3": "Illustratrice (fond)",
-    "4": "Cercle de relecture",
-    "5": "Costume",
+		"4": "Cercle de relecture",
+		"5": "Costume",
 		"6": "Illustratrice (BD)",
 		"7": "Lieu podcast",
-		"mainTitle": "Découvre l'équipe derrière le projet ! "
+		"8": "Equipe Ateliers",
+		"mainTitle": "Notre dream team"
 	},
 	"footer": {
 		"name": "Lady H Society",
 		"rawLinks": {
 			"1": "/",
 			"2": "/manifeste",
-			"3": "/mission",
-			"4": "/team",
+			"3": "/workshops",
+			"4": "/mission",
 			"5": "/contact"
 		},
 		"mainLinks": {
 			"1": "Accueil",
-			"2": "Manifeste",
-			"3": "Mission",
-			"4": "Equipe",
+			"2": "Vidéos",
+			"3": "Ateliers",
+			"4": "A propos",
 			"5": "Contact"
 		},
 		"design": "Design",
 		"dev": "Development",
-		"drawings": "Illustrations"
+		"drawings": "Illustration"
 	},
 	"ongoing": {
 		"message": "En construction, merci de votre patience",
@@ -150,19 +151,25 @@
 	"contact": {
 		"title": "N'hésite pas à nous joindre !",
 		"subtitle": "Pour faire des retours, proposer une personne pour le podcast, poser tes questions...",
-    "discord": "Rejoins notre discord",
+		"discord": "Rejoins notre discord",
 		"form": "https://framaforms.org/message-pour-lady-h-society-1659533683",
 		"legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire"
 	},
-	"sources": {
-		"1": {
-			"title": "Besoins pour une vie décente",
-			"content": ""
-		}
-	},
-	"prestations": {
-		"buttons": {
-			"1": "prestations.buttons.1"
+	"workshops": {
+		"mainTitle": "Ateliers pour un monde durable",
+		"title": "Co-créez ou participez à nos ateliers",
+		"subtitle": "Ces ateliers sont ouverts à tou.tes. On veut les co-construire avec toi ! Pour en savoir plus ou participer, vas sur la page contact",
+		"types": {
+			"1": "Ateliers visionnage & discussions",
+			"2": "Ateliers monde de Lady H Society",
+			"3": "Ateliers esprit critique & dialogue",
+			"4": "Ateliers monter son projet"
+		},
+		"content": {
+			"1": "On regarde un ou plusieurs épisodes, puis on fait un débat mouvant ou une discussion ouverte",
+			"2": "On crée des dessins, histoires, musiques... pour illustrer le monde de Lady H Society en l'an 3000",
+			"3": "On parle d'esprit critique, scientifique, de dialogue, pour créer sa propre pensée",
+			"4": "On parle d'orientation, de comment monter un projet, d'entrepreneuriat social, des obstacles, des réussites..."
 		}
 	}
 }

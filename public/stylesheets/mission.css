@@ -124,7 +124,7 @@
   }
 }
 
-/* buton */
+/* button */
 .black-button {
   background-color: #131e1e;
   color: white;
@@ -138,4 +138,6 @@
   margin: auto;
   align-items: center;
   justify-content: center;
+  grid-column: 1/14;
+  padding-top: 50px;
 }

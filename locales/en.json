@@ -1,162 +1,172 @@
 {
-  "lang": {
-    "value": "en"
+	"lang": {
+		"value": "en"
+	},
+	"headline": {
+		"title": " Lady H Society "
+	},
+	"nav": {
+		"1": "Home",
+		"2": "Videos",
+		"3": "Workshops",
+		"4": "About",
+		"5": "Contact",
+		"rawLinks": {
+			"1": "/",
+			"2": "/manifeste",
+			"3": "/workshops",
+			"4": "/mission",
+			"5": "/contact"
+		}
+	},
+	"home": {
+		"mainTitle": " Lady H Society ",
+		"subtitle": "Discover a youtube channel about a manifesto for a fairer, more resilient and sustainable society. We also create popular education workshops",
+		"YT": "YouTube Channel",
+		"welcome": "A gateway to a new world...",
+		"intro": {
+			"1": "<strong>The year is 3000</strong>. Lady H Society, a historian, is investigating some <strong>missing archives</strong>: there are no traces of what happened from years 2022 to 2500.",
+			"2": "In 3000, humans live in peace, and have evolved enough to join the <strong>Galactic Worlds Organization</strong>.",
+			"3": "With this manifesto, discover <strong>Lady H's world</strong>, her investigations into our present day and into the missing archives!"
+		},
+		"callToAction": {
+			"1": {
+				"call": "Enter Lady H Society's world",
+				"name": "See the manifesto",
+				"rawLink": "../manifeste"
+			},
+			"2": {
+				"call": "Join the adventure with us!",
+				"subtitle": "You want to be a part of the discussion? to participate in our workshops? to provide feedback?",
+				"name": "Reach out!",
+				"rawLink": "../contact"
+			},
+			"3": {
+				"call": "Where does all this come from?",
+				"name": "Learn more...",
+				"rawLink": "../mission"
+			}
+		}
+	},
+	"mission": {
+		"mainTitle": " Mission and how it started ",
+		"subtitle": "Learn more about our objectives, how this youtube channel started and our team",
+		"comic": {
+			"1": "BD_vignette1_100_en_nc",
+			"2": "BD_vignette2_100_en_nc",
+			"3": "BD_vignette3_100_en_nc",
+			"4": "BD_vignette4_100_en_nc",
+			"5": "BD_vignette5_200_en_nc",
+			"title": "The starting point of the manifesto",
+			"subtitle": "Drawings by Elodie Schnitzler"
+		},
+		"obj": {
+			"title": {
+				"1": "Vision",
+				"2": "Mission"
+			},
+			"intro": "This manifesto is a <strong>personal world view</strong> based on my experiences and these of my closed ones. It is therefore biased and bound to <strong>evolve over time and include your feedback</strong>. My objective is to remain as scientifically correct as possible, to separate facts from personnal opinions, and to <strong>welcome your contributions</strong>.",
+			"content": {
+				"1": "Show links between societal issues",
+				"2": "Dive into the roots of the problems",
+				"3": "Empower, inspire and promote self-confidence",
+				"4": "Create a community of discussions and collaborations"
+			}
+		},
+		"continue": "See the manifesto",
+		"team": "Our team",
+    "workshops": "Our workshops"
+	},
+	"manifeste": {
+		"mainTitle": " Lady H Society Manifesto ",
+		"subtitle": "Find here the links to episodes and explainations about the themes",
+		"title": {
+			"1": "The manifesto's themes",
+			"2": "Links to episodes"
+		},
+		"intro": {
+			"1": "Discover the manifesto through the graph below, you can play with the themes, move them around.",
+			"2": "<strong>If you click on a sphere</strong>, you'll see its relationship with other themes.",
+			"3": "To see things better, you can hide some sets of themes by clicking them in the key",
+			"4": "Below you can find the links to episodes."
+		},
+		"description": {
+			"1": "For each theme, you'll find links to:",
+			"2": "A Lady H video",
+			"3": "A podcast episode about an interesting person's life",
+			"4": "Sources"
+		},
+		"episodes": {
+			"0": {
+				"titre": "Episode 0 - Systemic thinking",
+				"decouvre": "The series begins! Discover:",
+				"LHS": "Lady H Society's world in <a href='https://youtu.be/Ur3GT0q2vFU' target='_blank'>this video</a>",
+				"entretien": "The story of Florence N'Da Konan, children psychologist, sociologist, who implements social and environmental projects all over the world in <a href='https://youtu.be/4aad7ho9bDo' target='_blank'>this interview</a> (in French with English subtitles)",
+				"biblio": {
+					"a": "<a href='/images/LHS world.pdf' target='_blank'>Notes</a> on Lady H Society's world",
+					"b": "Florence's <a href='https://www.linkedin.com/in/florencendakonan/?originalSubdomain=fr' target='_blank'>linkedin</a>",
+					"c": "<a href='https://climatefresk.org' target='_blank'>The climate fresk</a> mentioned in the interview",
+					"d": "<a href='/images/systemic thinking.pdf' target='_blank'>Some notes</a> about systemic thinking"
+				}
+			},
+			"bibliointro": "Learn more"
+		},
+		"flourish": "visualisation/9268745"
+	},
+	"team": {
+		"1": "Author",
+		"2": "Art&Fact: video production / music / mise en scene",
+		"3": "Illustration (background)",
+		"4": "Reading circle",
+		"5": "Costume",
+		"6": "Illustration (comic)",
+		"7": "Place for the podcast",
+		"8": "Workshop team",
+		"mainTitle": "Our dream team! "
+	},
+  "workshops": {
+    "mainTitle": "Workshops for a sustainable future",
+		"title": "Cocreate or participate in our workshops",
+		"subtitle": "These workshops are open to all. We want to cocreate them with you! To learn more or participate, go to the contact page",
+		"types": {
+			"1": "Watching episodes and debating",
+			"2": "Lady H Society world workshops",
+			"3": "Critical thinking & dialogue workshops",
+			"4": "Creating your own project workshops"
+		},
+		"content": {
+			"1": "We watch one or several episodes, then we do a moving debate or an open discussion",
+			"2": "We create drawings, stories, musics... to illustrate Lady H Society's world in year 3000",
+			"3": "We discuss critical thinking, science, dialogue, and how to create your own world view",
+			"4": "We discuss orientation, how to start a project, social entrepreneurship, obstacles, successes..."
+		}
   },
-  "headline": {
-    "title": " Lady H Society "
-  },
-  "nav": {
-    "1": "Home",
-    "2": "Manifesto",
-    "3": "Mission",
-    "4": "Team",
-    "5": "Contact",
-    "rawLinks": {
-      "1": "/",
-      "2": "/manifeste",
-      "3": "/mission",
-      "4": "/team",
-      "5": "/contact"
-    }
-  },
-  "home": {
-    "mainTitle": " Lady H Society ",
-    "subtitle": "Discover a youtube channel about a manifesto for a fairer, more resilient and sustainable society",
-    "YT":"YouTube Channel",
-    "welcome": "A gateway to a new world...",
-    "intro": {
-      "1": "<strong>The year is 3000</strong>. Lady H Society, a historian, is investigating some <strong>missing archives</strong>: there are no traces of what happened from years 2022 to 2500.",
-      "2": "In 3000, humans live in peace, and have evolved enough to join the <strong>Galactic Worlds Organization</strong>.",
-      "3": "With this manifesto, discover <strong>Lady H's world</strong>, her investigations into our present day and into the missing archives!"
-    },
-    "callToAction": {
-      "1": {
-        "call": "Enter Lady H Society's world",
-        "name": "See the manifesto",
-        "rawLink": "../manifeste"
-      },
-      "2": {
-        "call": "Join the adventure with us!",
-        "subtitle": "You want to be a part of the discussion? to participate in the podcast? to provide feedback?",
-        "name": "Reach out!",
-        "rawLink": "../contact"
-      },
-      "3": {
-        "call": "Where does all this come from?",
-        "name": "Learn more...",
-        "rawLink": "../mission"
-      }      
-    }
-  },
-  "mission": {
-    "mainTitle": " Mission and how it started ",
-    "subtitle": "Learn more about my objectives and how this youtube channel started",
-    "team":"Our dream team",
-    "comic": {
-      "1": "BD_vignette1_100_en_nc",
-      "2": "BD_vignette2_100_en_nc",
-      "3": "BD_vignette3_100_en_nc",
-      "4": "BD_vignette4_100_en_nc",
-      "5": "BD_vignette5_200_en_nc",
-      "title": "The starting point of the manifesto",
-      "subtitle": "Drawings by Elodie Schnitzler"
-    },
-    "obj": {
-      "title": {
-        "1": "Vision",
-        "2": "Mission"
-      },
-      "intro": "This manifesto is a <strong>personal world view</strong> based on my experiences and these of my closed ones. It is therefore biased and bound to <strong>evolve over time and include your feedback</strong>. My objective is to remain as scientifically correct as possible, to separate facts from personnal opinions, and to <strong>welcome your contributions</strong>.",
-      "content": {
-        "1": "Show links between societal issues",
-        "2": "Dive into the roots of the problems",
-        "3": "Empower, inspire and promote self-confidence",
-        "4": "Create a community of discussions and collaborations"
-      }
-    },
-    "continue": "See the manifesto",
-    "title": {
-      "1": "mission.title.1"
-    }
-  },
-  "manifeste": {
-    "mainTitle": " Lady H Society Manifesto ",
-    "subtitle": "Find here the links to episodes and explainations about the themes",
-    "title": {
-      "1": "The manifesto's themes",
-      "2": "Links to episodes"
-    },
-    "intro": {
-      "1": "Discover the manifesto through the graph below.",
-      "2": "Play with the themes, move them around and expend them.",
-      "3": "<strong>If you click on a sphere</strong>, you'll see its relationship with other themes.",
-      "4": "Below you can find the links to episodes.",
-      "5": ""
-    },
-    "description": {
-      "1": "For each theme, you'll find links to:",
-      "2": "A Lady H video",
-      "3": "A podcast episode about an interesting person's life",
-      "4": "Sources"
-    },
-    "episodes" : {
-      "bibliointro" : "Learn more",
-      "0" : {
-        "titre" : "Episode 0 - Systemic thinking",
-        "decouvre" : "The series begins! Discover:",
-        "LHS" : "Lady H Society's world in <a href='https://youtu.be/Ur3GT0q2vFU' target='_blank'>this video</a>",
-        "entretien" : "The story of Florence N'Da Konan, children psychologist, sociologist, who implements social and environmental projects all over the world in <a href='https://youtu.be/4aad7ho9bDo' target='_blank'>this interview</a> (in French with English subtitles)",
-        "biblio" : {
-          "a" : "<a href='/images/LHS world.pdf' target='_blank'>Notes</a> on Lady H Society's world",
-          "b" : "Florence's <a href='https://www.linkedin.com/in/florencendakonan/?originalSubdomain=fr' target='_blank'>linkedin</a>",
-          "c" : "<a href='https://climatefresk.org' target='_blank'>The climate fresk</a> mentioned in the interview",
-          "d" : "<a href='/images/systemic thinking.pdf' target='_blank'>Some notes</a> about systemic thinking"
-        }
-      }
-    },
-    "flourish": "visualisation/9268745"
-  },
-  "team": {
-    "1": "Author",
-    "2": "Art&Fact: video production / music / mise en scene",
-    "3": "Illustration (background)",
-    "4": "Reading circle",
-    "5": "Costume",
-    "6": "Illustration (comic)",
-    "7": "Place for the podcast",
-    "mainTitle": " Discover our team! "
-  },
-  "footer": {
-    "name": "Lady H Society",
-    "rawLinks": {
-      "1": "/",
-      "2": "/manifeste",
-      "3": "/mission",
-      "4": "/team",
-      "5": "/contact"
-    },
-    "mainLinks": {
-      "1": "Home",
-      "2": "Manifesto",
-      "3": "Mission",
-      "4": "Team",
-      "5": "Contact"
-    },
-    "design": "Design",
-    "dev": "Development",
-    "drawings": "Drawings"
-  },
-  "contact": {
-    "title": " Don't hesitate to reach out ",
-    "subtitle": "To be a part of the discussion, to participate in the podcast, to provide feedback...",
-    "discord": "Join our discord",
-    "form":"https://framaforms.org/message-for-lady-h-society-1659538091",
-    "legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form."
-  },
-  "sources": {
-    "1": {
-      "title": "Human rights and needs",
-      "content": ""
-    }
-  }
+	"footer": {
+		"name": "Lady H Society",
+		"rawLinks": {
+			"1": "/",
+			"2": "/manifeste",
+			"3": "/workshops",
+			"4": "/mission",
+			"5": "/contact"
+		},
+		"mainLinks": {
+			"1": "Home",
+			"2": "Videos",
+			"3": "Workshops",
+			"4": "About",
+			"5": "Contact"
+		},
+		"design": "Design",
+		"dev": "Development",
+		"drawings": "Drawing"
+	},
+	"contact": {
+		"title": " Don't hesitate to reach out ",
+		"subtitle": "To be a part of the discussion, to participate in the podcast, to provide feedback...",
+		"discord": "Join our discord",
+		"form": "https://framaforms.org/message-for-lady-h-society-1659538091",
+		"legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form."
+	}
+
 }

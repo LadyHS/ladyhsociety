@@ -22,7 +22,7 @@ router.get(["/manifeste"], function (req, res, next) {
 
 router.get("/mission", function (req, res, next) {
   res.render("mission", {
-    styles: ["mission", "header", "buttons"],
+    styles: ["mission", "header","team", "buttons"],
     currentPage: "mission",
   });
 });
@@ -35,10 +35,10 @@ router.get("/contact", function (req, res, next) {
   });
 });
 
-router.get(["/team"], function (req, res, next) {
-  res.render("team", {
+router.get(["/workshops"], function (req, res, next) {
+  res.render("workshops", {
     styles: ["header", "team", "buttons"],
-    currentPage: "team",
+    currentPage: "workshops",
   });
 });
 
