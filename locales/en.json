@@ -75,7 +75,7 @@
 		},
 		"continue": "See the manifesto",
 		"team": "Our team",
-    "workshops": "Our workshops"
+		"workshops": "Our workshops"
 	},
 	"manifeste": {
 		"mainTitle": " Lady H Society Manifesto ",
@@ -109,6 +109,15 @@
 					"d": "<a href='/images/systemic thinking.pdf' target='_blank'>Some notes</a> about systemic thinking"
 				}
 			},
+			"1": {
+				"titre": "Episode 1 - Climate",
+				"decouvre": "Let's get started! Discover:",
+				"LHS": "A summary of the climate situation by Lady H Society (11min) <a href='https://youtu.be/kE8HuhAwlcw&feature=youtu.be' target='_blank'>here</a> (English subtitles)",
+				"entretien": "An interview with Valérie Masson Delmotte, climatologist, co-president of one of the Chapters of the IPCC, where we discuss orders of magnitude, eco-anxiety, climate science, solutions... <a href='https://youtu.be/fJTyaSSP4DA' target='_blank'>here</a> (English subtitles)",
+				"biblio": {
+					"a": "<a href='/images/climate.pdf' target='_blank'>Sources</a> from the episodes and useful links"
+				}
+			},
 			"bibliointro": "Learn more"
 		},
 		"flourish": "visualisation/9268745"
@@ -124,8 +133,8 @@
 		"8": "Workshop team",
 		"mainTitle": "Our dream team! "
 	},
-  "workshops": {
-    "mainTitle": "Workshops for a sustainable future",
+	"workshops": {
+		"mainTitle": "Workshops for a sustainable future",
 		"title": "Cocreate or participate in our workshops",
 		"subtitle": "These workshops are open to all. We want to cocreate them with you! To learn more or participate, go to the contact page",
 		"types": {
@@ -140,7 +149,7 @@
 			"3": "We discuss critical thinking, science, dialogue, and how to create your own world view",
 			"4": "We discuss orientation, how to start a project, social entrepreneurship, obstacles, successes..."
 		}
-  },
+	},
 	"footer": {
 		"name": "Lady H Society",
 		"rawLinks": {
@@ -168,5 +177,4 @@
 		"form": "https://framaforms.org/message-for-lady-h-society-1659538091",
 		"legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form."
 	}
-
 }

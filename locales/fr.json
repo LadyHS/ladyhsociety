@@ -100,13 +100,22 @@
 			"0": {
 				"titre": "Episode 0 - Systémie",
 				"decouvre": "On commence la série ! Découvre :",
-				"LHS": "Le monde de Lady H Society dans <a href='https://youtu.be/Ur3GT0q2vFU' target='_blank'>cette vidéo</a>",
+				"LHS": "Le monde de Lady H Society dans <a href='https://youtu.be/Ur3GT0q2vFU' target='_blank'>cette vidéo (5 min)</a>",
 				"entretien": "Et le parcours de Florence N'Da Konan, psychologue pour enfants, sociologue, qui monte des projets sociaux et environnementaux à travers le monde dans <a href='https://youtu.be/4aad7ho9bDo' target='_blank'>cet entretien</a>",
 				"biblio": {
 					"a": "<a href='/images/Monde de LHS.pdf' target='_blank'>Notes</a> sur l'univers de Lady H Society",
 					"b": "<a href='https://www.linkedin.com/in/florencendakonan/?originalSubdomain=fr' target='_blank'>Site</a> de Florence",
 					"c": "<a href='https://fresqueduclimat.org' target='_blank'>La fresque du climat</a> mentionnée dans l'entretien",
 					"d": "<a href='/images/systemie.pdf' target='_blank'>Quelques idées</a> sur la systémie"
+				}
+			},
+			"1": {
+				"titre": "Episode 1 - Climat",
+				"decouvre": "Rentrons dans le vif du sujet ! Découvre :",
+				"LHS": "L'explication du climat par Lady H Society (11min) <a href='https://youtu.be/kE8HuhAwlcw&feature=youtu.be' target='_blank'>ici</a>",
+				"entretien": "Un entretien avec Valérie Masson Delmotte, paléoclimatologue, co-présidente d'un des groupes du GIEC et membre du haut conseil pour le climat, on parle d'ordres de grandeur, d'éco-anxiété, de science du climat, de solutions... <a href='https://youtu.be/fJTyaSSP4DA' target='_blank'>ici</a>",
+				"biblio": {
+					"a": "<a href='/images/climat.pdf' target='_blank'>Sources</a> des épisodes et liens utiles"
 				}
 			},
 			"bibliointro": "Pour en savoir plus"
