@@ -74,6 +74,7 @@
 			}
 		},
 		"continue": "See the manifesto",
+		"discord": "Join us!",
 		"team": "Our team",
 		"workshops": "Our workshops"
 	},
@@ -131,7 +132,9 @@
 		"6": "Illustration (comic)",
 		"7": "Place for the podcast",
 		"8": "Workshop team",
-		"mainTitle": "Our dream team! "
+		"9": "Impact Research",
+		"mainTitle": "Our dream team! ",
+		"asso": "We've created the OMG non-profit"
 	},
 	"workshops": {
 		"mainTitle": "Workshops for a sustainable future",

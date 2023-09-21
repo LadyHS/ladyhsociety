@@ -74,6 +74,7 @@
 			}
 		},
 		"continue": "Voir le manifeste",
+		"discord": "Rejoins-nous !",
 		"team": "Notre équipe",
 		"workshops": "Nos ateliers"
 	},
@@ -131,7 +132,9 @@
 		"6": "Illustratrice (BD)",
 		"7": "Lieu podcast",
 		"8": "Equipe Ateliers",
-		"mainTitle": "Notre dream team"
+		"9": "Recherche sur l'impact",
+		"mainTitle": "Notre dream team",
+		"asso": "Nous avons constitué l'association loi 1091 OMG"
 	},
 	"footer": {
 		"name": "Lady H Society",
