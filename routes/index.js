@@ -12,11 +12,11 @@ router.get("/", function (req, res, next) {
   });
 });
 
-router.get(["/manifeste"], function (req, res, next) {
-  res.render("manifeste", {
-    styles: ["header", "buttons", "forms", "manifeste"],
-    scripts: ["manifeste"],
-    currentPage: "manifeste",
+router.get(["/videos"], function (req, res, next) {
+  res.render("videos", {
+    styles: ["header", "buttons", "forms", "videos"],
+    scripts: ["videos"],
+    currentPage: "videos",
   });
 });
 

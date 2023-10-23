@@ -9,11 +9,11 @@
 		"1": "Accueil",
 		"2": "Vidéos",
 		"3": "Ateliers",
-		"4": "A propos",
+		"4": "L'asso",
 		"5": "Contact",
 		"rawLinks": {
 			"1": "/",
-			"2": "/manifeste",
+			"2": "/videos",
 			"3": "/workshops",
 			"4": "/mission",
 			"5": "/contact"
@@ -21,19 +21,19 @@
 	},
 	"home": {
 		"mainTitle": " Lady H Society ",
-		"subtitle": "Découvre une chaîne youtube de vidéos et épisodes de podcast. Le tout forme un manifeste pour une société plus durable, juste et résiliente. Nous proposons aussi des ateliers d'éducation populaire",
+		"subtitle": "Découvre nos vidéos et ateliers d'éducation populaire pour comprendre notre monde, et avoir des idées pour une société plus durable, juste et résiliente.",
 		"YT": "Chaîne YouTube",
 		"welcome": "Une porte vers un nouveau monde",
 		"intro": {
 			"1": "Nous sommes <strong>en l'an 3000</strong>. Une historienne, <strong>Lady H Society</strong>, s'intéresse à un trou dans les archives de l'histoire humaine : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500 ",
 			"2": "Aujourd'hui, les humains vivent en paix, ont évolué et rejoint <strong>l'Organisation des Mondes Galactiques</strong>",
-			"3": "Avec ce manifeste, pars à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent et sur les <strong>années manquantes dans les archives</strong> !"
+			"3": "Avec cette websérie, pars à la découverte du monde de Lady H, de ce qu'elle explore sur notre présent et sur les <strong>années manquantes dans les archives</strong> !"
 		},
 		"callToAction": {
 			"1": {
 				"call": "Entre dans l'aventure",
-				"name": "Voir le manifeste",
-				"rawLink": "../manifeste"
+				"name": "Voir les épisodes",
+				"rawLink": "../videos"
 			},
 			"2": {
 				"call": "Rejoins l'aventure",
@@ -42,22 +42,22 @@
 				"rawLink": "../contact"
 			},
 			"3": {
-				"call": "D'où vient ce projet?",
+				"call": "Notre asso",
 				"name": "En savoir plus",
 				"rawLink": "../mission"
 			}
 		}
 	},
 	"mission": {
-		"mainTitle": " Mission ",
-		"subtitle": "Voici les objectifs, l'histoire de cette chaîne youtube et l'équipe",
+		"mainTitle": " Notre asso ",
+		"subtitle": "Nous avons créé l'asso OMG pour porter le projet, voici son histoire et son équipe",
 		"comic": {
 			"1": "BD_vignette1_100_nc",
 			"2": "BD_vignette2_100_nc",
 			"3": "BD_vignette3_100_nc",
 			"4": "BD_vignette4_100_nc",
 			"5": "BD_vignette5_200_nc",
-			"title": "L'origine du manifeste",
+			"title": "L'origine du projet",
 			"subtitle": "Dessins d'Elodie Schnitzler"
 		},
 		"obj": {
@@ -65,7 +65,7 @@
 				"1": "Vision",
 				"2": "Mission"
 			},
-			"intro": "Ce manifeste est <strong>une vision personnelle</strong>, basée sur mon histoire et les témoignages de mes proches et collègues. Elle est donc forcément imparfaite, et <strong>vouée à évoluer dans le temps</strong>, notamment avec vos retours. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <strong>d'accueillir vos contributions</strong>.",
+			"intro": "On s'est dit : il faut un changement de système pour répondre aux problèmes sociaux et environnementaux, donc il faut <strong>une masse importante de gens qui peuvent s'émanciper</strong> : comprendre leur environnement et avoir du pouvoir d'agir dessus. Donc on présente des <strong>idées</strong> (ordres de grandeur, manières de penser) avec les vidéos et des <strong>compétences</strong> (dialogue, esprit critique, montage de projet) avec les ateliers. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <strong>d'être un projet où tout le monde peut participer</strong>. On teste la sociocratie dans l'équipe. Pour nous rejoindre, va sur notre discord !",
 			"content": {
 				"1": "Faire des liens entre plusieurs sujets sociétaux",
 				"2": "Tenter d'aller jusqu'aux racines des problèmes",
@@ -73,16 +73,16 @@
 				"4": "Créer une communauté de discussions et de collaborations"
 			}
 		},
-		"continue": "Voir le manifeste",
+		"continue": "Voir les épisodes",
 		"discord": "Rejoins-nous !",
 		"team": "Notre équipe",
-		"workshops": "Nos ateliers"
+		"workshops": "Discord"
 	},
-	"manifeste": {
-		"mainTitle": " Manifeste Lady H Society ",
-		"subtitle": "Retrouve les liens vers les épisodes et l'enchaînement des thèmes du manifeste",
+	"videos": {
+		"mainTitle": " Episodes Lady H Society ",
+		"subtitle": "Retrouve les liens vers les épisodes et l'enchaînement des thèmes",
 		"title": {
-			"1": "Les thèmes du manifeste",
+			"1": "Les thèmes de la websérie",
 			"2": "Les liens vers les épisodes"
 		},
 		"intro": {
@@ -140,7 +140,7 @@
 		"name": "Lady H Society",
 		"rawLinks": {
 			"1": "/",
-			"2": "/manifeste",
+			"2": "/videos",
 			"3": "/workshops",
 			"4": "/mission",
 			"5": "/contact"
@@ -149,7 +149,7 @@
 			"1": "Accueil",
 			"2": "Vidéos",
 			"3": "Ateliers",
-			"4": "A propos",
+			"4": "L'association",
 			"5": "Contact"
 		},
 		"design": "Design",

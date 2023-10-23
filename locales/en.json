@@ -9,11 +9,11 @@
 		"1": "Home",
 		"2": "Videos",
 		"3": "Workshops",
-		"4": "About",
+		"4": "Non-profit",
 		"5": "Contact",
 		"rawLinks": {
 			"1": "/",
-			"2": "/manifeste",
+			"2": "/videos",
 			"3": "/workshops",
 			"4": "/mission",
 			"5": "/contact"
@@ -21,19 +21,19 @@
 	},
 	"home": {
 		"mainTitle": " Lady H Society ",
-		"subtitle": "Discover a youtube channel about a manifesto for a fairer, more resilient and sustainable society. We also create popular education workshops",
+		"subtitle": "Discover a youtube channel and popular education workshops for a fairer, more resilient and sustainable society. ",
 		"YT": "YouTube Channel",
 		"welcome": "A gateway to a new world...",
 		"intro": {
 			"1": "<strong>The year is 3000</strong>. Lady H Society, a historian, is investigating some <strong>missing archives</strong>: there are no traces of what happened from years 2022 to 2500.",
 			"2": "In 3000, humans live in peace, and have evolved enough to join the <strong>Galactic Worlds Organization</strong>.",
-			"3": "With this manifesto, discover <strong>Lady H's world</strong>, her investigations into our present day and into the missing archives!"
+			"3": "With this web series, discover <strong>Lady H's world</strong>, her investigations into our present day and into the missing archives!"
 		},
 		"callToAction": {
 			"1": {
 				"call": "Enter Lady H Society's world",
-				"name": "See the manifesto",
-				"rawLink": "../manifeste"
+				"name": "See the episodes",
+				"rawLink": "../videos"
 			},
 			"2": {
 				"call": "Join the adventure with us!",
@@ -57,7 +57,7 @@
 			"3": "BD_vignette3_100_en_nc",
 			"4": "BD_vignette4_100_en_nc",
 			"5": "BD_vignette5_200_en_nc",
-			"title": "The starting point of the manifesto",
+			"title": "The starting point of the project",
 			"subtitle": "Drawings by Elodie Schnitzler"
 		},
 		"obj": {
@@ -65,7 +65,7 @@
 				"1": "Vision",
 				"2": "Mission"
 			},
-			"intro": "This manifesto is a <strong>personal world view</strong> based on my experiences and these of my closed ones. It is therefore biased and bound to <strong>evolve over time and include your feedback</strong>. My objective is to remain as scientifically correct as possible, to separate facts from personnal opinions, and to <strong>welcome your contributions</strong>.",
+			"intro": "This project is a <strong>personal world view</strong> based on my experiences and these of my closed ones. It is therefore biased and bound to <strong>evolve over time and include your feedback</strong>. My objective is to remain as scientifically correct as possible, to separate facts from personnal opinions, and to <strong>welcome your contributions</strong>.",
 			"content": {
 				"1": "Show links between societal issues",
 				"2": "Dive into the roots of the problems",
@@ -73,20 +73,20 @@
 				"4": "Create a community of discussions and collaborations"
 			}
 		},
-		"continue": "See the manifesto",
+		"continue": "See the episodes",
 		"discord": "Join us!",
 		"team": "Our team",
-		"workshops": "Our workshops"
+		"workshops": "Discord"
 	},
-	"manifeste": {
-		"mainTitle": " Lady H Society Manifesto ",
+	"videos": {
+		"mainTitle": " Lady H Society Episodes ",
 		"subtitle": "Find here the links to episodes and explainations about the themes",
 		"title": {
-			"1": "The manifesto's themes",
+			"1": "The videos' themes",
 			"2": "Links to episodes"
 		},
 		"intro": {
-			"1": "Discover the manifesto through the graph below, you can play with the themes, move them around.",
+			"1": "Discover the themes through the graph below, you can play with the themes, move them around.",
 			"2": "<strong>If you click on a sphere</strong>, you'll see its relationship with other themes.",
 			"3": "To see things better, you can hide some sets of themes by clicking them in the key",
 			"4": "Below you can find the links to episodes."
@@ -157,7 +157,7 @@
 		"name": "Lady H Society",
 		"rawLinks": {
 			"1": "/",
-			"2": "/manifeste",
+			"2": "/videos",
 			"3": "/workshops",
 			"4": "/mission",
 			"5": "/contact"
@@ -166,7 +166,7 @@
 			"1": "Home",
 			"2": "Videos",
 			"3": "Workshops",
-			"4": "About",
+			"4": "Our non profit",
 			"5": "Contact"
 		},
 		"design": "Design",
