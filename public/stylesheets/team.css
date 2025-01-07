@@ -1,21 +1,18 @@
 #team .main-title {
   margin-bottom: 120px;
 }
-#workshopList {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: max-content 1fr;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 0 50px;
-}
-#workshopList div:nth-child(2) {
-  grid-column: 1/2;
-}
-#workshopList div:last-child {
-  grid-column: 2/3;
+
+.team-list ol {
+  list-style: none;
 }
 
+.team-list li {
+  padding: 20px 0;
+}
+
+#people ol > li > p:first-child {
+  color: #fc7753;
+}
 
 #people {
   display: grid;
@@ -44,24 +41,27 @@
   }
 }
 
+#workshopList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 0 50px;
+}
+#workshopList div:nth-child(2) {
+  grid-column: 1/2;
+}
+#workshopList div:last-child {
+  grid-column: 2/3;
+}
+
 @media screen and (max-width: 850px) {
   #workshopList div:first-child,
   #workshopList div:nth-child(2),
   #workshopList div:last-child {
     grid-column: 1/4;
   }
-}
-
-.team-list ol {
-  list-style: none;
-}
-
-.team-list li {
-  padding: 20px 0;
-}
-
-#people ol > li > p:first-child {
-  color: #fc7753;
 }
 
 #workshopList ol > li > p:first-child {

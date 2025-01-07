@@ -20,6 +20,12 @@
   align-items: center;
 }
 
+#three_buttons {
+  justify-content: space-between;
+  margin: auto;
+  padding: auto;
+}
+
 .white-button {
   background: #ffffff;
   color: #131e1e;
@@ -78,11 +84,16 @@
   color: #c7f5de;
 }
 
-#blackarrowfar:hover, .black-text-button:hover {
+#blackarrow {
+  background : #131e1e;
+  color : white;
+}
+
+#blackarrowfar:hover, .blackarrow:hover, .black-text-button:hover {
   color: #fc7753;
 }
 
-#blackarrowfar:active, .black-text-button:active {
+#blackarrowfar:active, .blackarrow:active, .black-text-button:active {
   color: #ff4c1c;
 }
 

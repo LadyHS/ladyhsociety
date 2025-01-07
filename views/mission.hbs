@@ -9,12 +9,12 @@
         <a href="#objectives" class="icon-container">
           <i class="fa fa-chevron-down" aria-hidden="true"></i>
         </a>
-        <a class="button text-button" href="#people">{{{__ "mission.team"}}}</a>
+        <a class="button text-button" href="https://www.helloasso.com/associations/omg/adhesions/adhesion-a-l-association-omg">{{{__ "mission.team"}}}</a>
       </div>
     </header>
   </section>
 
-  <section id="objectives" class="flex wrap main-section">
+  <section id="objectives" class="main-section">
     <h2 class="hero-title">{{{__ "mission.obj.title.1"}}}</h2>
     <p class="main-paragraph">{{{__ "mission.obj.intro"}}}</p>
     <h2 class="hero-title">{{{__ "mission.obj.title.2"}}}</h2>
@@ -32,10 +32,15 @@
         <p>{{{__ "mission.obj.content.4"}}}</p>
       </li>
     </ol>
-    <div class="final-button">
-      <a href="https://discord.gg/PQDxS5qqRS" class="black-button button" target="blank">{{{__
-          "mission.workshops"
-        }}}
+    <div id="three_buttons" class="buttons-panel">
+      <a href="#people" class="icon-container" id = "blackarrow">
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.helloasso.com/associations/omg/adhesions/adhesion-a-l-association-omg" class="black-button button" target="blank">
+        {{{__ "mission.team"}}}
+      </a>
+      <a href="https://discord.gg/PQDxS5qqRS" class="black-button button" target="blank">
+        {{{__ "mission.discord"}}}
       </a>
     </div>
   </section>
@@ -93,11 +98,16 @@
         </li>
         <li>
           <p>{{{__ "team.2"}}}</p>
-          <p class="hero-subtitle">Maxime Buard, Chris Chauveau, Louis Pinault & Alexandre Matthewman + Ori</p>
+          <p class="hero-subtitle">Maxime Buard, Chris Chauveau, Louis Pinault, </p>
         </li>
         <li>
           <p>{{{__ "team.3"}}}</p>
           <p class="hero-subtitle">Cibee Kamara de <a href = "http://www.latchi.fr/" target = "_blank">Latchi</a></p>
+        </li>
+        <li>
+          <a id="blackarrowfar" href="#research" class="icon-container">
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </a>
         </li>
       </ol>
     </div>
@@ -105,7 +115,7 @@
       <ol>
         <li>
           <p>{{{__ "team.4"}}}</p>
-          <p class="hero-subtitle">Kevin Arfi, Alexia Beaujeux, Mendes Oulamara, Alice Tarras, Antoine Benassy, Anthony Thomas</p>
+          <p class="hero-subtitle">Kevin Arfi, Mendes Oulamara, Alice Tarras, Antoine Benassy, Anthony Thomas</p>
         </li>
         <li>
           <p>{{{__ "team.5"}}}</p>
@@ -113,7 +123,7 @@
         </li>
         <li>
           <p>{{{__ "team.6"}}}</p>
-          <p class="hero-subtitle">Elodie Schnitzler</p>
+          <p class="hero-subtitle">Bibliocafé, Hugues, Louise & Aude</p>
         </li>
       </ol>
     </div>
@@ -121,23 +131,43 @@
       <ol>
         <li>
           <p>{{{__ "team.7"}}}</p>
-          <p class="hero-subtitle">Bibliocafé, Hugues, Louise & Aude</p>
+          <p class="hero-subtitle">Katia Fairn De Lucas, Nicolas Brasart, Lea Nolleau, Rose Billet, Matthieu Jags, Samir Chtaïni</p>
         </li>
         <li>
           <p>{{{__ "team.8"}}}</p>
-          <p class="hero-subtitle">Mendes Oulamara, Sixtine Le Bourdonnec, Samir Chtaïni</p>
-        </li>
-        <li>
-          <p>{{{__ "team.9"}}}</p>
-          <p class="hero-subtitle">Chloé Bessière</p>
-        </li>
-        <li>
-          <a href="https://discord.gg/PQDxS5qqRS" class="black-button button" target="blank">{{{__
-          "mission.discord"}}}
-          </a>
+          <p class="hero-subtitle">Elodie Ikkache, Alexia Beaujeux, Sixtine Le Bourdonnec, Lola Bory*, Chloé Bessière*, Alexandre Matthewman, Association Ori, Anaïs Gastino</p>
+          <p class="hero-subtitle">{{{__ "team.9"}}}</p>
         </li>
       </ol>
     </div>
   </section>
-
+  <section id="research" class="main-section">
+    <h2 class="hero-title">{{{__ "team.research.mainTitle"}}}</h2>
+    <p class="hero-subtitle">{{{__ "team.research.subTitle"}}}<a href="https://esee-degrowth2024.uvigo.gal/en/the-conference/program/posters/" target="_blank">{{{__ "team.research.link"}}}</a></p>
+    <a id="blackarrowfar" href="#partners" class="icon-container">
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </a>
+  </section>
+  <section id="partners" class="main-section">
+    <h2 class="hero-title">{{{__ "team.partners.mainTitle"}}}</h2>
+    <p class="hero-subtitle">{{{__ "team.partners.subTitle"}}}</p>
+    <div class="grid">
+      <figure class="img-cell"> <img src="/images/AF.png" alt="logo Art&Fact">
+      </figure>
+      <figure class="img-cell"> <img src="/images/DRAC.jpg" alt="logo DRAC Nouvelle Aquitaine">
+      </figure>
+      <figure class="img-cell"> <img src="/images/NelsonMandela.png" alt="logo Lycée Nelson Mandela">
+      </figure>
+      <figure class="img-cell"> <img src="/images/AnneFranck.png" alt="logo EREA Anne Franck">
+      </figure>
+      <figure class="img-cell"> <img src="/images/passculture.png" alt="logo Pass Culture">
+      </figure>
+      <figure class="img-cell"> <img src="/images/LDE.png" alt="logo Ligue de l'Enseignement">
+      </figure>
+      <figure class="img-cell"> <img src="/images/EMF.png" alt="logo Espace Mendes France">
+      </figure>
+      <figure class="img-cell"> <img src="/images/biodiv.png" alt="logo Chaire Biodiversité">
+      </figure>
+    </div>
+  </section>
 </section>

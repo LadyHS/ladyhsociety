@@ -46,9 +46,13 @@
   grid-column: 6/13;
   grid-row: 2/3;
 }
-#actions div:last-child {
+#actions div:nth-child(3){
   grid-column: 11/15;
   grid-row: 3/4;
+}
+#actions div:last-child {
+  grid-column: 1/6;
+  grid-row: 4/5;
 }
 
 @media screen and (max-width: 500px) {
@@ -66,5 +70,10 @@
   margin-top: 30px;
   margin-left: 0px;
   width: max-content;
-  text-align: center;
+  text-align: left;
+}
+
+/* -------------------------- CALL TO ACTION -------------------------- */
+#themes {
+  background-color: white;
 }

@@ -32,7 +32,7 @@
 		"callToAction": {
 			"1": {
 				"call": "Enter Lady H Society's world",
-				"name": "See the episodes",
+				"name": "Episodes",
 				"rawLink": "../videos"
 			},
 			"2": {
@@ -45,8 +45,12 @@
 				"call": "Where does all this come from?",
 				"name": "Learn more...",
 				"rawLink": "../mission"
+			},
+			"4": {
+				"name": "Workshops"
 			}
-		}
+		},
+		"themes": "home.themes"
 	},
 	"mission": {
 		"mainTitle": " Mission and how it started ",
@@ -74,9 +78,8 @@
 			}
 		},
 		"continue": "See the episodes",
-		"discord": "Join us!",
-		"team": "Our team",
-		"workshops": "Discord"
+		"discord": "Discord",
+		"team": "Join us"
 	},
 	"videos": {
 		"mainTitle": " Lady H Society Episodes ",
@@ -119,6 +122,14 @@
 					"a": "<a href='/images/climate.pdf' target='_blank'>Sources</a> from the episodes and useful links"
 				}
 			},
+			"2": {
+				"titre": "Episode 2 - Human Needs",
+				"LHS": "Human Needs explained by Lady H Society (12min) <a href='https://www.youtube.com/watch?v=_dngWGvRo6o' target='_blank'>here</a>",
+				"entretien": "An interview with Suzane Peirera, researcher in combustion, who works on climate migrations and has worked in humanitarian aid in Brazil <a href='https://www.youtube.com/watch?v=p5tmS6FR1vo&list=PLG-DiRWQ_asbQsBecdmF4qYmvV4baWppd' target='_blank'>here</a>",
+				"biblio": {
+					"a": "<a href='https://cryptpad.fr/pad/#/3/pad/view/de1240ae6e99091515b0114dc01cadc3/' target='_blank'>Sources</a> (translation to English coming soon)"
+				}
+			},
 			"bibliointro": "Learn more"
 		},
 		"flourish": "visualisation/9268745"
@@ -129,12 +140,21 @@
 		"3": "Illustration (background)",
 		"4": "Reading circle",
 		"5": "Costume",
-		"6": "Illustration (comic)",
-		"7": "Place for the podcast",
-		"8": "Workshop team",
-		"9": "Impact Research",
+		"6": "Place for the podcast",
+		"7": "Workshop team",
+		"8": "Honorary members",
+		"9": "* psychology internship to determine impact",
 		"mainTitle": "Our dream team! ",
-		"asso": "We've created the OMG non-profit"
+		"asso": "We've created the OMG non-profit",
+		"research": {
+			"mainTitle": "Research",
+			"subTitle": "Lola Bory and Chloé Bessière were interns in OMG during their Masters of Behavioural Psychologyat the University of Poitiers, they studied the impact of the OMG climate video on critical thinking. Chloé presented her results at the Degrowth Conference in Pontevedra in 2024 ",
+			"link": "here (6th on the page) is her poster."
+		},
+		"partners": {
+			"mainTitle": "Partners",
+			"subTitle": "We got funding from the DRAC Nouvelle Aquitaine and pass culture, we've worked with the Biodiversity Chair of the University of Poitiers, the Nelson Mendela High School, the Anne Franck EREA, the LDE, and the non profit Art&Fact makes our videos."
+		}
 	},
 	"workshops": {
 		"mainTitle": "Workshops for a sustainable future",
@@ -179,5 +199,8 @@
 		"discord": "Join our discord",
 		"form": "https://framaforms.org/message-for-lady-h-society-1659538091",
 		"legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form."
+	},
+	"partners": {
+		"mainTitle": "partners.mainTitle"
 	}
 }

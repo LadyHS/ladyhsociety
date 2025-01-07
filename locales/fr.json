@@ -24,6 +24,7 @@
 		"subtitle": "Découvre nos vidéos et ateliers d'éducation populaire pour comprendre notre monde, et avoir des idées pour une société plus durable, juste et résiliente.",
 		"YT": "Chaîne YouTube",
 		"welcome": "Une porte vers un nouveau monde",
+		"themes": "Thèmes",
 		"intro": {
 			"1": "Nous sommes <strong>en l'an 3000</strong>. Une historienne, <strong>Lady H Society</strong>, s'intéresse à un trou dans les archives de l'histoire humaine : il n'y a aucune trace de ce qu'il s'est passé entre les années 2022 et 2500 ",
 			"2": "Aujourd'hui, les humains vivent en paix, ont évolué et rejoint <strong>l'Organisation des Mondes Galactiques</strong>",
@@ -32,7 +33,7 @@
 		"callToAction": {
 			"1": {
 				"call": "Entre dans l'aventure",
-				"name": "Voir les épisodes",
+				"name": "Episodes",
 				"rawLink": "../videos"
 			},
 			"2": {
@@ -45,6 +46,9 @@
 				"call": "Notre asso",
 				"name": "En savoir plus",
 				"rawLink": "../mission"
+			},
+			"4": {
+				"name": "Ateliers"
 			}
 		}
 	},
@@ -65,7 +69,7 @@
 				"1": "Vision",
 				"2": "Mission"
 			},
-			"intro": "On s'est dit : il faut un changement de système pour répondre aux problèmes sociaux et environnementaux, donc il faut <strong>une masse importante de gens qui peuvent s'émanciper</strong> : comprendre leur environnement et avoir du pouvoir d'agir dessus. Donc on présente des <strong>idées</strong> (ordres de grandeur, manières de penser) avec les vidéos et des <strong>compétences</strong> (dialogue, esprit critique, montage de projet) avec les ateliers. L'objectif est de garder une rigueur scientifique, de faire la part entre faits et opinions, et bien sûr <strong>d'être un projet où tout le monde peut participer</strong>. On teste la sociocratie dans l'équipe. Pour nous rejoindre, va sur notre discord !",
+			"intro": "On s'est dit : il faut un changement de système pour répondre aux problèmes sociaux et environnementaux, donc il faut <strong>une masse importante de gens qui peuvent s'émanciper</strong> : comprendre leur environnement et avoir du pouvoir d'agir dessus. On présente des <strong>idées</strong> (ordres de grandeur, manières de penser) avec les vidéos et des <strong>compétences</strong> (dialogue, esprit critique) avec les ateliers. L'objectif est d'avoir une rigueur scientifique, et <strong>d'être un projet où tout le monde peut participer</strong>. On teste la sociocratie dans l'équipe. Pour nous rejoindre, va sur notre discord !",
 			"content": {
 				"1": "Faire des liens entre plusieurs sujets sociétaux",
 				"2": "Tenter d'aller jusqu'aux racines des problèmes",
@@ -74,9 +78,8 @@
 			}
 		},
 		"continue": "Voir les épisodes",
-		"discord": "Rejoins-nous !",
-		"team": "Notre équipe",
-		"workshops": "Discord"
+		"discord": "Discord",
+		"team": "Adhérer"
 	},
 	"videos": {
 		"mainTitle": " Episodes Lady H Society ",
@@ -119,6 +122,14 @@
 					"a": "<a href='/images/climat.pdf' target='_blank'>Sources</a> des épisodes et liens utiles"
 				}
 			},
+			"2": {
+				"titre": "Episode 2 - Les Besoins Humains",
+				"LHS": "Les besoins humains selon Lady H Society (12min) <a href='https://www.youtube.com/watch?v=_dngWGvRo6o' target='_blank'>ici</a>",
+				"entretien": "Un entretien avec Suzane Peirera, chercheuse en combustion, qui travaille sur les questions des migrations climatiques et qui a travaillé dans l’humanitaire au Brésil <a href='https://www.youtube.com/watch?v=p5tmS6FR1vo&list=PLG-DiRWQ_asbQsBecdmF4qYmvV4baWppd' target='_blank'>ici</a>",
+				"biblio": {
+					"a": "<a href='https://cryptpad.fr/pad/#/3/pad/view/de1240ae6e99091515b0114dc01cadc3/' target='_blank'>Sources</a> des épisodes et liens utiles"
+				}
+			},
 			"bibliointro": "Pour en savoir plus"
 		},
 		"flourish": "visualisation/15817017"
@@ -129,12 +140,21 @@
 		"3": "Illustratrice (fond)",
 		"4": "Cercle de relecture",
 		"5": "Costume",
-		"6": "Illustratrice (BD)",
-		"7": "Lieu podcast",
-		"8": "Equipe Ateliers",
-		"9": "Recherche sur l'impact",
+		"6": "Lieu podcast",
+		"7": "Equipe Ateliers",
+		"8": "Membres ayant participé",
+		"9": "* stage en psychologie pour évaluation de l'impact",
 		"mainTitle": "Notre dream team",
-		"asso": "Nous avons constitué l'association loi 1091 OMG"
+		"asso": "Nous avons constitué l'association loi 1091 OMG",
+		"research": {
+			"mainTitle": "Recherche",
+			"subTitle": "Lola Bory et Chloé Bessière, en stage de Master de Psychologie du Comportement à l'Université de Poitiers, ont étudié l'impact de la vidéo climat sur l'esprit critique. Chloé a pu présenter ses résultats à la conférence sur la Décroissance en 2024 à Pontevedra, voir le poster ",
+			"link": "ici (6ème poster)."
+		},
+		"partners": {
+			"mainTitle": "Partenaires",
+			"subTitle": "Nous sommes soutenu.es par la DRAC Nouvelle Aquitaine et pass culture, nous avons travaillé avec la Chaire Biodiversité de l'Université de Poitiers, le Lycée Nelson Mendela, l'EREA Anne Franck, la Ligue de l'Enseignement et l'association Art&Fact réalise nos vidéos."
+		}
 	},
 	"footer": {
 		"name": "Lady H Society",

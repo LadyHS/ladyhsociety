@@ -5,7 +5,7 @@
               "videos.mainTitle"
             }}}</span></h1></div>
       <p class="catchphrase">{{{__ "videos.subtitle"}}}</p>
-      <a href="#graph_intro" class="icon-container">
+      <a id="blackarrowfar" href="#episode0" class="icon-container">
         <i class="fa fa-chevron-down" aria-hidden="true"></i>
       </a>
     </header>
@@ -20,16 +20,7 @@
   </section>
   }} --}}
 
-  <section id="graph" class="main-section">
-    <div
-      class="flourish-embed flourish-network"
-      data-src="{{{__ 'videos.flourish'}}}"
-    ><script
-        src="https://public.flourish.studio/resources/embed.js"
-      ></script></div>
-  </section>
-
-  <section id="videos" class="main-section">
+  {{!--<section id="links" class="main-section">
     <h2 class="hero-title">{{{__ "videos.title.2"}}}</h2>
     <p class="hero-subtitle">
       {{{__ "videos.description.1"}}}
@@ -45,12 +36,11 @@
         <p>{{{__ "videos.description.4"}}}</p>
       </li>
     </ol>
-  </section>
+  </section>--}}
 
-  <section id = "episodes" class = "main-section" "episodes">
+  <section id = "episode0" class = "main-section episodes">
     <div class="episode">
       <h2 class="hero-title">{{{__ "videos.episodes.0.titre"}}}</h2>
-      <p class="hero-subtitle">{{{__ "videos.episodes.0.decouvre"}}}</p>
     </div>
     <ol>
       <li>
@@ -69,12 +59,14 @@
         </ul>
       </li>
     </ol>
+    <a id="blackarrow" href="#episode2" class="icon-container">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </a>
   </section>
 
-  <section id = "episodes" class = "main-section" "episodes">
+  <section id = "episode1" class = "main-section episodes">
     <div class="episode">
       <h2 class="hero-title">{{{__ "videos.episodes.1.titre"}}}</h2>
-      <p class="hero-subtitle">{{{__ "videos.episodes.1.decouvre"}}}</p>
     </div>
     <ol>
       <li>
@@ -90,6 +82,32 @@
         </ul>
       </li>
     </ol>
+      <a id="blackarrow" href="#episode3" class="icon-container">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+  </section>
+
+  <section id = "episode2" class = "main-section episodes">
+    <div class="episode">
+      <h2 class="hero-title">{{{__ "videos.episodes.2.titre"}}}</h2>
+    </div>
+    <ol>
+      <li>
+        <p>{{{__ "videos.episodes.2.LHS"}}}</p>
+      </li>
+      <li>
+        <p>{{{__ "videos.episodes.2.entretien"}}}</p>
+      </li>
+      <li>
+        <p>{{{__ "videos.episodes.bibliointro"}}}</p>
+        <ul class="arrow">
+          <p>{{{__ "videos.episodes.2.biblio.a"}}}</li>
+        </ul>
+      </li>
+    {{!! </ol>
+      <a id="blackarrow" href="#episode3" class="icon-container">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a> --}}
   </section>
 
 

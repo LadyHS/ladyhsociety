@@ -25,21 +25,21 @@
       <a id="blackarrowfar" href="#actions" class="icon-container">
         <i class="fa fa-chevron-down" aria-hidden="true"></i>
       </a>
-      <a class="button black-text-button" href="https://www.youtube.com/channel/UCWDyHc9uG9jf1SdK_JvXZyw" target = "_blank">{{{__ "home.YT"}}}</a>
     </div>
   </section>
 
   <section id="actions" class="main-section">
     <div class="action">
       <h2 class="hero-title">{{{__ "home.callToAction.1.call"}}}</h2>
-      <a href="/videos" class="button black-button" target="_blank">{{{__
-          "home.callToAction.1.name"
-        }}}
-      </a>
+      <div class = "buttons-panel">
+        <a href="/videos" class="button black-button" target="_blank">{{{__ "home.callToAction.1.name"}}}
+        </a>
+        <a href="/workshops" class="button black-button" target="_blank">{{{__ "home.callToAction.4.name"}}}
+        </a>
+      </div>
     </div>
     <div class="action">
       <h2 class="hero-title">{{{__ "home.callToAction.2.call"}}}</h2>
-      <p class="hero-subtitle">{{{__ "home.callToAction.2.subtitle"}}}</p>
       <a href="/contact" class="button black-button" target="_blank">{{{__
           "home.callToAction.2.name"
         }}}
@@ -52,5 +52,18 @@
         }}}
       </a>
     </div>
+    <div class = "buttons-panel">
+      <a id="blackarrowfar" href="#themes" class="icon-container">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </section>
+  <section id="themes" class="main-section">
+    <div
+      class="flourish-embed flourish-network"
+      data-src="{{{__ 'videos.flourish'}}}"
+    ><script
+        src="https://public.flourish.studio/resources/embed.js"
+      ></script></div>
   </section>
 </section>
