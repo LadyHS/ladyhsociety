@@ -160,18 +160,19 @@
 		"mainTitle": "Workshops for a sustainable future",
 		"title": "Cocreate or participate in our workshops",
 		"subtitle": "These workshops are open to all. We want to cocreate them with you! To learn more or participate, go to the contact page",
-		"types": {
-			"1": "Watching episodes and debating",
-			"2": "Lady H Society world workshops",
-			"3": "Critical thinking & dialogue workshops",
-			"4": "Creating your own project workshops"
+		"titles": {
+			"1": "Participants",
+			"2": "Content",
+			"3": "Objectives",
+			"4": "Partners"
 		},
 		"content": {
-			"1": "We watch one or several episodes, then we do a moving debate or an open discussion",
-			"2": "We create drawings, stories, musics... to illustrate Lady H Society's world in year 3000",
-			"3": "We discuss critical thinking, science, dialogue, and how to create your own world view",
-			"4": "We discuss orientation, how to start a project, social entrepreneurship, obstacles, successes..."
-		}
+			"1": "The workshops are for groups, we have tested them with Middle and High Schoolers, we've designed them to be as inclusive as possible.",
+			"2": "Session 1 (3h): understand the themes with a serious game and a giant puzzle. Sessions 2 (3x3h) : with theatre professionnals, enter Lady H's year 3000. Sessions 3 and/or 4 (3x3h or 6x3h): we create illustrations, sculptures, sound effects and soundtracks with artists to build year 3000",
+			"3": "Enjoy a fun and creative moment, understand our society, its environmental and social issues, foster critical mind and respectful dialogue, improve or consolidate self-confidence",
+			"4": "We build the workshops with artists and the Ligue of Teaching (French network), we were funded by the DRAC Nouvelle Aquitaine in 2024"
+		},
+		"pdf": "Brochure"
 	},
 	"footer": {
 		"name": "Lady H Society",
@@ -199,8 +200,5 @@
 		"discord": "Join our discord",
 		"form": "https://framaforms.org/message-for-lady-h-society-1659538091",
 		"legal": "The data collected on this website include and are limited to the data you provide through the contact form. This data will never be shared outside Lady H Society. The data is stored in a secured computer for up to 2 years, for the purpose of creative development of the project. In accordance with the GDPR, you can ask to receive a copy, modify or delete your information at all time -send the request through our contact form."
-	},
-	"partners": {
-		"mainTitle": "partners.mainTitle"
 	}
 }

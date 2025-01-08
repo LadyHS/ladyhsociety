@@ -191,17 +191,18 @@
 		"mainTitle": "Ateliers pour un monde durable",
 		"title": "Co-créez ou participez à nos ateliers",
 		"subtitle": "Ces ateliers sont ouverts à tou.tes. On veut les co-construire avec toi ! Pour en savoir plus ou participer, vas sur la page contact",
-		"types": {
-			"1": "Ateliers visionnage & discussions",
-			"2": "Ateliers monde de Lady H Society",
-			"3": "Ateliers esprit critique & dialogue",
-			"4": "Ateliers monter son projet"
+		"titles": {
+			"1": "Publics",
+			"2": "Sessions",
+			"3": "Objectifs",
+			"4": "Partenaires"
 		},
 		"content": {
-			"1": "On regarde un ou plusieurs épisodes, puis on fait un débat mouvant ou une discussion ouverte",
-			"2": "On crée des dessins, histoires, musiques... pour illustrer le monde de Lady H Society en l'an 3000",
-			"3": "On parle d'esprit critique, scientifique, de dialogue, pour créer sa propre pensée",
-			"4": "On parle d'orientation, de comment monter un projet, d'entrepreneuriat social, des obstacles, des réussites..."
-		}
+			"1": "Les ateliers sont à destination de groupes, nous avons testé avec des élèves de la 5ème à la terminale, le design est fait pour être inclusif",
+			"2": "Session 1 (3h) : comprendre les thèmes avec un serious game et un puzzle géant. Sessions 2 (3x3h) : avec des exercices de théâtre, on rentre dans l'univers de Lady H Society en l'an 3000. Sessions 3 et/ou 4 (3x3h ou 6x3h) : on crée des illustrations, volumes, bruitages et musiques avec des artistes pour co-construire l'an 3000",
+			"3": "Passer un moment ludique et créatif, comprendre notre société, ses enjeux écologiques et sociaux, développer un esprit critique et le dialogue respectueux et nuancé, gagner en confiance en soi",
+			"4": "Nous co-construisons les ateliers avec des artistes et la Ligue de l'Enseignement, nous avons reçu un financement de la DRAC Nouvelle Aquitaine en 2024"
+		},
+		"pdf": "Brochure"
 	}
 }
