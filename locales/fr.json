@@ -50,6 +50,12 @@
 			"4": {
 				"name": "Ateliers"
 			}
+		},
+		"graph": {
+			"title1":"Les thèmes de Lady H Society",
+			"title2":"Les Goupes de thèmes",
+			"flourish": "visualisation/15817017",
+			"image":"/images/graphe.png"
 		}
 	},
 	"mission": {
@@ -131,8 +137,7 @@
 				}
 			},
 			"bibliointro": "Pour en savoir plus"
-		},
-		"flourish": "visualisation/15817017"
+		}
 	},
 	"team": {
 		"1": "Autrice",

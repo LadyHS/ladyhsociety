@@ -50,7 +50,12 @@
 				"name": "Workshops"
 			}
 		},
-		"themes": "home.themes"
+		"graph": {
+			"title1":"Lady H Society themes",
+			"title2":"The theme groups",
+			"flourish": "visualisation/9268745",
+			"image":"/images/graph.png"
+		}
 	},
 	"mission": {
 		"mainTitle": " Mission and how it started ",
@@ -131,8 +136,7 @@
 				}
 			},
 			"bibliointro": "Learn more"
-		},
-		"flourish": "visualisation/9268745"
+		}
 	},
 	"team": {
 		"1": "Author",
