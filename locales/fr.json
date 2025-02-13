@@ -52,10 +52,10 @@
 			}
 		},
 		"graph": {
-			"title1":"Les thèmes de Lady H Society",
-			"title2":"Les Groupes de thèmes",
+			"title1": "Les thèmes de Lady H Society",
+			"title2": "Les Groupes de thèmes",
 			"flourish": "visualisation/15817017",
-			"image":"/images/graphe.png"
+			"image": "/images/graphe.png"
 		}
 	},
 	"mission": {
@@ -190,7 +190,8 @@
 		"subtitle": "Pour faire des retours, proposer une personne pour le podcast, poser tes questions...",
 		"discord": "Rejoins notre discord",
 		"form": "https://framaforms.org/message-pour-lady-h-society-1659533683",
-		"legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire"
+		"legal": "Les données collectées sur ce site sont limitées à celles envoyées à travers ce formulaire de contact. Elles ne seront pas partagées hors de Lady H Society et seront utilisées uniquement à des buts créatifs. Elle seront conservées sur un ordinateur sécurisé pour un maximum de deux ans. Selon le RGPD, vous pouvez demander une copie, modification ou suppression de vos donnéesen utilisant ce formulaire",
+		"button": "Contact"
 	},
 	"workshops": {
 		"mainTitle": "Ateliers pour un monde durable",

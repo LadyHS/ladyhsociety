@@ -34,8 +34,8 @@
 }
 
 @media screen and (max-width: 850px) {
-  #people div:first-child,
   #people div:nth-child(2),
+  #people div:nth-child(3),
   #people div:last-child {
     grid-column: 1/4;
   }
@@ -57,11 +57,19 @@
 }
 
 @media screen and (max-width: 850px) {
-  #workshopList div:first-child,
   #workshopList div:nth-child(2),
+  #workshopList div:nth-child(3),
   #workshopList div:last-child {
-    grid-column: 1/4;
+    grid-column: 1/3;
   }
+}
+
+#workshopList ol {
+  list-style: none;
+}
+
+#workshopList li {
+  padding: 20px 0;
 }
 
 #workshopList ol > li > p:first-child {
