@@ -76,10 +76,11 @@
   },
   #actions div:first-child, 
   #actions div:nth-child(2),
-  #actions div:nth-child(3),
-  #actions div:nth-child(4), 
+  #actions div:nth-child(3),{
+    height : 100%;
+  },
   #actions div:last-child{
-    width : 100%;
+    grid-column: 1/13;
   }
 }
 
