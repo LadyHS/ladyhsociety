@@ -70,10 +70,22 @@
   grid-row: 3/4;
 }
 
+@media screen and (max-width: 1025px) {
+  #actions div:nth-child(4) {
+    height: 70%;
+  },
+  #actions div:first-child, 
+  #actions div:nth-child(2),
+  #actions div:nth-child(3),
+  #actions div:nth-child(4), 
+  #actions div:last-child{
+    width : 100%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   #actions > div.action {
     margin-bottom: 50px;
-    grid-column: 1/12;
   }
 
   #actions > div.action:last-child {
