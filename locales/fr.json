@@ -136,6 +136,14 @@
 					"a": "<a href='https://cryptpad.fr/pad/#/3/pad/view/de1240ae6e99091515b0114dc01cadc3/' target='_blank'>Sources</a> des épisodes et liens utiles"
 				}
 			},
+			"3": {
+				"titre": "Episode 3 - La biodiversité",
+				"LHS": "La biodiversité selon Lady H Society est en cours de tournage.",
+				"entretien": "Un entretien avec Isabelle Delannoy, chercheuse en agrologie, qui a inventé l'économie symbiotique <a href='https://www.youtube.com/watch?v=TAAktBtQ6sU' target='_blank'>ici</a>.",
+				"biblio": {
+					"a": "<a href='AAA' target='_blank'>Sources</a> des épisodes et liens utiles"
+				}
+			},
 			"bibliointro": "Pour en savoir plus"
 		}
 	},
