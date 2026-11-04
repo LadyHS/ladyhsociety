@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Ostia Antica";
-  src: url("/ladyhsociety-test/fonts/Ostia_Antica_WEB-Regular.eot");
-  src: url("/ladyhsociety-test/fonts/Ostia_Antica_WEB-Regular.eot?#iefix")
+  src: url("../fonts/Ostia_Antica_WEB-Regular.eot");
+  src: url("../fonts/Ostia_Antica_WEB-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("/ladyhsociety-test/fonts/Ostia_Antica_WEB-Regular.woff") format("woff"),
-    url("/ladyhsociety-test/fonts/Ostia_Antica_WEB-Regular.woff2") format("woff2");
+    url("../fonts/Ostia_Antica_WEB-Regular.woff") format("woff"),
+    url("../fonts/Ostia_Antica_WEB-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Traulha";
-  src: url("/ladyhsociety-test/fonts/Traulha_WEB-Italica.eot");
-  src: url("/ladyhsociety-test/fonts/Traulha_WEB-Italica.eot?#iefix") format("embedded-opentype"),
-    url("/ladyhsociety-test/fonts/Traulha_WEB-Italica.woff") format("woff"),
-    url("/ladyhsociety-test/fonts/Traulha_WEB-Italica.woff2") format("woff2");
+  src: url("../fonts/Traulha_WEB-Italica.eot");
+  src: url("../fonts/Traulha_WEB-Italica.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Traulha_WEB-Italica.woff") format("woff"),
+    url("../fonts/Traulha_WEB-Italica.woff2") format("woff2");
 }
 
 /* RESETS */
