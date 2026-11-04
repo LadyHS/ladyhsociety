@@ -1,0 +1,165 @@
+#objectives {
+  background: #fff0c9;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+}
+
+#objectives .main-paragraph {
+  grid-column: 5/15;
+  grid-row: 2/3;
+  font-size: 1.75rem;
+}
+
+#objectives .hero-title {
+  grid-column: 1/14;
+  padding-top: 50px;
+}
+
+#objectives .buttons-panel {
+  grid-column: 1/14;
+  padding-top: 50px;
+  grid-row: 5/6;
+  margin-top: 100px;
+  margin: auto;
+  align: center;
+}
+
+
+#objectives ol {
+  grid-column: 5/15;
+  grid-row: 4/5;
+  list-style: none;
+  font-size: 1.3rem;
+  counter-reset: my-awesome-counter;
+}
+
+#objectives li {
+  padding: 20px 20px 0 70px;
+  counter-increment: my-awesome-counter;
+  position: relative;
+}
+
+#objectives li::before {
+  content: "0" counter(my-awesome-counter);
+  position: absolute;
+  font-variant-numeric: tabular-nums;
+  left: 0;
+  color: #fc7753;
+}
+
+#objectives li p {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1025px) {
+  #objectives .hero-title {
+    padding-top: 20px;
+  }
+  #objectives .main-paragraph {
+    font-size: 1.25rem;
+  }
+  #objectives ol {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #objectives .hero-title:first-child {
+    padding-top: 0;
+  }
+
+  #objectives .hero-title:last-child {
+    padding-top: 50px;
+  }
+
+  #objectives ol {
+    grid-column: 1/15;
+  }
+
+  #objectives .main-paragraph {
+    grid-column: 1/15;
+  }
+
+  #objectives li::before {
+    position: initial;
+  }
+
+  #objectives li {
+    padding: 0;
+  }
+}
+
+/*Partners*/
+.grid {
+  margin: 8% 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(20vh, auto);
+}
+
+@media screen and (max-width: 500px) {
+  .grid {
+    grid-template-columns: initial;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1025px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.img-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-cell img {
+  min-width: 40%;
+}
+
+/*Comic*/
+#origin {
+  background: white;
+}
+
+.comic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 60px;
+  margin-top: 60px;
+}
+
+.comic-item-small {
+  flex: 30%;
+}
+
+.comic-item-big {
+  flex: 70%;
+}
+
+.comic-item {
+  width: auto;
+  height: 70%;
+}
+
+@media screen and (max-width: 500px) {
+  .comic-item-right,
+  .comic-item-left,
+  .comic-item {
+    flex: 100%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .comic-item-right,
+  .comic-item-left,
+  .comic-item {
+    flex: 50%;
+    width: 50%;
+  }
+}
