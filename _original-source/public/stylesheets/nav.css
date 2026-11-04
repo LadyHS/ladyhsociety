@@ -1,0 +1,138 @@
+#navbar-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  background: #131e1e;
+  color: #ffffff;
+  z-index: 99;
+}
+
+#navbar-sticky > div {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .hamburger {
+    width: 55px;
+  }
+}
+
+#navbar-sticky h1 {
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width: 1025px) {
+  #navbar-sticky h1 {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+  }
+}
+
+#navbar-sticky h1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.languages a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #757575;
+}
+
+.languages .active-lng {
+  color: #ffffff;
+}
+
+.languages a:first-child {
+  margin-right: 5px;
+}
+
+.languages a:last-child {
+  margin-right: 30px;
+}
+
+/* full screen navbar */
+
+#navbar-fullscreen {
+  height: 0;
+  margin-top: 10vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #131e1e;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 1s;
+  padding: 0 100px;
+}
+
+#navbar-fullscreen a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  font-size: 2.6875rem;
+  line-height: 3.5rem;
+}
+
+#navbar-fullscreen ul {
+  list-style: none;
+  min-height: 80vh;
+  min-height: calc(var(--vh, 1vh) * 80);
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 1025px) {
+  #navbar-fullscreen {
+    padding: 0 50px;
+  }
+
+  #navbar-fullscreen a {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  #navbar-fullscreen ul {
+    padding: 0;
+  }
+}
+
+#navbar-fullscreen a:hover {
+  font-style: italic; /* change to italic font family when received */
+}
+
+#navbar-fullscreen a:active {
+  font-style: italic; /* change to italic font family when received */
+  color: #FFBE1C;
+}
+
+#navbar-fullscreen footer {
+  border-top: 1px solid #bfbfc0;
+  align-items: center;
+  height: 10vh;
+}
+
+#navbar-fullscreen footer * {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  #navbar-fullscreen footer {
+    display: none;
+  }
+}
+
+.active-link ::before {
+  content: "— ";
+}

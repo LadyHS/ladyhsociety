@@ -1,0 +1,148 @@
+#footer {
+  border-top: 1px solid #b8b8b9;
+  background: #131e1e;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 50px 100px;
+}
+
+#footer .contact,
+#footer .links {
+  padding-bottom: 30px;
+}
+
+#footer .contact {
+  grid-column: 1/5;
+}
+
+#footer .contact > p {
+  padding-bottom: 20px;
+  font-size: 1.75rem;
+}
+
+#footer .contact p {
+  line-height: 2.5rem;
+  color: #ffffff;
+}
+
+#footer .address {
+  padding: 20px 0;
+  font-size: 1.25rem;
+}
+
+#footer .address a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer .links {
+  font-size: 1.25rem;
+}
+
+#footer .links a {
+  padding-bottom: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer .links a.sub-link {
+  color: #adadad;
+}
+
+#footer .first-links {
+  grid-column: 6/7;
+}
+
+#footer .second-links {
+  grid-column: 8/9;
+}
+
+#footer .third-links {
+  grid-column: 10/11;
+}
+
+#footer .fourth-links {
+  grid-column: 12/13;
+}
+
+#footer .copyright {
+  grid-column: 1/13;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: right;
+  color: #ffffff;
+  padding-top: 15px;
+  border-top: 1px solid #b8b8b9;
+}
+
+#footer .copyright a {
+  color: #ffffff;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 715px) {
+  #footer .address,
+  #footer .links {
+    font-size: 0.875rem;
+  }
+
+  #footer .links {
+    line-height: 2rem;
+  }
+
+  #footer .contact {
+    grid-column: 1/13;
+  }
+
+  #footer .first-links,
+  #footer .second-links,
+  #footer .third-links,
+  #footer .fourth-links {
+    grid-column: 1/12;
+  }
+
+  #footer .links a,
+  #footer .second-links a:last-child {
+    padding-bottom: 15px;
+  }
+
+  #footer .sub-link {
+    margin-left: 20px;
+  }
+
+  .copyright > div:first-child,
+  .copyright > div:last-child {
+    width: 100%;
+    align-items: flex-start;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 715px) and (max-width: 1025px) {
+  #footer .address,
+  #footer .links {
+    font-size: 0.875rem;
+  }
+
+  #footer .contact > p {
+    font-size: 1.125rem;
+  }
+
+  #footer .contact p {
+    line-height: 1.25rem;
+  }
+
+  .third-links {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #footer {
+    padding: 30px 12px;
+  }
+}

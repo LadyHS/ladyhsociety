@@ -1,0 +1,150 @@
+.call-to-action > div {
+  width: 50%;
+  padding: 50px;
+}
+
+.call-to-action-black {
+  background: #131e1e;
+  color: #ffffff;
+  padding: 50px;
+}
+
+.call-to-action-black > p {
+  color: #ffffff;
+}
+
+.call-to-action-black > h2 {
+  color: #ffffff;
+}
+
+.call-to-action a.button {
+  margin-top: 80px;
+  width: max-content;
+}
+
+.call-to-action a.icon-container {
+  margin-top: 80px;
+}
+
+#blackarrow {
+  background: #131e1e;
+  color: #ffffff;
+  margin-top: 80px;
+}
+
+/*Comic*/
+.comic {
+  display:  flex;
+  flex-directon: row;
+  flex-wrap: wrap;
+  justify-content:  center;
+  align-items: center;
+  row-gap: 60px;
+  margin-top: 60px;
+}
+
+.comic-item-left {
+  flex: 50%;
+}
+
+.comic-item-right {
+  flex: 50%;
+}
+
+.comic-item-center {
+  flex: 100%;
+}
+
+.comic-item {
+  width: auto;
+  height: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .comic-item-right, .comic-item-left {
+    flex: 100%;
+  }
+  .comic-item {
+    width: 100%;
+  }
+}
+
+/*MEDIA QUERIES */
+
+/*@media screen and (max-width: 850px) {
+  .presta-grid {
+    grid-template-columns: initial;
+  }
+
+  .presta-list {
+    margin: 20px 0;
+  }
+
+  #cards {
+    padding: 0;
+  }
+}*/
+
+/*@media screen and (min-width: 1500px) {
+  #cards {
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  }
+}*/
+
+/*@media screen and (max-width: 500px) {
+  #cards {
+    grid-column-start: 1;
+  }
+}*/
+
+@media screen and (max-width: 500px) {
+  #resources .blackarrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .call-to-action > div {
+    width: 100%;
+  }
+
+  .call-to-action a.button {
+    margin-top: 20px;
+  }
+
+  .call-to-action a.icon-container {
+    margin-top: 20px;
+  }
+
+  .call-to-action-black {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card h3 {
+    font-size: 1.75rem;
+  }
+
+  .call-to-action-black {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1025px) {
+  .card h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Graph */
+
+.graph-container {
+  grid-column: 1/-1;
+  padding: 0px;
+}
+
+.graph-container img {
+  width: 100%;
+  /*margin-top: 30px;*/
+}

@@ -1,0 +1,393 @@
+@font-face {
+  font-family: "Ostia Antica";
+  src: url("/ladyhsociety-test/fonts/Ostia_Antica_WEB-Regular.eot");
+  src: url("/ladyhsociety-test/fonts/Ostia_Antica_WEB-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/ladyhsociety-test/fonts/Ostia_Antica_WEB-Regular.woff") format("woff"),
+    url("/ladyhsociety-test/fonts/Ostia_Antica_WEB-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Traulha";
+  src: url("/ladyhsociety-test/fonts/Traulha_WEB-Italica.eot");
+  src: url("/ladyhsociety-test/fonts/Traulha_WEB-Italica.eot?#iefix") format("embedded-opentype"),
+    url("/ladyhsociety-test/fonts/Traulha_WEB-Italica.woff") format("woff"),
+    url("/ladyhsociety-test/fonts/Traulha_WEB-Italica.woff2") format("woff2");
+}
+
+/* RESETS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+:focus,
+:active {
+  outline: 0;
+  border: 0;
+}
+
+/* MY OWN STYLING */
+
+* {
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: Ostia Antica;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1050px) {
+  body,
+  html {
+    font-size: 10.3px;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1150px) {
+  body,
+  html {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1250px) {
+  body,
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1350px) {
+  body,
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1450px) {
+  body,
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1600px) {
+  body,
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2000px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+/* -------------------------- MAIN SECTIONS / COMMUN CODE -------------------------- */
+
+.main-section {
+  padding: 50px 100px;
+  background-color: #c7f5de;
+}
+
+@media screen and (max-width: 500px) {
+  .main-section {
+    padding: 50px 12px;
+  }
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: #131e1e;
+  margin: 0 0 12px 0;
+}
+
+@media screen and (max-width: 1025px) {
+  .hero-title {
+    font-size: 1.75rem;
+  }
+}
+
+.hero-subtitle {
+  font-family: Traulha;
+  font-weight: normal;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  color: #000000;
+}
+.hero-subtitle p {
+  margin: 0 0 12px 0;
+}
+
+@media screen and (max-width: 1025px) {
+  .hero-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    max-width: 100vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-subtitle {
+    margin-bottom: 0px;
+  }
+}
+
+.main-paragraph {
+  font-family: Traulha;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #000000;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1025px) {
+  .main-paragraph {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 25px 0;
+    max-width: 100vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-paragraph {
+    margin: 15px 0;
+  }
+}
+
+.semi-underlined {
+  position: relative;
+}
+
+.semi-underlined:before {
+  position: absolute;
+  left: 0;
+  top: 1.5em;
+  height: 0;
+  width: 80px;
+  content: "";
+  border-top: 3px solid #131e1e;
+}
+
+@media screen and (max-width: 1025px) {
+  .semi-underlined:before {
+    border-top: 3px solid #ffffff;
+  }
+}
+
+.bordered {
+  border: 1px solid #131e1e;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+  background: #ffffff;
+  border: 1px solid #adadad;
+}
+
+select:focus {
+  border: 1px solid red;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.space-b {
+  justify-content: space-between;
+}
+
+.space-e {
+  justify-content: space-evenly;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.justify-e {
+  justify-content: flex-end;
+}
+
+strong {
+  color: #fc7753;
+}
